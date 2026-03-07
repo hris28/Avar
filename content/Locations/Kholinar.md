@@ -1,0 +1,1 @@
+The capital of the [[Vo'dyn Empire]]. No longer exists.

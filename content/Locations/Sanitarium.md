@@ -1,0 +1,2 @@
+- AX42 Sanitarium block (last known location of disappearances)
+- Can analyze the [[mist]] droplets here

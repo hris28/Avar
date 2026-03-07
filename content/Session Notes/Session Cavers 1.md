@@ -1,0 +1,97 @@
+---
+Date: 09/21/2025
+---
+
+- Ryo and Mithe talk to people (Zane) inside the Mines while Aldred and Thog try to make their way in.
+- Aldred presented himself as an executioner. (Of monsters and heretics)
+- Miners are sent in groups to go down the Pits of Hell and find Mithril. The Pits of Hell spirals very deep and there is a high cave-in rate. Penal colony structure.
+- The fog curls inward. Mist clumps around inside. Lantern casings have a dimly glowing stone inside.
+- The Manifest Board shows 15 went down, 14 came up, while the ledger showed 16.
+- Ralph Alvarez is missing
+- The Prayer Board has a list of names, various prayers--including "*ash and dust*", various crimes--with the main name being Hollis.
+- Zane’s friend Jonathan Wineford - disappeared when light flicked - crossed out with triangle on prayer board 
+- guards: fully masked, sashes/signatures on arms for identification, leather armor (no metal).
+- guard helmets woody/hide material. mining helmets are metal.
+- aldred’s lance stored at a municipal center designated on map
+- green then maroon armband talking to aldred, one beside is green
+- the ones around mithe and ryo have even darker color armbands
+- ppl carry themselves harsher on palisade
+- dude who allowed aldred in talking to older guard with no bands
+- accommodations are directly on the palisade structure, no food
+- ledger with ink writing -- faded and familiar
+- overseers office, chapel alcove, medical center, 
+- at chapel there is an older man writing 
+- noble blind girl - “treated her with utmost kindness “
+- “how the rocks speak, the engines thrum, the darkness that lurks beneath-every night claiming scrolls and making us cross off more names on the ledger.”
+- 34th expedition? 20 noted, 19 went down, 1 came back up. won’t speak, shakes and doesn’t respond.
+- mine/prison works on trustee system. Overman jar (probably head of trustee system) took last expedition’s survivor to clinic
+- old dwarf excited
+- our lanterns dont have metal
+- geothermal energy, mithril affects electromagnetism, purple rocks causing magma?
+- mithril - similar to adamantium - not natural
+- Hollis used…
+- expedition yesterday failed; guards talking abt “girl”
+- on every 7th thump there is a pause and then brief flicker of the lights
+- weavers arch - place where old duke gave speeches before he got killed, now it’s more broken stones and rock
+- secret of dav ki - volatile ore, slowly and precisely. machine hums to ensure energies are more controlled
+- 17 are with us including guards
+- ended off deep in a narrow cavern when the lights flicker off and don’t turn back on
+
+
+---
+### Draft Notes:
+- timber, iron braces
+- prayer board - names crossed or written twice
+	- ash and dust
+	- crimes
+	- Hollis
+Mines - The pits of hell spirals very deep and high cave in rate but mithril
+Prayer Board List of names and various Prayers including: ASH AND DUST Various Crimes, main name being [[Hollis]]
+- fog curling inward
+- cloth saying: count again
+- shift whistle
+- manifest board - 15 went down. 14 came up. ledger showed 16.
+- [[Ralph Alvarez]] missing
+- guard towers on side
+- section 8 housing is better than here prob
+- mine shaft elevator is for ore, few ppl on
+- massive cavern entrance - pits of hell - unique spiral that descends deeper and deeper
+- need to go all the way down for mithril
+- penal colony structure
+- arsenic too much, deeper, thumping getting louder
+- machines
+- in the zone, heartbeat sound
+- iron, bronze mined more
+- [[mist]] clumps around
+- lantern casing with dimly glowing stone inside, no 
+- canaries - Zane says watch your bird. line/rope, dont fall, subtunnelings. if the light goes out, run.
+- Zane’s friend Jonathan Wineford - disappeared when light flicked - crossed out with triangle on prayer board 
+- guards: fully masked, sashes/signatures on arms for identification, leather armor (no metal).
+- guard helmets woody/hide material. mining helmets are metal.
+- aldred’s lance stored at a municipal center designated on map
+- green then maroon armband talking to aldred, one beside is green
+- the ones around mithe and ryo have even darker color armbands
+- ppl carry themselves harsher on palisade
+- dude who allowed aldred in talking to older guard with no bands
+- accommodations are directly on the palisade structure, no food
+- ledger with ink writing -- faded and familiar
+- overseers office, chapel alcove, medical center, 
+- at chapel there is an older man writing 
+- noble blind girl - “treated her with utmost kindness “
+- “how the rocks speak, the engines thrum, the darkness that lurks beneath-every night claiming scrolls and making us cross off more names on the ledger.”
+- 34th expedition? 20 noted, 19 went down, 1 came back up. won’t speak, shakes and doesn’t respond.
+- mine/prison works on trustee system. Overman jar (probably head of trustee system) took last expedition’s survivor to clinic
+- old dwarf excited
+- our lanterns dont have metal
+- geothermal energy, mithril affects electromagnetism, purple rocks causing magma?
+- mithril - similar to adamantium - not natural
+- Hollis used…
+- expedition yesterday failed; guards talking abt “girl”
+- on every 7th thump there is a pause and then brief flicker of the lights
+- weavers arch - place where old duke gave speeches before he got killed, now it’s more broken stones and rock
+- secret of dav ki - volatile ore, slowly and precisely. machine hums to ensure energies are more controlled
+- 17 are with us including guards
+- ended off deep in a narrow cavern when the lights flicker off and don’t turn back on
+- Overman Jar took
+
+

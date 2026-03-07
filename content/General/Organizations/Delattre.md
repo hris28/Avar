@@ -1,0 +1,1 @@
+House Delattre is a 4th circle house of which [[Decima]] claims to be a part of.

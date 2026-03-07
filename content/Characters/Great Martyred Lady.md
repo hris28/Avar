@@ -1,0 +1,3 @@
+
+- The Great Martyred Lady died some ~426 years later after this event ([[Him]]'s sacrifice) also on Martyr's day. Records of this are incomplete due to ecclestical tampering along with the burning of so many archives/destruction. Vo'dyn was experiencing some profound change...something sweeping the empire andn The Great Martyred Lady rode out using her magical powers- her curse for the sake of Vo'dyn...ultimately the powers claimed her life and those around her (but in her and their sacrifice) Vo'dyn held.
+- It is rumored she was also the founder of the [[Luminary Council]] (aka. )

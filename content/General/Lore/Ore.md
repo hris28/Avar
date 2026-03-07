@@ -1,0 +1,11 @@
+
+- [[Cobalt]]
+	- blue
+	- causes explosions when hit.
+- [[Mythril]]
+- [[Meteorite]]
+- [[Glass]]
+- [[Orichalcum]]
+- [[Iron]]
+- [[Steel]]
+- 

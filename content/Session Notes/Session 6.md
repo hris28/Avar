@@ -1,0 +1,12 @@
+---
+Date: 08/10/2025
+---
+- Decima and Vilentra exit the tavern appearing wearied.
+- Discovered that the [[Exalted One]] is a past High Elf who was very powerful, but is dead now. Met people outside the tavern who believed in the Exalted One.
+- A devil's bargain occurred. [[Lantis]] is still disappeared, possibly dead.
+- Players make their way to the [[Magistrate]]. They find [[blood]] at the fortified door of the government office, with a bright dot of divination magic concentrated inside the building that is later identified to be [[Arthur]], who is standing with his cane/sword drawn. Embers are in the area. There are 3-4 other guards downed in unknown conditions. [[Alazar]] is seen with a crossbow. The Ministerial and [[Aristocracy District]] also were hit with attacks. The attackers had red armbands. Thought by Arthurian to be the [[Brigans]] (could be from a mining district or the blue pirates).
+- Players are tasked with finding the disappearing people (the lead investigator was [[Lantis]]) before the Bigwigs (first-circler and third-circler (one is ))(?) arrive at the city. Also to talk to the contacts that [[Arthur]] wasn't able to speak to.
+- The [[Narrows]] are east of the [[Drunken Dog Inn]].
+- Velintra goes to analyze the mist droplets at the [[Alchemy Shop]]. Finds a Dark Elf dead on the road with a unique weapon. The first body, Persephone, was slashed after attempting to answer the door through its slit. The other body is holding a shortsword cut clean in half. 
+- It is snowing.
+- Rest of the players make their way towards the [[Yearning Mines]], which used to be owned by the Duke, but are now under control by another. Ryo outed himself as magistrate in front of bathhouse. Person overheard while playing poker in [[Session 4]] went back to the Sunken Croc. Mithe follows people going into the mines.

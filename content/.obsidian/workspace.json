@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "8cf2ac0b81839a2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8794caf65c9d6b2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c13c2e9435e2658",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7dfdb964c61dff01",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f760813a913362",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e9d7eab4f2ad96c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "be58fe3719c9ae50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40666ba5dc5fbbe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "32a795a8bd17c539",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ef5bf665cc4e427",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Characters/First Circler.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for First Circler"
+            }
+          },
+          {
+            "id": "64698fe32cee9c74",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Characters/First Circler.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from First Circler"
+            }
+          },
+          {
+            "id": "1225c9de097d390c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6ff6b217ffd9f0f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Characters/First Circler.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of First Circler"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0c13c2e9435e2658",
+  "lastOpenFiles": [
+    "index.md",
+    "General/Official Docs/Gavriel Preamble.md",
+    "General/Official Docs/Campaign Preamble.md",
+    "General/Lore/Vo'dyn Prayer.md",
+    "General/Vo'dyn Empire.md",
+    "Locations/Kholinar.md",
+    "Characters/Xzal.md",
+    "General/Lore",
+    "Characters/The Quiet Architect (K).md",
+    "Characters/First Circler.md",
+    "Characters/Relyssa Daen.md",
+    "Characters/Liora.md",
+    "Characters/Rarik Ville.md",
+    "Characters/M.md",
+    "Characters/Verin Ralthar.md",
+    "Characters/Thrain Ironfist.md",
+    "Characters/The Caged Master.md",
+    "Characters/The Walker Between.md",
+    "General/Official Docs/The Second Veil.md",
+    "Characters/Ulric Ironfist.md",
+    "General/Official Docs/Dwarven Report.md",
+    "General/Official Docs/The Awakening.md",
+    "Characters/Lazerith Vorill.md",
+    "General/Official Docs/Redacted Report.md",
+    "Untitled.md",
+    "General/Official Docs/Introduction to the Setting.md"
+  ]
+}

@@ -1,0 +1,1 @@
+Former guild master of the collective of the merchants guilds.

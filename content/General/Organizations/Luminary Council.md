@@ -1,0 +1,2 @@
+
+- They are the leading authority on magical theory & its ties to the natural world. Anything else would be more hidden (think like one of the major thinktanks that discusses....less open topics). Its membership is relatively secreted but has unique identifiers (a specific sigil) and it selects a set of 'speakers' to represent the org more externally.

@@ -1,0 +1,24 @@
+---
+Date: 06/08/2025
+---
+- **Key Events:**
+  - Introduction to Vo'dyn prayer (found in [[Hymn]]) and religious tenets.
+  - Obtained battered symbols (badges)
+	  - power and an obligation; oak talismans with inlaid [[steel]].
+  - Heading to [[Zen'tar]] (~1 day trip), a city experiencing political instability due to the duke’s recent death.
+  - Caravan started at the 6th circle.
+  - Information about Zentar's geography (between two giant rivers, not very accessible, acts as sub-capital).
+  - Details on Zentar's political landscape: old duke died, prince missing, church attempting takeover, past tithe issues.
+  - Those in brown robes claim to be doing "His" work. - [[Inquisition]]?
+  - Mention of criminal organizations working inconsistently with guilds.
+  - [[Hathor]] - Military Adjudicant.
+	  - "we know and saw the enemy, ash and dust."
+	  - man has a blue hand glove, crest on.
+	  - believes in Vo'dyn "serving [[Him]]"
+	  - heavily armed
+	  - walks with arrogance, as if the world and its people bend to him.
+  - Introduction to faint elements of [[Abjuration]] in the universe.
+  - A woman, Evelynn, screams of her missing child, whom she names inconsistently ("Tim? Tom?"). Players attempt to find the child. Instead encounter [[mist]] wraiths, noting their weakness to radiant damage (takes 1d10 dmg on their every turn). Mist wraith returned to the earth.
+	  - "they will return to the earth, forgotten."
+	  - "all that dies becomes to ash."
+  - 

@@ -1,0 +1,13 @@
+---
+Date: 06/18/2025
+---
+- **Key Events:**
+  - Learning about disappearances around the destination.
+  - Last known disappeared at AX42 [[Sanitarium]] block/sector. The Sanitarium is more run down with purpose.
+  - figure in a cloak 
+	  - elven symbol on the right shoulder of the mysterious person.
+  - have an [[Hourglass]] stamp -- intrance notice (?)
+  - posting boards inquire to a constintene.
+  - Identification of [[Sanitarium]] and [[Sunken Croc]] as locations on the outskirts. Around the poorer class.
+  - Players entered the Sunken Croc. Ryo entered a drinking competition. Aldred keeping an eye out for Ryo. Decima lost all her money and being taken upstairs. Mithe overheard very little of a conversation happening over a game of dragonchess near the entrance before the characters went upstairs.
+  - 

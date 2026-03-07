@@ -1,0 +1,2 @@
+
+Sigil: Red fist emblem.
