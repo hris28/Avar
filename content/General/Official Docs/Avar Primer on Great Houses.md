@@ -1,0 +1,82 @@
+
+## The Great Houses of [[Avar]]
+
+At the formation of Avar's nobility, a dozen or so Great Houses stood in prominence within the capitol, though records from that era remain fragmentary and contested. Two houses no longer exist in any official capacity. One {name stricken from all records} led what historians call the [[Great Schism]], a failed attempt by the nobility to assert dominance over ecclesiastical authority. The conflict ended with the complete purging of the house, its lands redistributed, its bloodline ended, and its very name excised from history as a lesson in the cost of hubris against the Church and the will of Vo'dyn. A second house {records sealed by Inquisitorial decree} was later expunged for activities described only as "in direct opposition to the Church's mandate." What little remains suggests heretical practice, though the specifics were deemed too dangerous to preserve.
+
+The surviving Great Houses learned from these lessons. They balance power carefully, respect the Church's authority publicly, and remember that influence without humility leads to erasure. Privately, they engage in the Great Game: the endless maneuvering for advantage, resources, and position that defines life in the capitol. Each house plays differently. All play to win.
+
+## [[House Khol]]
+
+***"From Ash, We Rise"***
+
+House Khol's history is a study in resurrection through force of will. Once a fading bloodline on the edge of obscurity, they were revived through the singular achievement of [[Midas]] Kholin, who returned from an imposed exile with great riches and tact. His exploits during his exile, combined with strategic marriages, ruthless consolidation, and an uncanny ability to be on the winning side of every major conflict, restored Khol to prominence within a single generation. They control significant mining interests in the outer territories and maintain extensive networks among military veterans and private security forces through a variety of ‘order’ based politics. In the Great Game, Khol plays aggressively and with long patience, making moves that seem minor until years later when their true purpose becomes apparent. They are willing to sacrifice short-term reputation for long-term position and have a reputation for remembering slights decades after others have forgotten them. Midas himself rarely appears in court, operating through proxies and intermediaries, which makes his house difficult to read and impossible to predict. 
+
+## [[House Da'varre]] (non “prime” Great House, cadet branch)
+
+***"Truth Reflected, Memory Preserved"***
+
+House Da'varre is a cadet line descended from one of the unknown original Great Houses, reduced in formal status but not in influence. They dwell in the [[Gloamspire]] in the capitol's outskirts, maintaining extensive private archives and lending their scribes to other houses for "historical consultation." In truth, Da'varre's power comes from knowing things others wish to forget and preserving records others thought destroyed. They play the Great Game as archivists and information brokers, never leading openly but always positioned to benefit from others' conflicts. Count [[Alren]] Da'varre, the last of his direct line, is a careful man who collects secrets, though has grown more cautious since the deaths of his children, brother, and nieces. The house presents itself as harmless scholars, which allows them to be underestimated until their carefully documented evidence of ancient land claims or forgotten marriage contracts suddenly becomes relevant to a succession dispute. Da'varre rarely wins outright, but they never lose badly, and their institutional memory makes them invaluable allies and terrifying enemies. They tend to stay farthest from the ‘game.’ 
+
+## [[House Lanvar]]
+
+***"Through Subtlety, Dominance"***
+
+House Lanvar is the eternal junior partner who somehow ends up owning pieces of everyone's ventures. They specialize in brokerage, small favors that compound over time, and the careful cultivation of being necessary without being threatening. Lanvar holds no single dominant industry but maintains minority stakes in dozens of enterprises across the capitol and beyond, making them impossible to exclude from major economic decisions. In the Great Game, they play as facilitators and dealmakers, positioning themselves as the house that makes things happen between rivals who refuse to speak directly. Lady [[Vesrin]] Lanvar, current matriarch, has perfected the art of extracting concessions that seem trivial in the moment but prove invaluable years later. She can negotiate agreements between houses that despise each other and somehow ensure Lanvar profits from both sides. The house operates on the principle that lasting power comes not from dominance but from making yourself essential to everyone else's success. Other houses use Lanvar services constantly while quietly resenting how much influence the "junior partner" has accumulated. Lanvar considers this ideal.
+
+## [[House Sadin]]
+
+***"Steel Tempered, Oaths Unbroken"***
+
+House Sadin built their position on military service, honor codes, and a reputation for keeping their word even when breaking it would be profitable. They produce more officers, military commanders, and security specialists than any other Great House and control the majority of the capitol's and guilds weapon forges and armor workshops. In the Great Game, Sadin plays as the house of reliability and direct action, which makes them predictable but also invaluable when agreements need enforcement or protection needs guaranteeing. Lord Commander [[Thrain Sadin]], current patriarch, is a decorated veteran who views politics as a necessary evil and other houses' maneuvering as borderline dishonorable. This makes Sadin easy to outmaneuver in complex schemes but dangerous to cross directly because they respond to threats with straightforward violence rather than counter-intrigue. Younger Sadin are beginning to question whether old codes of honor serve in a game increasingly dominated by information and economics rather than martial prowess, creating internal tension the house struggles to resolve. Other houses alternate between respecting Sadin's integrity and exploiting their predictability.
+
+## [[House Vostin]]
+
+***"We Endure the Depths"***
+
+House Vostin are the practical power players who care nothing for courtly graces and everything for controlling the literal foundations of Avar's existence. They hold the deepest mining contracts, pioneered the expansion techniques that allowed the capitol to grow beyond its original caverns, and understand the stone better than any other house. Duke [[Garren]] Vostin, an old man with a scarred face and missing fingers who still descends into the mines despite his age, represents the house's philosophy perfectly: power comes from doing essential work others cannot or will not do. In the Great Game, Vostin plays as the house everyone needs and no one can replace, leveraging their expertise to extract favorable terms on everything from trade agreements to marriage alliances. They are blunt, uninterested in social climbing, and willing to tell other houses uncomfortable truths about structural realities. This makes them simultaneously essential and easy to underestimate until they choose to remind everyone that without Vostin expertise, the capitol cannot safely expand, and collapse becomes a real possibility. They wield this leverage carefully but absolutely.
+
+## [[House Relkan]]
+
+***"Coin Flows, Power Follows"***
+
+House Relkan established the Merchant's Consortium (and variety of charters that went with it), the banking operations, and the majority of liquid capital in the capitol. They understand that everything has a price and that knowing that price before others do is its own form of power. Matron [[Selyse]] Relkan, a woman in her sixties who personally approves every major loan and investment, operates from memory and instinct that has made her legendary. In the Great Game, Relkan plays as the house that finances everyone else's ambitions and collects when circumstances shift. They are patient creditors who will extend generous terms to rising houses and quietly acquire assets from declining ones. Relkan believes in investment over inheritance, arguing that static wealth dies while flowing capital grows and creates dependencies. This philosophy has made them rich and mistrusted in equal measure. Every Great House owes Relkan favors or money or both. This makes Relkan seemingly weak in direct confrontation but terrifyingly powerful when they choose to call in debts or withdraw financial support at critical moments. The house considers being feared and needed superior to being loved and optional.
+
+## [[House Velthara]]
+
+***"What Was Lost, We Remember"***
+
+House Velthara claims descent from Velderra's astronomical institutes and positions themselves as keepers of pre-cataclysm knowledge and artifacts. They maintain one of the few functioning reliquaries in the capitol and the sole organization to sponsor expeditions towards the surface. They also collect ancient technologies and forbidden texts. Count [[Erivan]] Velthara is a melancholic scholar convinced that understanding the past is key to securing the future, which makes him either visionary or dangerously obsessed depending on perspective. In the Great Game, Velthara plays as the house of specialized knowledge and ancient precedents, using their archives to support land claims, challenge succession rights, and provide historical justification for contemporary power grabs. Their fixation on the past has left them politically weakened in immediate influence, but their collection of pre-cataclysm artifacts and sealed knowledge makes them valuable allies when ancient magic or lost technologies become relevant. Velthara often trades information for protection, offering other houses historical leverage in exchange for political backing. They are consulted on matters requiring obscure expertise, then largely ignored until their research suddenly becomes critical to someone's ambitions. They also tend to be the pioneers of naval technologies. 
+
+## [[House Rayne]]
+
+***"By Hammer and Covenant"***
+
+House Rayne holds the contracts for maintaining the capitol's critical infrastructure: ventilation systems, water channels, structural supports that prevent collapse. They are engineers and architects whose expertise keeps the city functional and whose withdrawal of services could be catastrophic. Rayne [[Borim]] Rayne, current patriarch, is a traditionalist who believes contracts are sacred and that agreements once made are permanent regardless of changing circumstances. In the Great Game, Rayneplays as the house of binding commitments and neutral arbitration, positioning themselves as the only house whose word can be absolutely trusted because violating it would destroy their fundamental value. This makes them sought after as mediators and guarantors but also makes them inflexible when other houses seek to renegotiate terms. Rayne accumulates power through accumulated obligations: every house needs infrastructure maintenance, and Rayne ensures that those who honor agreements receive priority service while those who break faith find themselves waiting for critical repairs. The house considers political maneuvering a dance.
+
+## [[House Calder]]
+
+***"The Silent Depths Know All"***
+
+House Calder operates the capitol's intelligence networks, courier systems, and information exchanges with the same openness other houses apply to trade or warfare. They are professional spymasters who have made discretion and information brokerage their public business rather than pretending to be something else. Lord [[Severan]] Calder is a quiet man who speaks rarely but is consulted constantly by houses seeking intelligence or requiring sensitive communications managed with deniability. In the Great Game, Calder plays as the house that knows everyone's secrets and trades them carefully, maintaining elaborate networks of informants, blackmail material, and compromising information. They accumulate power through knowing what others wish to hide and deploying that knowledge with strategic precision. Calder teaches its children that secrets have lifecycles, that timing is everything, and that the house controlling when information becomes public holds more power than the house that information concerns. They maintain neutrality on most political conflicts while ensuring all sides pay for intelligence, making them simultaneously indispensable and deeply mistrusted. Every house fears what Calder knows about them. This fear is Calder's primary asset. [[House Calder]] tends to have a rivalry with [[House Korvath]].
+
+## [[House Korvath]]
+
+***"What Must Be Done, We Do"***
+
+House Korvath operates in the shadows of the Great Game, specializing in problems that require permanent solutions delivered discreetly. They maintain networks of enforcers, assassins, and operatives who handle the unpleasant necessities other houses prefer not to acknowledge publicly. Duke [[Marten]] Korvath is a cold, methodical man who treats violence as a business transaction and elimination as a service industry. In the Great Game, Korvath plays as the house that makes inconvenient people disappear, destroys reputations beyond repair, and ensures certain secrets die with those who know them. They are expensive, utterly discreet, and have never been proven to have committed any of the acts attributed to them despite widespread knowledge of their function. Korvath accumulates power through reputation and fear: other houses know that crossing Korvath means risking not political defeat but physical elimination, which makes even powerful houses negotiate rather than confront. The house maintains plausible deniability while ensuring everyone understands exactly what services they provide. They are never invited to social functions but always included in serious political calculations. [[House Korvath]] tends to have a rivalry with [[House Calder]].
+
+## [[House Branneth]]
+
+***"The Flame That Does Not Fade"***
+
+House Branneth maintains close ties to the Church and the Inquisition, positioning themselves as the Great House most aligned with ecclesiastical authority. They produce more priests, inquisitors, and religious scholars than any other house and hold significant influence over the interpretation of doctrine and the application of religious law. Lady [[Meriath]] Branneth, current matriarch, is a devout woman who genuinely believes in the Church's mission but is also perfectly willing to use religious authority as political leverage. In the Great Game, Branneth plays as the house that can invoke divine authority and Inquisitorial support, making accusations of heresy or doctrinal violation that other houses must take seriously regardless of their truth. This makes Branneth dangerous to oppose directly but also limits their maneuvering room since overt political scheming damages their religious credibility. They accumulate power by being the house other houses approach when they need ecclesiastical approval, religious justification for territorial claims, or Inquisitorial investigation of rivals. Branneth balances genuine piety with calculated political use of religious authority, creating internal tensions between true believers and pragmatic operators within the house.
+
+## The Missing Houses
+
+Of the houses that no longer exist, little can be said with certainty. The first {name stricken} led the [[Great Schism]], believing noble authority could supplant the Church. Their complete extermination serves as permanent reminder that certain challenges to order will not be tolerated. The second {records sealed} fell to the Inquisition for reasons described only as opposition to the Church's mandate. Speculation about their specific crimes is considered unwise and potentially dangerous. Both houses serve the same purpose now: cautionary tales about the limits of noble power and the price of heresy.
+
+The surviving Great Houses remember these lessons. Power is borrowed, not owned. Authority comes from service to [[Avar]]'s continuation and careful respect for the Church's supremacy. And the Great Game, for all its ruthlessness, operates within boundaries defined by those two erasures.
+
+Those who forget pay with extermination.
+
+Those who remember play to win, but play carefully.
