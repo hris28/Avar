@@ -9,7 +9,7 @@ The surviving Great Houses learned from these lessons. They balance power carefu
 
 ***"From Ash, We Rise"***
 
-House Khol's history is a study in resurrection through force of will. Once a fading bloodline on the edge of obscurity, they were revived through the singular achievement of [[Midas]] Kholin, who returned from an imposed exile with great riches and tact. His exploits during his exile, combined with strategic marriages, ruthless consolidation, and an uncanny ability to be on the winning side of every major conflict, restored Khol to prominence within a single generation. They control significant mining interests in the outer territories and maintain extensive networks among military veterans and private security forces through a variety of ‘order’ based politics. In the Great Game, Khol plays aggressively and with long patience, making moves that seem minor until years later when their true purpose becomes apparent. They are willing to sacrifice short-term reputation for long-term position and have a reputation for remembering slights decades after others have forgotten them. Midas himself rarely appears in court, operating through proxies and intermediaries, which makes his house difficult to read and impossible to predict. 
+House Khol's history is a study in resurrection through force of will. Once a fading bloodline on the edge of obscurity, they were revived through the singular achievement of [[Midas]] Khol, who returned from an imposed exile with great riches and tact. His exploits during his exile, combined with strategic marriages, ruthless consolidation, and an uncanny ability to be on the winning side of every major conflict, restored Khol to prominence within a single generation. They control significant mining interests in the outer territories and maintain extensive networks among military veterans and private security forces through a variety of ‘order’ based politics. In the Great Game, Khol plays aggressively and with long patience, making moves that seem minor until years later when their true purpose becomes apparent. They are willing to sacrifice short-term reputation for long-term position and have a reputation for remembering slights decades after others have forgotten them. Midas himself rarely appears in court, operating through proxies and intermediaries, which makes his house difficult to read and impossible to predict. 
 
 ## [[House Da'varre]] (non “prime” Great House, cadet branch)
 
@@ -77,6 +77,5 @@ Of the houses that no longer exist, little can be said with certainty. The first
 
 The surviving Great Houses remember these lessons. Power is borrowed, not owned. Authority comes from service to [[Avar]]'s continuation and careful respect for the Church's supremacy. And the Great Game, for all its ruthlessness, operates within boundaries defined by those two erasures.
 
-Those who forget pay with extermination.
-
-Those who remember play to win, but play carefully.
+***Those who forget pay with extermination.***
+***Those who remember play to win, but play carefully.***
