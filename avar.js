@@ -1240,7 +1240,7 @@ function renderPlayers(container) {
   const filtered = data.players.filter(matches);
 
   const note = makeEl("div", "possession-note");
-  note.innerHTML = "<strong>Party Possession Status:</strong> Ryo (Wyrm), Decima (unknown plane entity), Aldred (demon — unaware), Kane (vampire-puppeted twin). All four are 'potential vessels' per the Warden of the Deep.";
+  note.innerHTML = "<strong>Party Possession Status:</strong> Ryo (Wyrm), Decima (unknown planar entity), Aldred, Kane.";
   container.appendChild(note);
 
   const grid = makeEl("div", "player-grid");
