@@ -518,7 +518,7 @@ const data = {
       name: "Kane Vestrist Forscin", echo: "ECHO", race: "High Elf", cls: "Warlock", age: "100+", height: "—",
       origin: "Circle of origin unspecified",
       appearance: "High elf; ancient bearing.",
-      bio: "Haunted by a shadowy entity — most likely his dead twin brother Able, puppeted by a vampire necromancer. Made a deal with an apparation upon witnessing his brother's death during the high-elf/dark-elf war. Doesn't trust dark elves.",
+      bio: "Haunted by a shadowy entity--most likely his dead twin brother Abel, puppeted by a vampire necromancer. Made a deal with an apparation upon witnessing his brother's death during the high-elf/dark-elf war. Doesn't trust dark elves.",
       connections: "Twin brother Able (deceased, ~100 yrs ago during high elf/dark elf war). Made deal with an Apparation? Cultivating relationship with Selka Morren.",
       echoBg: "#4a3a1a"
     },
@@ -663,105 +663,327 @@ const data = {
   ],
 
   // Session notes
+  // Each session has: id, title, sections[]
+  // Each section has: heading (optional), entries[]
+  // Each entry has: type ("event"|"sigil"|"logic"|"npc"|"dm"), text
   sessions: [
     {
       id: "s0", title: "Session 0 — The Caravan Begins",
-      events: ["A lizard pulls the caravan. Party is in chains."],
-      intel: [],
-      dm: "Campaign Theme: 'You are all in a remnant of a decaying empire continuously losing its border skirmishes. And the only faith that exists is religious fervor. And the fact magic / tech is starting to innovate again.'"
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "A lizard pulls the caravan. Party is in chains." },
+        ]},
+        { heading: null, entries: [
+          { type: "dm", text: "DM (Campaign Theme): \"You are all in a remnant of a decaying empire continuously losing its border skirmishes. And the only faith that exists is religious fervor. And the fact magic / tech is starting to innovate again.\" — This establishes the macro lens for everything that follows." },
+        ]},
+      ]
     },
     {
       id: "s1", title: "Session 1 — Goblin Ambush on the Road",
-      events: ["Party fought goblins and an ogre on the caravan road.", "Obtained an echo for a devil's bargain of small consequence. +1 insight (about enemies).", "A devil's laugh is heard at the end of the session."],
-      intel: ["Blue Fist markings visible on boards along the road — noted as 'slightly out of place as they are from the 3rd circle.'", "Scouts reported the ambush ahead of time, suggesting someone knows the party's route.", "The dead ogre and goblin leader had an unusual arcane aura — not normal for this creature type.", "Verin Ralthar introduced as head supervisor — adverse to magic; his name is on the contract signed with blood."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Party fought goblins and an ogre on the caravan road." },
+          { type: "event", text: "Obtained an echo for a devil's bargain of small consequence. +1 insight (about enemies)." },
+          { type: "event", text: "A devil's laugh is heard at the end of the session." },
+        ]},
+        { heading: "Observations & Intel", entries: [
+          { type: "event", text: "Duskwalkers are referenced — guards in iron robes, silent and still, patrolling tunnel routes between circles." },
+          { type: "sigil", text: "Sigil: Blue Fist markings on boards — Order of the Blue Fist, cadet branch of House Mournen. Unusual 1st Circle presence in outer roads." },
+          { type: "event", text: "Scouts reported the ambush to the caravan ahead of time, suggesting someone knows the party's route." },
+          { type: "event", text: "The dead ogre and goblin leader had an unusual arcane aura — not normal for this creature type. No explanation given yet." },
+          { type: "npc", text: "NPCs: Verin Ralthar (supervisor; magic-averse; name on the blood contract). Aldric (provisional supervisor). Ulric Ironfist (military house; noted as 'good' — 'not the Inquisition type; more than meets the eye')." },
+        ]},
+      ]
     },
     {
       id: "s2", title: "Session 2 — En Route to Zen'tar; Mist Wraiths",
-      events: ["Introduction to Vo'dyn prayer and religious tenets: cleanliness, faithfulness, service to 'Him.'", "Party received battered symbols — oak talismans with inlaid steel.", "Hathor (Military Adjudicant) encountered on the road: 'We know and saw the enemy, ash and dust.' Wears a blue hand glove with crest.", "A woman, Evelynn, screams of her missing child. Party encounters mist wraiths — weak to radiant damage (1d10 per turn). 'They will return to the earth, forgotten.'"],
-      intel: ["Mist wraiths returning 'to the earth, forgotten' mirrors the language of the Wound and the Urd.", "Criminal organizations mentioned as working inconsistently with guilds."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Introduction to Vo'dyn prayer (Hymn) and religious tenets: cleanliness, faithfulness, service to 'Him.'" },
+          { type: "event", text: "Party received battered symbols — oak talismans with inlaid steel. Described as 'power and an obligation.'" },
+          { type: "event", text: "Caravan started at the 6th circle. Zen'tar is ~1 day's travel. Geography briefing: city between two giant rivers, not easily accessible, acts as sub-capital." },
+          { type: "event", text: "Hathor (Military Adjudicant) encountered on the road: 'We know and saw the enemy, ash and dust.' Heavily armed, arrogant bearing. Wears a blue hand glove with crest. Believes in 'serving Him.'" },
+          { type: "event", text: "A woman, Evelynn, screams of her missing child (names him inconsistently — 'Tim? Tom?'). Party investigates; instead encounters mist wraiths — weak to radiant damage (1d10 per turn). 'They will return to the earth, forgotten.' / 'All that dies becomes to ash.'" },
+          { type: "event", text: "Introduction to faint elements of Abjuration in the universe — described as a background magical presence." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Sigil: Blue hand glove with crest — Hathor / Order of Blue Fist (1st Circle)." },
+          { type: "logic", text: "Logic note: The mist wraiths returning 'to the earth, forgotten' mirrors the language of the Wound and the Urd. This is the party's first encounter with entities connected to the broader cosmological threat, though it is not recognized as such at the time." },
+          { type: "npc", text: "NPCs: Hathor (Military Adjudicant; blue fist glove; 1st Circle). Evelynn (grieving mother on the road; child's name inconsistent — pattern of the Wound erasing memory)." },
+        ]},
+      ]
     },
     {
       id: "s3", title: "Session 3 — Arrival in Zen'tar; The Missing Prince",
-      events: ["Attempted to speak with Evelynn (the mother from Session 2). Velintra witnessed the mother kill herself.", "Overheard: 'The prince will be secured. Is the plan in motion? Yes. We must secure the paradigm. The diadem will give us the correct portent.'", "Arrived in Zen'tar. Confirmed: Duke dead; Prince missing.", "Party tasked: find Junior Investigator Lantis, who has gone missing while leading the disappearances investigation."],
-      intel: ["'The diadem will give us the correct portent' — a diadem is a crown-like object associated with ruling succession.", "'The paradigm' is undefined — possibly the ledger, possibly the Prince himself."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Attempted to speak with Evelynn (the mother from Session 2). Velintra witnessed the mother kill herself." },
+          { type: "event", text: "Overheard discussion: \"What about the prince? He will be secured. Is the plan in motion? Yes. We must secure the paradigm. The diadem will give us the correct portent.\" — First confirmation a plan exists around the Prince." },
+          { type: "event", text: "Arrived in Zen'tar. Confirmed: Duke dead; Prince missing." },
+          { type: "event", text: "Garth (Deputy Sergeant) wants to impress the 'first circler' coming to the city — first indication a 1st Circle figure is inbound." },
+          { type: "event", text: "Party tasked: find Junior Investigator Lantis, who has gone missing while leading the disappearances investigation." },
+        ]},
+        { heading: null, entries: [
+          { type: "logic", text: "Logic note: 'The diadem will give us the correct portent' — a diadem is a crown-like object associated with ruling succession. This suggests whoever spoke is planning to use a succession artifact to legitimize a claim or verify the correct heir. The 'paradigm' is undefined — possibly the ledger, possibly the Prince himself." },
+          { type: "npc", text: "NPCs introduced: Arthur Augustus Esquire (Major Investigator; limp; fancy cane/sword; scar across knee). Garth (Deputy Sergeant). Lantis (Junior Investigator; last seen at the Sunken Croc)." },
+        ]},
+      ]
     },
     {
       id: "s4", title: "Session 4 — Disappearances; The Sunken Croc",
-      events: ["Investigated disappearances. Last known location: AX42 Sanitarium block.", "Spotted a cloaked figure with an elven symbol on the right shoulder (Consortium/Maelis identifier).", "An hourglass stamp seen on an entrance notice — unknown affiliation at this point.", "Party entered the Sunken Croc. Ryo entered a drinking competition. Decima lost all her money and was taken upstairs."],
-      intel: ["Hourglass stamp on entrance notice — later connects to the Quiet Architect / Midas / Valerian thread.", "Elven symbol on cloaked figure's right shoulder — Mithris's personal elven identifier."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Investigated disappearances. Last known location: AX42 Sanitarium block — described as 'more run down with purpose' (not simply neglected; intentionally so)." },
+          { type: "event", text: "Spotted a cloaked figure with an elven symbol on the right shoulder. Later identified as Consortium/Maelis identifier." },
+          { type: "event", text: "An hourglass stamp seen on an entrance notice — unknown affiliation at this point." },
+          { type: "event", text: "Posting boards reference a 'Constintene.' (Identity unknown; possibly a contact or person of interest in the disappearances.)" },
+          { type: "event", text: "Party entered the Sunken Croc (outskirts; poorer class; Blue Pirate territory). Ryo entered a drinking competition. Decima lost all her money and was taken upstairs." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Sigil: Elven symbol on cloaked figure's right shoulder — Mithris's personal elven identifier; also associated with House Maelis." },
+          { type: "sigil", text: "Marker: Hourglass stamp on entrance notice — significance unknown at time. Later connects to the Quiet Architect / Midas / Valerian thread." },
+        ]},
+      ]
     },
     {
       id: "s5", title: "Session 5 — Blue Pirates Confirmed; Secus; Caldun's Attack",
-      events: ["Confirmed: Blue Pirates control this area. Heavy-handed, uncouth. Hate Arthur Augustus specifically.", "Upstairs at the Sunken Croc: Secus in a room with a masked Establishment Leader. Overheard: 'Guild affairs — next hit prince loyalists and Arthur.'", "Secus brands Decima as a test of loyalty to the masked man.", "Outside the tavern: party confronted by Caldun — cloaked, heavily armed, bearing Mithris's elven sigil. He attacks because the party is investigating what 'some people would prefer remain untouched.'", "Establishment Leader trying to sell Zenzar (ex-militia leader) to Secus."],
-      intel: ["Red fist = confirmed sigil of the late Duke (Mournen).", "Secus (married into 1st Circle via Khol) is buying Zenzar through a masked figure (likely Hathor, Order of Blue Fist)."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Confirmed: Blue Pirates control this area of Zen'tar. Heavy-handed, uncouth. Hate Arthur Augustus specifically. The Exalted One (Mithris) is their patron — now confirmed as a past High Elf who was very powerful but is dead." },
+          { type: "event", text: "Lantis frequents the Sunken Croc. An important noble has disappeared. Red fist = confirmed sigil of the late Duke (Mournen)." },
+          { type: "event", text: "Upstairs at the Sunken Croc: N'thoda, Velintra, and Decima discover Decima's brother Secus in a room with a masked Establishment Leader. Overheard: \"Guild affairs — next hit prince loyalists and Arthur.\" The masked figure threatens Decima's life to Secus for leverage in a confession." },
+          { type: "event", text: "Secus brands Decima as a test of loyalty to the masked man. (Mark of sigil: 'Greater than us all' / 'Conviction'.)" },
+          { type: "event", text: "Outside the tavern: the other party members are confronted by Caldun — cloaked, heavily armed, bearing Mithris's elven sigil. He attacks because the party is investigating what 'some people would prefer remain untouched.'" },
+          { type: "event", text: "Substory: Establishment Leader trying to sell Zenzar (ex-militia leader) to Secus. \"Heavy doth the crown weight on one's head, for its banner waves in vanity and defiance.\"" },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Sigil: Red fist = late Duke / House Mournen. Confirmed this session." },
+          { type: "sigil", text: "Sigil: Mithris's elven symbol — on Caldun's person. Identifies Consortium/Concierge operatives." },
+          { type: "logic", text: "Logic chain: Secus (married into 1st Circle via Khol) is buying Zenzar (former militia leader, missing ~7 years) through a masked figure (likely Hathor, Order of Blue Fist, cadet branch of Mournen). If Secus = Khol loyalty + Zenzar = military resource, the coup of the Council of Regency is the next move. The target: 'prince loyalists and Arthur' suggests the party and Arthur are in the coup's crosshairs." },
+          { type: "npc", text: "NPCs confirmed: Secus Domitae (Decima's brother; 1st Circle). Caldun (Consortium enforcer; Mithris's weapon). Rarik Ville (Head Justice). Establishment Leader (masked; likely Hathor)." },
+        ]},
+      ]
     },
     {
       id: "s6", title: "Session 6 — Magistrate Attack; Entering the Mines",
-      events: ["Devil's bargain occurred. Lantis remains missing — possibly dead.", "Party reaches the Magistrate office: blood at the fortified door. Arthur found inside with cane/sword drawn. 3-4 guards downed. Attackers had red armbands.", "Party tasked: find the missing people before 'the Bigwigs' arrive at the city.", "Velintra finds a Dark Elf dead on the road with a unique weapon. It is snowing.", "Rest of party moves toward the Yearning Mines."],
-      intel: ["Coordinated attacks across the entire Ministerial and Aristocracy District simultaneously.", "Red armbands on attackers — suspected Blue Pirates or Brigans."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Devil's bargain occurred. Lantis remains missing — possibly dead." },
+          { type: "event", text: "Party reaches the Magistrate office: blood at the fortified door, divination magic dot inside = Arthur, standing with cane/sword drawn. 3–4 guards downed. Alazar seen with crossbow. Embers in the Ministerial and Aristocracy District." },
+          { type: "event", text: "Attackers had red armbands. Arthur suspects 'Brigans' (possibly from a mining district or Blue Pirates). The entire Ministerial and Aristocracy District was hit with attacks simultaneously — a coordinated strike." },
+          { type: "event", text: "Party tasked: find the missing people before 'the Bigwigs' (a 1st Circle figure and a 3rd Circle figure) arrive at the city." },
+          { type: "event", text: "Velintra goes to the Alchemy Shop to analyze mist droplets. Finds a Dark Elf dead on the road with a unique weapon." },
+          { type: "event", text: "Rest of party moves toward the Yearning Mines. It is snowing." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Marker: Red armbands on attackers at the Magistrate — suspected Blue Pirates or Brigans." },
+          { type: "logic", text: "Logic note: The Dark Elf body with a unique weapon — killed before any combat reached the Alchemy Shop area — suggests someone eliminated a Dark Elf operative in advance of the party finding it. This may be Caldun, Velintra's guild, or an independent third party cleaning house." },
+        ]},
+      ]
     },
     {
-      id: "scavers", title: "Session Cavers (Parts 1-3) — The Yearning Mines & The Abyss",
-      events: ["Manifest Board discrepancy: 15 went down, 14 came up. The ledger showed 16. Ralph Alvarez is missing.", "Every 7th thump: a pause + brief light flicker. The 4-beat machine rhythm begins here.", "Party falls through mine floors. Survivors: Artemis, Volk Stormhammer, Ryo, Mithe, Thog.", "Party discovers the dark ebony gate: hitting the chain on-beat unlocks the gate without penalty. Off-beat = psychic damage.", "The Warden of the Deep emerges from the pool. 'I am the hinge that keeps the broken heavens closed... You are all potential vessels.'", "Through a 7 ft seam: a circular room of natural meteorite — unheard of.", "Ceiling: star map of yellow dots matching Mithe's pool visions.", "Three wall symbols touched by Mithe: Green Book ('Fate's Final Rest'), Blue Scepter ('Humanity's Unyielding Spirit'), Red Crown ('The end of the Starborn' / 'My sacrifice is your duty'). Mithe takes -3 psychic damage on Red Crown.", "Five masks in side hallway. 1st (Obsidian): 'Before the first veil was woven, the universe was our anchor — and I was its guide.' 5th Reed unlocks exit door: 'For the life you left behind.'", "Beyond the door: 4 ancient machines. Three thumping; 4th struggling. 'Entropic stabilization containment failing.'", "Machine panels: Matter / Flux / Energy / Entropy. Party fixes the 16th beat."],
-      intel: ["Volk on another world: 'The forefathers vowed to never speak of this topic.'", "Prestidigitation fails when it too closely replicates the star map pattern: 'almost as if it is a system of rule or law that cannot be broken.'"],
-      dm: ""
+      id: "scavers", title: "Session Cavers (Parts 1–3) — The Yearning Mines & The Abyss",
+      sections: [
+        { heading: "Part 1 — Mine Entry & Intel", entries: [
+          { type: "event", text: "Ryo and Mithe talk to Zane inside the mines. Aldred and Thog attempt entry separately (Aldred presents as 'an executioner of monsters and heretics')." },
+          { type: "event", text: "Miners sent in groups down the Pits of Hell — spirals deep; high cave-in rate. Penal colony / trustee system. Overman Jar = head of the trustee system." },
+          { type: "event", text: "Fog curls inward. Mist clumps around. Lantern casings contain dimly glowing stone. No metal casings for miners — only guards have metal helmets." },
+          { type: "event", text: "Manifest Board discrepancy: 15 went down, 14 came up. The ledger showed 16. Ralph Alvarez is missing." },
+          { type: "event", text: "Prayer Board: Names, prayers ('ash and dust'). Jonathan Wineford — disappeared when light flickered — crossed out with a triangle symbol." },
+          { type: "event", text: "34th expedition: 20 noted, 19 went down, 1 came back up. Sole survivor won't speak, shakes constantly." },
+          { type: "event", text: "Every 7th thump: a pause + brief light flicker. The 4-beat machine rhythm begins here." },
+          { type: "logic", text: "Logic chain (the discrepancy): Ledger shows 16. 15 went down. 14 came up. The missing person is not on the manifest — either the manifest was altered, or someone went down through a different route. The triangle on Jonathan Wineford's name maps to the Wound's behavior: a momentary absence of light = a seam through which someone is taken." },
+        ]},
+        { heading: "Part 2 — The Fall; The Ebony Gate; The Warden", entries: [
+          { type: "event", text: "Mithe, Ryo, Thog and others fall through mine floors. Survivors: Artemis (big/scarred/'Criminal'), Volk Stormhammer (old dwarf), one grizzled guard, Ryo, Mithe, Thog." },
+          { type: "event", text: "A beat every 12 seconds. Cobalt magnifies light and distorts space around it. Magic is absorbed into the cobalt." },
+          { type: "event", text: "Party discovers the dark ebony gate: heavy stone weight on chain, ore carts with lead ingots on both sides. Hitting the chain on-beat unlocks the gate without penalty. Off-beat = psychic damage." },
+          { type: "event", text: "Past the gate: a room with a large pool below a dangling hook. The Warden of the Deep emerges from the pool." },
+          { type: "event", text: "Warden's words: \"I am the hinge that keeps the broken heavens closed... I am the weight on the mouth of the world... You are all potential vessels.\" / \"Destiny feels like freedom until you hear the hinges.\" / \"I've cast those chains aside.\" / \"Duty bound to He who stood for us.\"" },
+          { type: "logic", text: "Logic note: The Warden says he is 'duty bound to He who stood for us' — referring to Ser Gavriel Val'Tan ('Him'). This means the Warden predates or is contemporary with Gavriel. He has since 'cast those chains aside' — remaining as Warden by choice now, not compulsion." },
+        ]},
+        { heading: "Part 3 — The Meteorite Chamber & The Machines", entries: [
+          { type: "event", text: "Through a 7 ft seam: a circular room of natural meteorite — unheard of; no known natural source. Center: cylindric table with concave top." },
+          { type: "event", text: "Ceiling: star map of yellow dots connected by semi-geometric lines — matches Mithe's pool visions. Prestidigitation fails when it too closely replicates the pattern: 'almost as if it is a system of rule or law that cannot be broken.'" },
+          { type: "event", text: "Volk on another world: \"The forefathers did spoke... they vowed to never speak of this topic, and only once we traded with you, when we were alone in the stone.\"" },
+          { type: "event", text: "Three wall symbols (Mithe touches all): Green Book — luminescent, 'Fate's Final Rest.' Blue Scepter — 'Humanity's Unyielding Spirit.' Red Crown — sadness/anger/faith, 'The end of the Starborn' / 'My sacrifice is your duty.' Voice: 'Will you undertake this path?' Mithe takes −3 psychic damage." },
+          { type: "event", text: "Ryo taps the concave centerpiece with his obsidian key → light falls from the ceiling onto the 3 symbols. Rotating the cylinder 270 times inverts the reflection. 540 = original." },
+          { type: "event", text: "Side hallway: Five masks. 1st (Obsidian): \"Before the first veil was woven, the universe was our anchor — and I was its guide.\" 3rd Reed: \"For the many masks you've worn throughout time.\" 5th Reed (key-shaped): \"For the life you left behind.\" — used to unlock exit door." },
+          { type: "event", text: "Beyond the door: 4 ancient machines. Three thumping; 4th struggling. 'Entropic stabilization containment failing.' Panels: Matter / Flux / Energy / Entropy. Party fixes the 16th beat." },
+          { type: "sigil", text: "Sigils in meteorite chamber: Green Book ('Fate's Final Rest'), Blue Scepter ('Humanity's Unyielding Spirit'), Red Crown ('The end of the Starborn' / 'My sacrifice is your duty')." },
+          { type: "logic", text: "Logic chain (the chamber's purpose): The three symbols correspond to three fundamental objects (book, scepter, crown = knowledge, authority, sacrifice). The voice from the Red Crown asks for a 'world's warden' — the same title the Warden of the Deep holds. This chamber may be a site where wardens are chosen or pledged." },
+          { type: "npc", text: "NPCs introduced: Artemis (Order of the Rose; 6th Circle). Volk Stormhammer (non-penal dwarf miner). Warden of the Deep (ancient guardian; Sub-6th)." },
+        ]},
+      ]
     },
     {
       id: "sknavers", title: "Session Knavers — Rarik Ville; The Cobalt Portal; Fate",
-      events: ["A tall brown-robed man (Inquisitor) mistakes Velintra for 'Sister Erithine.' Rarik Ville seen as a child (~age 9) in a time-jump: he is from Sister Erithine's orphanage.", "Selka Morren introduced as 'Lady Factor.'", "Decima strikes the magical item (awakened cobalt). The box begins to break. The awakened cobalt rips a portal between realities.", "Party spawns in a burning village. 'Ashen Warrior': high-quality gear, epaulettes scrubbed off, covered in ash, hourglass glass pendant.", "The Fate Encounter: The green-bound ledger appeared before the party. Replaced by a featureless figure with stars for eyes. 'Why is fate so cruel?' — 'I am fate, aren't I?'"],
-      intel: ["Hourglass pendant on the 'Ashen Warrior' connects to Midas's gift to Valerian and the Quiet Architect.", "Symbol of Avar — seen on the ornate glowing box that triggered the cobalt portal event.", "Velintra recognizes the Ashen Warrior from somewhere."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "A tall brown-robed man (Inquisitor) mistakes Velintra for 'Sister Erithine' — establishing that Erithine is real and well known to this Inquisitor. Rarik Ville seen as a child (~age 9) in a time-jump: he is from Sister Erithine's orphanage." },
+          { type: "event", text: "The Great Martyred Lady discussed: heroically died; used magic at great cost; of much significance to the current era." },
+          { type: "event", text: "Selka Morren introduced as 'Lady Factor.' The Morren family made a syndicate guild deal with 'Clandet Morren.'" },
+          { type: "event", text: "Brown-robed individual spotted pulling out a vial. Symbol of Avar seen on an ornate glowing box containing ebony liquid. Brown robe dipped after the vial was splashed on someone's skin. No blood from the injured arm — unusual." },
+          { type: "event", text: "Decima strikes the magical item. The box begins to break — a piece of themselves is ripped away. The awakened cobalt rips a portal between realities." },
+          { type: "event", text: "Party spawns in a burning village with dead bodies and smoke. 'Ashen Warrior': high-quality gear, epaulettes scrubbed off, covered in ash, younger-middle age, hourglass glass pendant, eyes purposely concealed. Part of a group of 5 adventurers." },
+          { type: "event", text: "The Fate Encounter: The green-bound ledger appeared before the party. Before them, where the book had been, a featureless figure with stars for eyes replaced it. Party asked: 'Why is fate so cruel?' The entity replied: 'I am fate, aren't I?'" },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Sigil: Hourglass pendant — on the 'Ashen Warrior' in the portal vision. Connects to Midas's gift to Valerian and the Quiet Architect." },
+          { type: "sigil", text: "Sigil: Symbol of Avar — on the ornate glowing box that triggered the cobalt portal event." },
+          { type: "logic", text: "Logic chain (the Ashen Warrior): The portal opened by awakened cobalt showed a pre-cataclysm burning village. The Ashen Warrior's epaulettes are scrubbed off (rank/identity concealed deliberately) but the gear is high quality. The hourglass pendant matches the Quiet Architect's symbol. Velintra recognizes this person from somewhere — suggesting a dark elf guild connection or pre-campaign history." },
+          { type: "npc", text: "NPCs confirmed: Selka Morren (Lady Factor / Auditor). Rarik Ville — confirmed from Sister Erithine's orphanage. Fate (primordial entity — featureless figure, stars for eyes)." },
+        ]},
+      ]
     },
     {
       id: "s11", title: "Session 11 — Marshall's Interrogation (Part 1)",
-      events: ["The Marshall uses an orb + glass spindle for interrogation: taps when hiding something, blue = truthful, purple = hiding something.", "The Marshall reveals: The Council of Regency had something to do with the Duke's death.", "Original 12 Great Houses explained: 9 known, 1 lost to time, 2 expunged. One expelled during the Great Schism."],
-      intel: ["Special Military Zone = Marshall's jurisdiction. Only the Auditors and the head of the city can contest it. No head of city currently exists."],
-      dm: "DM confirmed: The Council of Regency had something to do with the Duke's death."
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "The Marshall uses an orb + glass spindle for interrogation: taps when hiding something, blue = truthful, purple = hiding something. Ryo interrogated first." },
+          { type: "event", text: "The Marshall reveals: The Council of Regency had something to do with the Duke's death." },
+          { type: "event", text: "Special Military Zone = Marshall's jurisdiction here. Only the Auditors (Selka Morren) and the head of the city can contest it. No head of city currently exists — the power vacuum is total." },
+          { type: "event", text: "City political summary: multiple factions, power shifts, inconsistent guard resources. Council of Regency cares only about short-term." },
+          { type: "event", text: "Original 12 Great Houses explained: 9 known, 1 lost to time, 2 expunged. One expelled during the Great Schism — the moment the Church asserted dominance over nobles. During the years of the Great Martyred Lady." },
+        ]},
+        { heading: null, entries: [
+          { type: "logic", text: "Logic chain (Council of Regency + Duke's death): If the Council of Regency was involved in killing the Duke, and the Council is composed of nobles focused on short-term gains, then the Duke's death was a political maneuver — likely to seize the city's resources without the Prince's dynastic claim getting in the way." },
+          { type: "dm", text: "DM confirmed: The Council of Regency had something to do with the Duke's death." },
+        ]},
+      ]
     },
     {
       id: "s12", title: "Session 12 — Marshall's Interrogation (Part 2)",
-      events: ["Full interrogation sequence. All have wristbands.", "Thog sent to be executed — guards have silver armbands — escaped as a spider.", "Aldred: Marshall has his crest.", "Marshall accuses Decima of being a 'witch.' Claims: 'The tragic incident was from a heretic employed by Lady Morren.'", "Outside the interrogation room, the Marshall's body 'looks as if it is protesting against what he is doing. He is not happy.'"],
-      intel: ["Silver armbands = guards who took Thog. Black armbands = Marshall's personal detail.", "The Marshall blaming Selka Morren may be a strategic deflection."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Full interrogation sequence. All have wristbands." },
+          { type: "event", text: "Order: Rarik Ville (whereabouts unknown after); Ryo (taken to prison); Mithe (released); Velintra (released); Decima (taken to prison); Thog (sent to be executed — guards have silver armbands — escaped as a spider); Kane (no wristband); Aldred (Marshall has his crest)." },
+          { type: "event", text: "Marshall accuses Decima of being a 'witch.' Claims: 'The tragic incident was from a heretic employed by Lady Morren' — implicating Selka Morren." },
+          { type: "event", text: "Outside the interrogation room, the Marshall's body 'looks as if it is protesting against what he is doing. He is not happy.' He appears to be acting under compulsion or conflicted loyalties." },
+          { type: "event", text: "Court scene: bound prisoners, Rarik Ville seated with two Marshall guards (black armbands) staring intently beside him. Rarik is testifying on behalf of the ecclesiastical church." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Markers: Silver armbands = guards who took Thog. Black armbands = Marshall's personal detail (also assigned as Rarik's bodyguard, creating a chain of control)." },
+          { type: "logic", text: "Logic note: The Marshall has Aldred's crest. This means the Marshall has been tracking the Order of the Flame — or someone from it — for some time. The Marshall blaming Selka Morren may be a strategic deflection to create conflict between the party and the noble faction that sent Morren." },
+        ]},
+      ]
     },
     {
       id: "s13", title: "Session 13 — Release; The Three-Rune Bracelets; Martial Law Buildup",
-      events: ["Marshall offers compromise: remote-activatable bracelets. 'If activated, you will no longer be anyone's problem.'", "Party given older, slightly chipped bracelets — runes facing inward (touching skin).", "Three runes: 1st = 'Strictus.' 2nd = airy/free-flowing feel ('Aerie?'). 3rd = familiar but unidentified.", "Town crier announces martial law. Faction alignment clarified: Garth/Magistrate — Nobles. Marshall — refuses noble access to mines. Inquisitor Rarik Ville — 'just trying not to die from Marshall.'"],
-      intel: ["Runes are 'like transistors' — reactive, not active. The 3rd rune being 'familiar' suggests the party has encountered a version before.", "Marshall fiddles with red, yellow, and purple marbles — purpose unknown."],
-      dm: "DM: 'Runes are reactive, not active... Think of them as transistors.'"
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Marshall offers compromise: the bracelets are technologies used to manage unruly prisoners — remote-activatable under certain ether conditions. 'If activated, you will no longer be anyone's problem.'" },
+          { type: "event", text: "Rarik Ville escorted to his back chambers (out of the picture for now)." },
+          { type: "event", text: "Party brought to the front of the mines with ~12 guards. Given older, slightly chipped bracelets — runes facing inward (touching skin)." },
+          { type: "event", text: "Party spots Volk Stormhammer and Oral Oxthain (Veinwarden) having tea. Ryo arranges to meet Volk at the Drunken Dog Inn." },
+          { type: "event", text: "Three runes on new bracelets: 1st = 'Strictus' (strictest variant). 2nd = airy/free-flowing feel ('Aerie?'). 3rd = familiar but unidentified." },
+          { type: "event", text: "Marshall fiddles with red, yellow, and purple marbles. (Purpose unknown — possibly a communication device or magical instrument.)" },
+          { type: "event", text: "Town crier announces martial law. Faction alignment clarified: Garth/Magistrate → Nobles. Marshall → refuses noble access to mines. Inquisitor Rarik Ville → 'just trying not to die from Marshall'; both playing nice." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Markers: 3-rune bracelets (Strictus / Aerie / Unknown). Red, yellow, purple marbles — Marshall's personal items; purpose unknown." },
+          { type: "logic", text: "Logic note (bracelets): DM confirmed runes are 'like transistors' — reactive, not active. The 3rd rune being 'familiar' suggests the party has encountered a version before, possibly in the mines or on earlier wristbands. If the bracelets are remote-activated, whoever holds the activation method holds a kill-switch on the party." },
+          { type: "dm", text: "DM: 'Runes are reactive, not active... Think of them as transistors.'" },
+        ]},
+      ]
     },
     {
       id: "s14", title: "Session 14 — The 7th Fleet Arrives; Merchant District Tensions",
-      events: ["Yellow naval flares seen from the waters. N'thoda appears.", "A trail of ships enters and begins surrounding the city. Ships carry Vo'dyn empire flags. Sigil of Him on each ship.", "City guard declares martial law on outer walls. Garth: 'Nobody was expecting these ships, those are naval flares.'", "7th Fleet briefing: Led by Admiral Galewind; deputy Commodore Sal'vin (Hell's Fury). Under Nautica Liticus. The Martyr is the flagship: pre-cataclysm galleon, 600+ years old.", "Merchants hiring ruffians; assembling trebuchets, arbalests, and scorpions in the Merchant District."],
-      intel: ["Nobody was expecting them — not even the Marshall's own spy.", "Yellow = naval flares. Red/green = city flares. Blue feather = Militarum guards at merchant district checkpoint."],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "Yellow naval flares seen from the waters — not city flares (those are red/green and very expensive). N'thoda appears in front of Mithe and Artemis outside the magistrate station." },
+          { type: "event", text: "A trail of ships enters and begins surrounding the city. Ships carry Vo'dyn empire flags. Sigil of Him on each ship." },
+          { type: "event", text: "City guard declares: anything within 15–20 ft of the border is Militarum jurisdiction. Martial law declared on outer walls. Garth: 'Nobody was expecting these ships, those are naval flares.'" },
+          { type: "event", text: "7th Fleet briefing (from Aldred's insights): Led by Admiral Galewind; deputy Commodore Sal'vin (Hell's Fury). Not under the Militarum but under the Nautica Liticus. The Martyr is the flagship: pre-cataclysm galleon, 600+ years old. Naval flares 'draw attention and attract some things that lurk in the water.'" },
+          { type: "event", text: "Militia leader (Zenzar) missing for 7 years — same time as the Prince. Nobody could replace him." },
+          { type: "event", text: "Society of Brilliance has a chapter in Zen'tar — offshoot of the Luminary Council (2nd Circle arcane authority)." },
+          { type: "event", text: "Merchants hiring ruffians; giving free food to people who leave the district. Trebuchets, arbalests, and scorpions being assembled in the Merchant District." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Sigil: Sigil of Him on 7th Fleet ships — highest imperial/holy identifier." },
+          { type: "sigil", text: "Marker: Yellow = naval flares. Red/green = city flares (rare/expensive). Blue feather = Militarum guards at the merchant district checkpoint." },
+          { type: "logic", text: "Logic chain (7th Fleet arrival): Nobody was expecting them — not even the Marshall's intelligence anticipated it. The 7th Fleet only docks when resupplying or in a crisis deployment. Their arrival with the Sigil of Him on each ship suggests either a religious mandate or a direct Capital order of the highest priority." },
+          { type: "npc", text: "NPCs introduced: Admiral Galewind (7th Fleet). Commodore Sal'vin (Hell's Fury)." },
+        ]},
+      ]
     },
     {
       id: "s15", title: "Session 15 — The Wyrm Speaks; Ryo & Decima's Shared Vision",
-      events: ["Both pulled into a shared space: a wooden-furnished room, grandfather clock in center. 3 candles: 1 red, 1 green, 1 blue. Only green is lit. Clock reads 11:50.", "The Wyrm speaks: 'Without me, you would have been sundered, destroyed, like her. I protected you... The concentrated power of—' [gargle; tries to say a name; cannot say it].", "'This thing has destroyed worlds, empires. Only the foolish are not afraid of those THINGS. I do not serve, I rule.'", "To Decima: 'You've read my apprentice's tome I see. You asked for it. You agreed to get this gift... A price paid. A gift given. A fate rewrote. I chose my own fate. You? You've given it away.'", "Ryo's Dirty 20 Perception: The Wyrm's eyes are crimson red. Stronghold visible with banners: Trident, White banner with a red dot, Lapis lazuli color banner.", "Green candle's wick shortens; flame begins on the red candle. Clock strikes midnight. Velintra knocks them both out as they begin spasming."],
-      intel: ["The Wyrm says it 'used my own soul' to protect Ryo — meaning it has a soul and it chose to sacrifice part of it.", "The Wyrm taught a Domitae before Ryo — the Wyrm's fingerprint was already in Decima's family line."],
-      dm: ""
+      sections: [
+        { heading: "The Shared Vision (Ryo & Decima)", entries: [
+          { type: "event", text: "Both are pulled into a shared space: a wooden-furnished room, long-hall shape, grandfather clock in center. Long table. 3 candles: 1 red, 1 green, 1 blue. Only the green candle is lit. Clock reads 11:50 — 10 minutes to midnight. Only sound: ticking. Decima's hair is muted white." },
+          { type: "event", text: "Decima has read the Wyrm's apprentice's tome. The Wyrm speaks to both." },
+        ]},
+        { heading: "The Wyrm's Monologue", entries: [
+          { type: "event", text: "\"Without me, you would have been sundered, destroyed, like her. I protected you, and used my own soul to protect you lest you be destroyed. The concentrated power of—\" [gargle; tries to say a name; cannot say it]." },
+          { type: "event", text: "\"This thing has destroyed worlds, empires. Only the foolish are not afraid of those THINGS. Their path only leads to damnation and ruin as they try and trickle you in, as they offer you everything. I do not serve, I rule.\"" },
+          { type: "event", text: "To Decima: \"You've read my apprentice's tome I see. You asked for it. You agreed to get this gift. They do not force, they tempt. They offer. That is the old law, the law written in the cosmos. You chose it, and paid the price thinking you can control it. And that is what makes you the greatest fool.\"" },
+          { type: "event", text: "\"A price paid. A gift given. A fate rewrote. I chose my own fate. You? You've given it away.\"" },
+          { type: "event", text: "To Ryo asking for a name: \"You have yet to earn the right.\"" },
+        ]},
+        { heading: "Ryo's Dirty 20 Perception (Wyrm's mindscape)", entries: [
+          { type: "event", text: "The Wyrm's eyes are crimson red." },
+          { type: "event", text: "Setting: wooded at first, but a stronghold visible in the distance — new in construction, but old in design." },
+          { type: "event", text: "Banners: Trident, White banner with a red dot (similar to Penitant Deathriders), Lapis lazuli color banner. Three banners total." },
+        ]},
+        { heading: "End of Vision", entries: [
+          { type: "event", text: "Green candle's wick shortens; drips have a light black aura. A flame begins on the red candle. Clock strikes midnight. Doors open to the right. Ryo and Decima awaken at the tavern in cold sweats." },
+          { type: "event", text: "Velintra knocks them both out as they begin spasming and screaming. Party attempts a long rest." },
+          { type: "sigil", text: "Sigils on Wyrm's stronghold: Trident (House Gulfen/Trinton?), White + Red Dot banner (similar to Penitant Deathriders), Lapis Lazuli banner. Location and era of stronghold: unknown." },
+          { type: "logic", text: "Logic chain: The Wyrm says it 'used my own soul' to protect Ryo — meaning it has a soul, and it chose to sacrifice part of it. It says Decima read its 'apprentice's tome' — the tome Decima found in her house's stores. The Wyrm therefore taught a Domitae before Ryo, which means the Wyrm's fingerprint was already in Decima's family line before both of their stories began." },
+        ]},
+      ]
     },
     {
       id: "s16", title: "Session 16 — Merchant District Ambush; O'Malley Killed; Midas at the Funeral",
-      events: ["4am. Blue feather on Militarum guards at the merchant district checkpoint. Siege equipment being assembled.", "Party ambushed by the same people who attacked the militia. Attempted poisoning — everyone hit except Decima.", "O'Malley killed. Dying words: 'Premier.'", "Velintra looted O'Malley's body: Note (Westfall. Ravenscreft.), 7 gold, bloodied dagger, sealed letter, a thorn talisman.", "Lt. Boltin Crestfyre (4th Investigation Enforcement Wing) arrives on scene. Had heard the codeword 'Dagger' — now accusing the party of starting the fight.", "Midas Khol at the Duke's funeral (confirmed this session): Gave Valerian Than'dal an hourglass pendant: 'I'll keep the hourglass turning.'"],
-      intel: ["Boltin heard the codeword 'Dagger' from the assassins and then used it to hold position — allowing the Consortium assassins to complete the job and flee.", "Who is 'Premier' (O'Malley's dying word)? What is in the sealed letter?"],
-      dm: ""
+      sections: [
+        { heading: "Key Events", entries: [
+          { type: "event", text: "It is 4am. Blue feather on Militarum guards at the merchant district checkpoint. Will not let the party in initially." },
+          { type: "event", text: "Peoples' Merchant Guild of Commerce: major guild specializing in weapon innovation, industrial goods, and shipping." },
+          { type: "event", text: "Party ambushed by the same people who attacked the militia. Attempted poisoning — everyone hit except Decima." },
+          { type: "event", text: "O'Malley killed. She was the party's contact from the Marshall. Dying words: 'Premier.'" },
+          { type: "event", text: "Velintra looted O'Malley's body: Note (Westfall. Ravenscreft.), 7 gold, bloodied dagger, sealed letter, a thorn talisman." },
+          { type: "event", text: "Concierge operatives flee; metal clanking heard as they move." },
+          { type: "event", text: "Lt. Boltin Crestfyre (4th Investigation Enforcement Wing) arrives on scene. Was ordered to hold position until the codeword 'Dagger' — which he heard from the assassins themselves. Now accusing the party of starting the fight." },
+          { type: "event", text: "Midas Khol at the Duke's funeral (contextual / confirmed this session): Gave Valerian Than'dal an hourglass pendant: 'I'll keep the hourglass turning.' Valerian confirmed tasked with watching the Prince." },
+        ]},
+        { heading: null, entries: [
+          { type: "sigil", text: "Sigil: Thorn talisman — found on O'Malley. Unknown affiliation." },
+          { type: "sigil", text: "Sigil: Hourglass pendant — Midas → Valerian. 'I'll keep the hourglass turning.'" },
+          { type: "logic", text: "Logic chain (Boltin): Boltin heard the codeword 'Dagger' from the assassins and then used it to hold position — which allowed the Consortium assassins to complete the job and flee. Whether Boltin is corrupt or simply following orders he didn't know were compromised is unclear. His Special Investigation Unit (no number, no standard chain of command) makes it harder to trace who gave the order." },
+          { type: "npc", text: "NPCs introduced: Boltin Crestfyre (Lt., 4th Wing / Special Unit). O'Malley (dead; Marshall's contact). Valerian Than'dal (Midas's knight; confirmed as watcher of the Prince)." },
+        ]},
+      ]
     },
     {
       id: "s17", title: "Session 17 — Aftermath; Party Scattered; Current State",
-      events: ["Consortium assassins killed O'Malley, fled with their dead, leaving no traces. Boltin Crestfyre watched without intervening before 'securing the perimeter.'", "Party surrounded by the Special Investigation Unit wanting to question under Zone of Truth or Detect Thoughts.", "Decima establishes cover: party is working with investigators, investigating disappearances (particularly Maestor Velitor), acting under Garth's and Arthur's authority."],
-      intel: ["Open threads: Who is 'Premier'? What is in the sealed letter on O'Malley's body? Where did Maestor Velitor go? Who gave Boltin the compromised orders?", "The Merchant District is locked down and assembling siege equipment — what are they expecting?"],
-      dm: "Current positions: Thog at Drunken Dog Inn. Kane fled. Artemis fled. Ryo hanging back. Decima near Ryo as 'Delattre.' Mithe at scene. Velintra at scene. N'thoda escaped through sewers. Aldred — location unspecified."
+      sections: [
+        { heading: "Situation Summary", entries: [
+          { type: "event", text: "Consortium assassins killed O'Malley (the party's contact from the Marshall), fled with their dead, leaving no traces. Boltin Crestfyre watched without intervening before 'securing the perimeter.' Suggests corrupt noble influence routing through the Special Investigation Unit." },
+          { type: "event", text: "Party is surrounded by the Special Investigation Unit wanting to question under Zone of Truth or Detect Thoughts." },
+          { type: "event", text: "Decima establishes: party is working with investigators, investigating disappearances (particularly Maestor Velitor — head of merchant guilds, also now missing), acting under Garth's and Arthur's authority." },
+        ]},
+        { heading: "Party Positions at End of Session 17", entries: [
+          { type: "event", text: "Thog — at the Drunken Dog Inn." },
+          { type: "event", text: "Kane — fled the Merchant District scene immediately." },
+          { type: "event", text: "Artemis — fled the scene." },
+          { type: "event", text: "Ryo — staying nearby the scene; hanging back." },
+          { type: "event", text: "Decima — staying near Ryo; established cover with investigators as 'Delattre.'" },
+          { type: "event", text: "Mithe — at the scene; needs to blend in; high risk of identification; tried and failed to heal O'Malley." },
+          { type: "event", text: "Velintra — at the scene; successfully looted O'Malley while investigators weren't watching." },
+          { type: "event", text: "N'thoda — escaped through the sewers." },
+          { type: "event", text: "Aldred — location unspecified at session end." },
+        ]},
+        { heading: null, entries: [
+          { type: "logic", text: "Open threads heading into next session: Who is 'Premier' (O'Malley's dying word)? What is in the sealed letter on O'Malley's body? Where did Maestor Velitor go? Who gave Boltin the compromised orders? Why does the Marshall want O'Malley dead — or was this purely a Consortium hit? The Merchant District is now locked down and assembling siege equipment — what are they expecting to attack, or to be attacked by?" },
+          { type: "npc", text: "NPCs engaged: Boltin Crestfyre (Special Unit). O'Malley (dead). Maestor Velitor (Guild Master; missing)." },
+          { type: "dm", text: "Current positions: Thog at Drunken Dog Inn. Kane fled. Artemis fled. Ryo hanging back. Decima near Ryo as 'Delattre.' Mithe at scene. Velintra at scene. N'thoda escaped through sewers. Aldred — location unspecified." },
+        ]},
+      ]
     },
   ],
 };
+
 
 // Tab labels
 const TABS = ["All", "Great Houses", "Organizations", "NPCs", "Player Characters", "Locations", "Sigils", "World Lore", "Theories", "Session Notes", "Timeline"];
@@ -1166,8 +1388,49 @@ function renderThreads(container) {
   container.appendChild(grid);
 }
 
+// Theories — knowledge blocks matching davar reference: confirmed (green) and player (purple) inline entries
+function renderTheories(container) {
+  const disclaimer = makeEl("div", "theory-disclaimer");
+  disclaimer.innerHTML = `<strong style="color:#d4a843;">⚑ Source Attribution</strong><br>Entries marked <strong class="confirmed-inline">DM Confirmed</strong> reflect information explicitly provided by the DM. All other analysis and interpretations are <strong class="theory-inline">player theories</strong> unless otherwise stated.`;
+  container.appendChild(disclaimer);
+
+  const filtered = data.theories.filter(matches);
+  const confirmed = filtered.filter(t => t.confirmed);
+  const player = filtered.filter(t => !t.confirmed);
+
+  // Helper: render a knowledge-block with a header and mixed entries
+  function makeKnowledgeBlock(blockId, title, entries) {
+    const isOpen = !expandedItems.has(blockId + "_closed");
+    const block = makeEl("div", "knowledge-block");
+
+    const header = makeEl("div", "knowledge-header");
+    header.innerHTML = `<span>${title}</span><span class="k-arrow">${isOpen ? "▼" : "▶"}</span>`;
+    header.onclick = () => {
+      if (isOpen) expandedItems.add(blockId + "_closed");
+      else expandedItems.delete(blockId + "_closed");
+      renderContent();
+    };
+    block.appendChild(header);
+
+    if (isOpen) {
+      const body = makeEl("div", "knowledge-body");
+      entries.forEach(t => {
+        const entry = makeEl("div", t.confirmed ? "confirmed" : "player-theory");
+        entry.textContent = t.detail || t.label;
+        body.appendChild(entry);
+      });
+      block.appendChild(body);
+    }
+
+    container.appendChild(block);
+  }
+
+  if (confirmed.length) makeKnowledgeBlock("th_confirmed", "DM Confirmed", confirmed);
+  if (player.length)    makeKnowledgeBlock("th_player", "Player Theories", player);
+}
 
 // Theories — DM confirmed first, then player theories
+/*
 function renderTheories(container) {
   container.appendChild(makeEl("div", "theories-warning",
     "⚑ Entries marked DM CONFIRMED reflect information explicitly provided by the DM. All other analysis and interpretations are player theories unless otherwise stated."));
@@ -1198,9 +1461,70 @@ function renderTheories(container) {
     });
   }
 }
+*/
 
+// Session notes — one collapsible block per session, with typed callout rows
+function renderSessions(container) {
+  const disclaimer = makeEl("div", "theory-disclaimer");
+  disclaimer.innerHTML = `<strong style="color:#d4a843;">⚑ On Theories &amp; Discussions</strong><br>Unless a note is explicitly attributed to the DM, all theories, interpretations, and analytical commentary are <strong class="theory-inline">player theories</strong> — not confirmed lore. Logic chains are included to show how conclusions were reached, not to assert them as fact.`;
+  container.appendChild(disclaimer);
+
+  const filtered = data.sessions.filter(s =>
+    !searchTerm || [s.title, ...s.sections.flatMap(sec => sec.entries.map(e => e.text))].join(" ").toLowerCase().includes(searchTerm)
+  );
+
+  filtered.forEach(s => {
+    const isOpen = expandedItems.has(s.id);
+    const block = makeEl("div", "session-block" + (isOpen ? " open" : ""));
+
+    const toggle = makeEl("div", "session-toggle");
+    toggle.innerHTML = `<span>${s.title}</span><span class="acc-arrow">${isOpen ? "▼" : "▶"}</span>`;
+    toggle.onclick = () => toggleItem(s.id);
+    block.appendChild(toggle);
+
+    if (isOpen) {
+      const body = makeEl("div", "session-body");
+
+      s.sections.forEach(sec => {
+        if (sec.heading) {
+          body.appendChild(makeEl("div", "session-sub", sec.heading));
+        }
+
+        // Separate regular events from callouts so events render as a bullet list
+        const events = sec.entries.filter(e => e.type === "event");
+        const callouts = sec.entries.filter(e => e.type !== "event");
+
+        if (events.length) {
+          const ul = makeEl("ul", "session-list");
+          events.forEach(e => ul.appendChild(makeEl("li", "", e.text)));
+          body.appendChild(ul);
+        }
+
+        callouts.forEach(e => {
+          const cls = e.type === "sigil" ? "s-sigil"
+                    : e.type === "logic" ? "s-logic"
+                    : e.type === "npc"   ? "s-npc"
+                    : e.type === "dm"    ? "s-dm"
+                    : "s-intel";
+
+          if (e.type === "dm") {
+            const row = makeEl("div", "s-dm");
+            row.innerHTML = `<span class="s-dm-label">🟢 DM:</span> ${e.text}`;
+            body.appendChild(row);
+          } else {
+            body.appendChild(makeEl("div", cls, e.text));
+          }
+        });
+      });
+
+      block.appendChild(body);
+    }
+    container.appendChild(block);
+  });
+}
 
 // Session notes — one collapsible block per session
+/*
 function renderSessions(container) {
   container.appendChild(makeEl("div", "theories-warning",
     "⚑ Unless a note is explicitly attributed to the DM, all theories, interpretations, and analytical commentary are player theories--not confirmed lore."));
@@ -1244,7 +1568,7 @@ function renderSessions(container) {
     container.appendChild(block);
   });
 }
-
+*/
 
 // Timeline — single collapsible table
 function renderTimeline(container) {
@@ -1312,6 +1636,7 @@ function makeName(text) {
 }
 
 // Circle-tier tag colored by type: gold = 1st circle, blue = outer circles, grey = unknown, red = expunged
+// Circle-tier tag; accepts arrays for stacked multi-circle tags; sub is an optional subtitle line
 function makeCircleTag(text, type, sub) {
   const texts = Array.isArray(text) ? text : [text];
   const types = Array.isArray(type) ? type : [type];

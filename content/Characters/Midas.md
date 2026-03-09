@@ -7,7 +7,7 @@ The [[Duke]] had significant tensions with House Khol. Whenever he was seen at t
 
 ---
 
-broken draft notes from [[Mithe]] 1-on-1 office hours:
+broken draft notes from 1-on-1 office hours:
 > On [[Midas]]:
 > Luminary council 
 > Expanding his patronage 

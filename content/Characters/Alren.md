@@ -3,7 +3,6 @@
 
 - Alren had a child once but they died long ago. The loss is rarely spoken of, and most in the household know better than to mention it. 
 - Alren’s brother (also deceased) also had children.
-- Treated Mithe as a ward who could use his family's name/act like a daughter at more formal events.
 - Alren's butler: 
 ---
 estate in capital (alden was more influential here) 
@@ -20,7 +19,7 @@ Uncle Den ([[Alden]])
 2nd son: [[Mark]]
 
 ---
-[[Mithe]]'s last correspondence with Alren Davarre:
+last correspondence with Alren Davarre:
 > My dear child,
 > 
 > You were not meant to come into my care, yet when you did, the choice was already made. I told myself it was duty, but time has a way of softening duty into something harder to name. 
