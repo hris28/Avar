@@ -625,7 +625,7 @@ const data = {
     { title: "The Ledger Trail", status: "UNKNOWN — Last confirmed: Caldun (oilcloth package)", detail: "Prophet gave it in Velderra to heroes who carried it to the Duke of Zen'tar — Duke killed for/by it — Mithris obtained it — passed to Caldun in oilcloth before Arthur's raid — explosion at warehouse — status unknown. The ledger is described as 'as primordial as the magic in the air.'" },
     { title: "The Coup Network", status: "Actors: Secus Domitae + masked Hathor + Blue Pirates + Militia (via Zenzar)", detail: "Secus (1st Circle via Khol marriage) is purchasing Zenzar (former militia leader) through a masked figure (likely Hathor) to intend a coup of the Council of Regency. Guild affairs: 'next hit prince loyalists and Arthur.' Multiple factions converging on the post-Duke power vacuum." },
     { title: "Midas's Long Game", status: "Operator: Midas Khol - Agents: Valerian Than'dal", detail: "Midas (old friends with the Duke) knew the Duke found something. Sent Valerian to watch the Prince. At the funeral: 'I'll keep the hourglass turning.' Possibly also behind the Order of the Rose (Crane/Artemis). Timeline accelerated by the Duke's death." },
-    { title: "The Party's Possession Problem", status: "Affected: Ryo (Wyrm), Decima (unknown entity), Aldred (demon), Kane (vampired twin)", detail: "All four are haunted/possessed. The Wyrm inside Ryo apprenticed a Domitae — connecting it to Decima's family. All are 'potential vessels' per the Warden. Decima doesn't think Aldred realizes he is possessed." },
+    { title: "The Party's Possession Problem", status: "Affected: Ryo (Wyrm), Decima (unknown entity), Aldred, Kane", detail: "All four are possibly haunted/possessed. The Wyrm inside Ryo apprenticed a Domitae — connecting it to Decima's family. 'Potential vessels' per the Warden." },
     { title: "The 7th Fleet's Arrival", status: "Commander: Admiral Galewind - Ship: The Martyr (flagship)", detail: "Unexpected. Pre-cataclysm ship. Nobody knows why they're here — including the Marshall's own spy. Carries 'Sigil of Him' on each vessel. Under Nautica Liticus. Triggered martial law upon arrival." },
     { title: "The Disappearances", status: "Pattern locations: Sanitarium — Yearning Mines — Merchant District — broader city", detail: "Missing: Ralph Alvarez (mines), Jonathan Wineford (mines), Lantis (investigator), Maestor Velitor (Guild Master), the Prince. Mine manifest discrepancy: 16 in ledger, 15 went down, 14 came back. Those who 'reach too far' are taken." },
   ],
@@ -1064,27 +1064,27 @@ function matches(obj) {
 
 // All tab: render every section in sequence with labeled dividers
 function renderAll(container) {
-  renderDivider("I", "Great Houses of Avar", container);
+  renderDivider("Section I", "The Great Houses of Avar", container);
   renderHouses(container);
-  renderDivider("II", "Organizations, Orders & Factions", container);
+  renderDivider("Section II", "Organizations, Orders & Factions", container);
   renderOrgs(container);
-  renderDivider("III", "Non-Player Characters", container);
+  renderDivider("Section III", "Non-Player Characters", container);
   renderNPCs(container);
-  renderDivider("IV", "Player Characters", container);
+  renderDivider("Section IV", "Player Characters", container);
   renderPlayers(container);
-  renderDivider("V", "Locations & Map Positions", container);
+  renderDivider("Section V", "Locations & Map Positions", container);
   renderLocations(container);
-  renderDivider("VI", "Sigils, Identifiers & Visual Markers", container);
+  renderDivider("Section VI", "Sigils, Identifiers & Visual Markers", container);
   renderSigils(container);
-  renderDivider("VII", "World Lore & Cosmology", container);
+  renderDivider("Section VII", "World Lore & Cosmology", container);
   renderLore(container);
-  renderDivider("VIII", "Key Connections & Allegiance Web", container);
+  renderDivider("Section VIII", "Key Connections & Allegiance Web", container);
   renderThreads(container);
-  renderDivider("IX", "World Knowledge & Player Theories", container);
+  renderDivider("Section IX", "World Knowledge & Player Theories", container);
   renderTheories(container);
-  renderDivider("X", "Known Timeline", container);
+  renderDivider("Section X", "Known Timeline", container);
   renderTimeline(container);
-  renderDivider("XI", "Session Notes", container);
+  renderDivider("Section XI", "Session Notes", container);
   renderSessions(container);
 }
 
