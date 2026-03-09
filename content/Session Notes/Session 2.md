@@ -21,4 +21,4 @@ Date: 06/08/2025
   - A woman, Evelynn, screams of her missing child, whom she names inconsistently ("Tim? Tom?"). Players attempt to find the child. Instead encounter [[mist]] wraiths, noting their weakness to radiant damage (takes 1d10 dmg on their every turn). Mist wraith returned to the earth.
 	  - "they will return to the earth, forgotten."
 	  - "all that dies becomes to ash."
-  - 
+  - [[Velintra]] notes: ![[Pasted image 20260307234427.png]]

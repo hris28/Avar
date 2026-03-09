@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AVAR - World Codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- tells the browser to establish a connection to that domain early, so font loads faster, before getting to @import in CSS file. A full connection involves a DNS lookup, a TCP handshake, and (for HTTPS) a TLS negotiation. --> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- same as above but for the domain that actually serves the font files. crossorigin is needed for fonts to work properly when preconnecting to a different origin.-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="avar.css">
+</head>
+
+<body>
+
+  <div class="header" id="header">
+    <div class="header-content">
+      <div class="header-top">
+        <div>
+          <div class="eyebrow">Intelligence Compendium · Year 626</div>
+          <h1 class="title">AVAR</h1>
+          <div class="subtitle">The Prisoned World · Campaign Codex</div>
+        </div>
+        <div class="search-container">
+          <input type="text" id="search" class="search-input" placeholder="Search all entries..." autocomplete="off">
+        </div>
+      </div>
+      <div class="tabs" id="tabs"></div>
+    </div>
+  </div>
+
+  <div class="content" id="content"></div>
+
+  <div class="footer">
+    AVAR INTELLIGENCE COMPENDIUM · COMPILED YEAR 626 · ALL INFORMATION SUBJECT TO REVISION
+  </div>
+
+  <script src="avar.js"></script>
+</body>
+
+</html>

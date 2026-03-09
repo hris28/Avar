@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVAR — Intelligence Compendium</title>
+<link rel="stylesheet" href="davar.css">
+</head>
+<body>
+<div class="wrapper">
+
+<!-- ══════════════════ MASTHEAD ══════════════════ -->
+<div class="masthead">
+  <div class="masthead-eyebrow">Intelligence Compendium · Year 626</div>
+  <h1>AVAR</h1>
+  <div class="masthead-sub">The Prisoned World · Campaign Codex</div>
+</div>
+
+<!-- 
+     I. THE GREAT HOUSES
+ -->
+<div class="segment" id="section-i">
+  <div class="section-title">Section I</div>
+  <h2 class="section-h2">The Great Houses of Avar</h2>
+
+  <div class="info-box">
+    <strong>⚑ The Original Twelve — What Is Known</strong><br>
+    The Vo'dyn Empire was founded alongside <strong>12 Great Houses</strong> in the immediate aftermath of the Cataclysm. Records are imprecise — confirmed by DM as "9 or 11 or 12 but records are imprecise." Of these 12:<br><br>
+    • <strong>9 are known</strong> and survive in some form: Khol, Lanvar, Sadin, Vostin, Relkan, Velthara, Rayne, Calder, Korvath, and Branneth are among the known original houses.<br>
+    • <strong>House Da'varre</strong> is <em>not</em> itself one of the original 12 — it is a <strong>cadet branch</strong> of a far more ancient house that was "mostly extinguished." Count Alren is rumored to trace his lineage to that lost original directly.<br>
+    • <strong>1 house was lost to time</strong> — no records, no name, no known descendants.<br>
+    • <strong>2 houses were expunged</strong>: one fell during the <em>Great Schism</em> (during the years of the Great Martyred Lady, when the Church asserted dominance over nobles); the second was erased for "direct opposition to the Church's mandate." Both bloodlines ended.<br><br>
+    <em>Note: Houses Mournen, Domitae, Maelis, Morren, Voss, and all cadet branches (Bluefist, etc.) are NOT among the original 12.</em>
+  </div>
+
+  <!-- ORIGINAL 12 HOUSES -->
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Original & Known Houses <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>House</th><th>Circle / Reach</th><th>Motto</th><th>Sigil / Marker</th>
+              <th>Power Base</th><th>Key Members</th><th>Disposition</th><th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Khol</td>
+              <td><span class="tag tag-gold">1st Circle</span><br><small>Capital; empire-wide influence</small></td>
+              <td>"The Foundation Endures"</td>
+              <td><span class="tag tag-green">Four-Leaf Clover</span></td>
+              <td>Economic; trade routes; noble marriages</td>
+              <td>Midas Khol (head); Secus Domitae (married in); Mithe (bastard, secret)</td>
+              <td>Quiet, patient, far-reaching</td>
+              <td>Midas is a covert operator running a long game. Old friends with the late Duke. Biological father of Mithe — known only to Midas. Gave Valerian an hourglass pendant at the Duke's funeral: "I'll keep the hourglass turning."</td>
+            </tr>
+            <tr>
+              <td>Da'varre</td>
+              <td><span class="tag tag-gold">1st Circle</span><br><small>Capital; seat at Gloamspire tower</small></td>
+              <td>"Through Still Waters, Truth"</td>
+              <td><span class="tag tag-blue">Glass Prism / Mirrors</span></td>
+              <td>Archive; pre-cataclysm relics; truth-seeking</td>
+              <td>Count Alren (last of the line)</td>
+              <td>Isolated, scholarly, haunted</td>
+              <td>NOT one of the original 12 — cadet branch of a lost original house. Gloamspire: tower on a cavern lake, halls lit by mirrors that glow when truth is spoken. Alren's last letter: "loyalties I cannot speak of" and "the still water." Lost children, brother Alden, nieces.</td>
+            </tr>
+            <tr>
+              <td>Lanvar</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Dealmaking; alliance brokering</td>
+              <td>Unknown</td>
+              <td>Perpetual junior partner</td>
+              <td>Eternal deal-brokers; rarely act alone. Aid Da'varre, Lanvar, Sadin alliances.</td>
+            </tr>
+            <tr>
+              <td>Sadin</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Military; honorable service</td>
+              <td>Unknown</td>
+              <td>Honor-bound; aided by Maelis</td>
+              <td>Military and honor culture. One of the clearer "good" houses.</td>
+            </tr>
+            <tr>
+              <td>Vostin</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Deep mining monopoly</td>
+              <td>Unknown</td>
+              <td>Essential; leverage via resources</td>
+              <td>Controls deep mining operations. Their resources give them leverage over almost every other house.</td>
+            </tr>
+            <tr>
+              <td>Relkan</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Imperial banking</td>
+              <td>Unknown</td>
+              <td>Creditor to all</td>
+              <td>"Every house owes Relkan." Financial leverage across the entire empire.</td>
+            </tr>
+            <tr>
+              <td>Velthara</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Pre-cataclysm relics; surface expeditions</td>
+              <td>Unknown</td>
+              <td>Relic hunters; surface-focused</td>
+              <td>Organize surface expeditions. Control access to pre-cataclysm artifacts.</td>
+            </tr>
+            <tr>
+              <td>Rayne</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Infrastructure; trade routes; arbitration</td>
+              <td>Unknown</td>
+              <td>Neutral arbiters</td>
+              <td>Build and maintain imperial infrastructure. Neutral enough to arbitrate disputes.</td>
+            </tr>
+            <tr>
+              <td>Calder</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Intelligence networks</td>
+              <td>Unknown</td>
+              <td>Rivals Korvath</td>
+              <td>Spy networks and intelligence apparatus. Long rivalry with Korvath.</td>
+            </tr>
+            <tr>
+              <td>Korvath</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Assassination; enforcement</td>
+              <td>Unknown</td>
+              <td>Rivals Calder</td>
+              <td>Wet-works and enforcement arm of noble politics. Rivals Calder's intelligence network.</td>
+            </tr>
+            <tr>
+              <td>Branneth</td>
+              <td><span class="tag tag-gold">1st–2nd Circle</span></td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Church; Inquisition pipeline</td>
+              <td>Unknown</td>
+              <td>Church-aligned</td>
+              <td>Produces most priests and inquisitors. Deep Church ties — possibly controls Inquisitorial appointments.</td>
+            </tr>
+            <tr>
+              <td>Mournen</td>
+              <td><span class="tag tag-gold">1st Circle</span> <span class="tag tag-blue">6th Circle (dynastic)</span></td>
+              <td>"Heavy Doth the Crown"</td>
+              <td><span class="tag tag-red">Red Fist</span></td>
+              <td>Zen'tar dynastic control; cadet branch = Bluefist</td>
+              <td>Duke (deceased); Prince (missing, ~23–24 yrs old)</td>
+              <td>Retreated from Capital politics; bound to the city</td>
+              <td>The late Duke brought Zen'tar to prominence. Cadet branch = Order of the Blue Fist. Duke's death (year 618) left the Prince missing and the city in crisis. After a falling out in the Capital, the Duke withdrew to Zen'tar, sending delegates on his behalf.</td>
+            </tr>
+            <tr>
+              <td style="color:#8b1a1a;font-style:italic;">[Name Stricken]</td>
+              <td><span class="tag tag-gold">1st Circle</span><br><small>Was a Capital-level Great House; records destroyed</small></td>
+              <td>—</td>
+              <td><span class="tag tag-red">EXPUNGED</span></td>
+              <td>Led the Great Schism</td>
+              <td>Bloodline ended; lands redistributed</td>
+              <td>Attempted to assert noble dominance over Church authority</td>
+              <td>Fell during the Great Schism in the years of the Great Martyred Lady. The moment nobles realized the Inquisition was in charge. Erased as a lesson.</td>
+            </tr>
+            <tr>
+              <td style="color:#8b1a1a;font-style:italic;">[Records Sealed]</td>
+              <td><span class="tag tag-gold">1st Circle</span><br><small>Records sealed by Inquisitorial decree</small></td>
+              <td>—</td>
+              <td><span class="tag tag-red">EXPUNGED</span></td>
+              <td>Unknown</td>
+              <td>Bloodline ended</td>
+              <td>"Direct opposition to the Church's mandate"; suspected heretical practice</td>
+              <td>Details sealed by Inquisitorial decree. Too dangerous to preserve. Second of the two purged houses.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- CADET & POST-CATACLYSM HOUSES -->
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Cadet Branches &amp; Post-Cataclysm Houses <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>House</th><th>Circle / Reach</th><th>Sigil / Marker</th>
+              <th>Power Base</th><th>Key Members</th><th>Disposition</th><th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Domitae</td>
+              <td><span class="tag tag-blue">3rd Circle</span><br><small>Influence into 4th/5th; 1st Circle via Secus/Khol marriage</small></td>
+              <td><span class="tag tag-grey">Dextra / Sinetra (right/left divisions)</span></td>
+              <td>3rd circle noble influence; mineral wells (4th circle)</td>
+              <td>Father: Magus; Mother: Julia. Secus (2nd child, married into Khol). Decima (10th child, heretic).</td>
+              <td>Quiet expansion through marriage and resource control</td>
+              <td>Secus married into House Khol; is organizing a coup of Zen'tar's regency. Quartus runs a 4th circle mineral well. Sister Nona may have been killed by Velintra. Decima is their 10th child.</td>
+            </tr>
+            <tr>
+              <td>Maelis</td>
+              <td><span class="tag tag-blue">3rd Circle</span><br><small>Capital-area noble house</small></td>
+              <td><span class="tag tag-grey">Elven symbol (right shoulder)</span></td>
+              <td>3rd circle noble house; elven connections</td>
+              <td>Unknown</td>
+              <td>Actively destabilizing Zen'tar succession</td>
+              <td>Aids Da'varre, Lanvar, and Sadin. High elf representative seen circling the Duke's funeral. Wants succession contested. The elven symbol on cloaked figures is their identifier.</td>
+            </tr>
+            <tr>
+              <td>Morren</td>
+              <td><span class="tag tag-grey">Unknown</span><br><small>Selka operates in 6th (Zen'tar mines)</small></td>
+              <td>—</td>
+              <td>Auditor position; formerly merchant-guild aligned</td>
+              <td>Selka Morren (Lady Factor, Auditor)</td>
+              <td>Leverage via auditing authority</td>
+              <td>Deal made by "Clandet Morren." Selka holds unique authority: full immunity in the Yearning Mines. Accused by Marshall of using a heretic. The nobles' only window into mine operations.</td>
+            </tr>
+            <tr>
+              <td>Voss</td>
+              <td><span class="tag tag-grey">Unknown</span><br><small>Appears only in pre-cataclysm proto-elvish fragment</small></td>
+              <td><span class="tag tag-red">Burn-mark sigil (Proto-Elvish Fragment 8C)</span></td>
+              <td>Unknown — appears in Fragment 8C</td>
+              <td>Unknown</td>
+              <td>Possible internal sabotage / containment breach (pre-cataclysm era)</td>
+              <td>Sigil appears on Fragment 8C discussing dwarven portal relocation. Suggests a proto-elvish house involved in inter-dimensional activities before the Cataclysm.</td>
+            </tr>
+            <tr>
+              <td>Gulfen / Trinton</td>
+              <td><span class="tag tag-grey">Unknown</span><br><small>Named only in heraldry discussion</small></td>
+              <td><span class="tag tag-blue">Trident variant</span></td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+              <td>—</td>
+              <td>Two noble houses with trident heraldry. The trident sigil appears on the stronghold Ryo glimpsed inside the Wyrm's mindscape.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     II. ORGANIZATIONS
+══════════════════════════════════════ -->
+<div class="segment" id="section-ii">
+  <div class="section-title">Section II</div>
+  <h2 class="section-h2">Organizations, Orders &amp; Factions</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Criminal &amp; Underworld <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle / Reach</th><th>Type</th><th>Sigil / ID</th><th>Key Figures</th><th>Function &amp; Status</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Consortium / Concierge</td>
+              <td><span class="tag tag-blue">6th Circle</span><br><small>Primarily Zen'tar; broader reach via bribery</small></td>
+              <td><span class="tag tag-red">Criminal Syndicate</span></td>
+              <td><span class="tag tag-blue">Elven sigil of Mithris</span></td>
+              <td>Mithris (founder, dead); Caldun (enforcer); oilcloth package passed to Caldun before Arthur's raid</td>
+              <td>Multi-level criminal network including Blue Pirates. Sought awakened metals, artifacts, political leverage. Fractured after Mithris's death (~Year 625). The oilcloth package passed to Caldun almost certainly contained the green ledger.</td>
+            </tr>
+            <tr>
+              <td>Blue Pirates</td>
+              <td><span class="tag tag-blue">6th Circle</span><br><small>Lower harbor &amp; outskirts</small></td>
+              <td><span class="tag tag-red">Criminal / Paramilitary</span></td>
+              <td><span class="tag tag-blue">Blue Maritime Motif</span></td>
+              <td>Mithris (deceased); current leader unknown</td>
+              <td>Controls lower harbor and certain Zen'tar districts. Hate Arthur Augustus. Heavy-handed. Largely fractured post-Mithris. The Sunken Croc is their front.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Military &amp; Imperial Forces <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle / Reach</th><th>Type</th><th>Sigil / ID</th><th>Key Figures</th><th>Function &amp; Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Militarum</td>
+              <td><span class="tag tag-gold">Empire-wide</span><br><small>All circles; Marshall commands Zen'tar zone</small></td>
+              <td><span class="tag tag-gold">Military</span></td>
+              <td><span class="tag tag-gold">Colored armbands by rank/unit</span></td>
+              <td>The Marshall (Zen'tar); Colonel Zahn</td>
+              <td>Official Vo'dyn military. Controls outer walls and Yearning Mines in Zen'tar. Martial law declared with 7th Fleet's arrival. Barracks are separate from militia lodges and magistrate offices.</td>
+            </tr>
+            <tr>
+              <td>7th Fleet (The Martyr)</td>
+              <td><span class="tag tag-blue">6th Circle (currently docked)</span><br><small>Empire-wide naval mandate</small></td>
+              <td><span class="tag tag-blue">Naval</span></td>
+              <td><span class="tag tag-gold">Sigil of Him on each ship</span></td>
+              <td>Admiral Galewind; Commodore Sal'vin (Hell's Fury)</td>
+              <td>Most storied fleet — survived the Cataclysm. The Martyr is the flagship (600+ years old, pre-cataclysm galleon). Ships: The Martyr, Hell's Fury, The Thunderer, The Catalyst, His Steadfast, His Glory. Under Nautica Liticus (not Militarum). Unexpected arrival triggered martial law. Nobody was expecting them.</td>
+            </tr>
+            <tr>
+              <td>Penal Outriders / Penitant Deathriders</td>
+              <td><span class="tag tag-blue">6th Circle+</span><br><small>Oath taken at The Spur (Zen'tar southern wall)</small></td>
+              <td><span class="tag tag-grey">Penal Military</span></td>
+              <td><span class="tag tag-grey">Gray banner, crimson red drops; bone-white helmets (rank scraped)</span></td>
+              <td>Founded from the legacy of Ser Gavriel Val'Tan</td>
+              <td>Each rider earns one unread pardon for an impossible charge. Recite oath at Gavriel's plinth before each mission. Seen in Zen'tar for the first time in decades — appeared at the Duke's funeral.</td>
+            </tr>
+            <tr>
+              <td>Militia</td>
+              <td><span class="tag tag-blue">6th Circle</span><br><small>Non-functional; leader missing</small></td>
+              <td><span class="tag tag-grey">Adhoc City Levy</span></td>
+              <td>—</td>
+              <td>Zenzar/Xanthran (leader, missing ~7 years)</td>
+              <td>City levy of Zen'tar. Non-functional since Zenzar vanished (~same time as the Prince). Nobody could replace him — too charismatic. Secus Domitae is now trying to purchase Zenzar for a coup. Mostly in brotherhood lodges.</td>
+            </tr>
+            <tr>
+              <td>Order of the Blue Fist (House Bluefist)</td>
+              <td><span class="tag tag-gold">1st Circle</span><br><small>Seat in Capital; military presence in Zen'tar (6th)</small></td>
+              <td><span class="tag tag-gold">Military Order / Noble House</span></td>
+              <td><span class="tag tag-blue">Blue Fist / Blue Hand Glove with Crest</span></td>
+              <td>Hathor (Military Adjudicant); Ulric Ironfist (associated)</td>
+              <td>Cadet branch of House Mournen. Not associated with priesthood. Slightly out of place from 3rd circle during Session 1. Hathor may be the masked Establishment Leader who arranged Zenzar's sale to Secus.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Religious &amp; Arcane Bodies <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle / Reach</th><th>Type</th><th>Sigil / ID</th><th>Key Figures</th><th>Function &amp; Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Inquisition</td>
+              <td><span class="tag tag-gold">Empire-wide</span><br><small>2nd Circle HQ; active in every circle</small></td>
+              <td><span class="tag tag-red">Religious Enforcement</span></td>
+              <td><span class="tag tag-gold">Rosettes (new: magic-key; old: engraved power)</span> <span class="tag tag-grey">Brown Robes</span></td>
+              <td>Rarik Ville (inquisitor in Zen'tar)</td>
+              <td>Enforce tithe, suppress heresy. Can execute anyone regardless of noble status. Hundreds empire-wide. Sub-branch: Witchers. The Bazaar is one of their few directly governed mixed-race locations.</td>
+            </tr>
+            <tr>
+              <td>Witchers</td>
+              <td><span class="tag tag-gold">Empire-wide</span><br><small>Branch of Inquisition</small></td>
+              <td><span class="tag tag-red">Inquisition Branch</span></td>
+              <td><span class="tag tag-gold">Rosette (standard)</span></td>
+              <td>Unknown</td>
+              <td>Confirmed branch of the Inquisition. Possibly a specialized investigative or enforcement arm distinct from standard tithe-enforcement inquisitors.</td>
+            </tr>
+            <tr>
+              <td>Luminary Council</td>
+              <td><span class="tag tag-gold">2nd Circle HQ</span><br><small>Society of Brilliance offshoot in Zen'tar (6th)</small></td>
+              <td><span class="tag tag-purple">Arcane Authority</span></td>
+              <td><span class="tag tag-gold">Secreted membership sigil</span></td>
+              <td>Archmage Liora; formerly Relyssa Daen (disgraced)</td>
+              <td>Leading authority on magical theory. Rumored founded by the Great Martyred Lady. Secreted membership. External speakers represent it. Offshoot chapter (Society of Brilliance) active in Zen'tar.</td>
+            </tr>
+            <tr>
+              <td>Auditors</td>
+              <td><span class="tag tag-gold">Empire-wide</span><br><small>Selka Morren assigned to 6th Circle (Yearning Mines)</small></td>
+              <td><span class="tag tag-gold">Imperial Oversight</span></td>
+              <td>—</td>
+              <td>Selka Morren (6th Circle)</td>
+              <td>Noble-appointed oversight body. Full immunity inside Yearning Mines — the only check on the Marshall's authority there beyond the head of city (currently absent).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Paladin Orders &amp; Covert Bodies <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle / Reach</th><th>Type</th><th>Sigil / ID</th><th>Key Figures</th><th>Function &amp; Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Order Kronos</td>
+              <td><span class="tag tag-grey">Unknown</span><br><small>Church-associated; recently withdrawn</small></td>
+              <td><span class="tag tag-purple">Paladin Order</span></td>
+              <td><span class="tag tag-grey">Clear Blank Crest</span></td>
+              <td>Unknown</td>
+              <td>Possesses oathblades. Extremely reclusive — recently withdrawn and less active externally. A smaller order.</td>
+            </tr>
+            <tr>
+              <td>Order of the Flame</td>
+              <td><span class="tag tag-grey">Unknown</span><br><small>Neutral; nearly wiped out</small></td>
+              <td><span class="tag tag-purple">Paladin Order</span></td>
+              <td><span class="tag tag-gold">Pendant (glows near great evil)</span></td>
+              <td>Aldred (one of the only survivors)</td>
+              <td>Neutral paladin order. Possessed 4 oathblades. Was eradicating the Aperations. Aldred entered the pentagram first — the only survivor, woke with sword bloodied, amulet glowing red.</td>
+            </tr>
+            <tr>
+              <td>Order of the Rose</td>
+              <td><span class="tag tag-grey">Unknown / Covert</span><br><small>Active in Zen'tar (6th); HQ unknown</small></td>
+              <td><span class="tag tag-purple">Covert Intelligence Order</span></td>
+              <td><span class="tag tag-grey">Rose-sealed wax orders</span></td>
+              <td>Crane (master, dead — killed by Caldun); Artemis (operative, now with party)</td>
+              <td>Hidden order operating on the philosophy of "scaffolding" — ugly, necessary work that keeps the city standing. Missions issued via rose-sealed written orders. <strong>Caldun broke from fighting Arthur mid-combat specifically to kill Crane</strong> — indicating the Order is a high-priority Consortium threat. Motto (from Crane): <em>"We're not heroes. We're scaffolding."</em></td>
+            </tr>
+            <tr>
+              <td>The Aperations</td>
+              <td><span class="tag tag-grey">Unknown</span><br><small>Eradicated wherever found</small></td>
+              <td><span class="tag tag-red">Cult</span></td>
+              <td><span class="tag tag-red">Pentagram association</span></td>
+              <td>Unknown</td>
+              <td>Cultist order being eradicated by Order of the Flame. Connected to a dark entity. The pentagram incident that wiped out the Order of the Flame originated here.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Civil &amp; Local Bodies (Zen'tar) <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle</th><th>Type</th><th>Key Figures</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>City Guard / Magistrate</td>
+              <td><span class="tag tag-blue">6th Circle only</span></td>
+              <td><span class="tag tag-gold">Civil Policing</span></td>
+              <td>Garth (Deputy Sergeant); Arthur Augustus (Major Investigator)</td>
+              <td>Keeps peace. Noble-funded. Investigators are attached (CIA-to-Army relationship). Suffered a terrorist attack and reeling. Reports to noble faction.</td>
+            </tr>
+            <tr>
+              <td>Investigators (4th Wing)</td>
+              <td><span class="tag tag-blue">6th Circle only</span></td>
+              <td><span class="tag tag-gold">Intelligence / Investigation</span></td>
+              <td>Arthur Augustus (Major); Lantis (Junior, missing/likely dead); Boltin Crestfyre (Lt., 4th Wing)</td>
+              <td>Ad hoc unit within Zen'tar. Not a formal Vo'dyn institution. Do not touch merchants (Charter of Commerce). The Special Investigation Unit is separate and unnumbered.</td>
+            </tr>
+            <tr>
+              <td>Council of Regency</td>
+              <td><span class="tag tag-blue">6th Circle only</span></td>
+              <td><span class="tag tag-gold">Political</span></td>
+              <td>Unknown members; Selka Morren (Auditor appointee)</td>
+              <td>Rules Zen'tar after the Duke's death. Short-term focused. Possibly involved in the Duke's death. Struggling to hold authority with martial law in effect.</td>
+            </tr>
+            <tr>
+              <td>Dustwalkers</td>
+              <td><span class="tag tag-gold">Inter-circle routes</span></td>
+              <td><span class="tag tag-grey">Military / Guard</span></td>
+              <td>Unknown</td>
+              <td>Guards in iron robes, silent and still. Patrol tunnel routes between circles. Seen from the caravan in Session 1.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     III. KEY NPCs
+══════════════════════════════════════ -->
+<div class="segment" id="section-iii">
+  <div class="section-title">Section III</div>
+  <h2 class="section-h2">Key Non-Player Characters</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Capital &amp; 1st Circle Figures <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle</th><th>Role</th><th>Allegiance</th><th>Sigil / ID</th><th>Status</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Midas Khol</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Head of House Khol</td>
+              <td>House Khol; personal long game</td>
+              <td><span class="tag tag-green">Four-Leaf Clover</span></td>
+              <td>Alive</td>
+              <td>Covert operator. Old adventuring friends with the late Duke. Biological father of Mithe (known only to Midas). Gave Valerian the hourglass pendant at the Duke's funeral: "I'll keep the hourglass turning." Running a long game around the ledger and the Prince.</td>
+            </tr>
+            <tr>
+              <td>Duke of Zen'tar</td>
+              <td><span class="tag tag-gold">1st Circle seat</span> <span class="tag tag-blue">6th Circle domain</span></td>
+              <td>Former ruler of Zen'tar</td>
+              <td>House Mournen</td>
+              <td><span class="tag tag-red">Red Fist</span></td>
+              <td>Dead (Year 618 — officially heart failure; widely disbelieved)</td>
+              <td>Brought Zen'tar to prominence. Found or obtained the green ledger — possibly killed for/by it. No viewing at his funeral. The Council of Regency is suspected to have had something to do with his death (Marshall, Session 11).</td>
+            </tr>
+            <tr>
+              <td>The Prince</td>
+              <td><span class="tag tag-gold">1st Circle heir</span></td>
+              <td>Missing heir of Zen'tar</td>
+              <td>House Mournen</td>
+              <td>—</td>
+              <td>Missing ~7 years; ~23–24 years old</td>
+              <td>Disappeared ~same time as Zenzar (militia leader). Midas sent Valerian to watch him. A conversation overheard in Session 3: "The prince will be secured." Nobody has seen him.</td>
+            </tr>
+            <tr>
+              <td>Valerian Than'dal</td>
+              <td><span class="tag tag-grey">Unknown</span></td>
+              <td>Knight; Midas's agent</td>
+              <td>House Khol / Midas</td>
+              <td><span class="tag tag-gold">Hourglass pendant (given by Midas)</span></td>
+              <td>Alive; location unknown</td>
+              <td>Assigned by Midas to watch the Prince at the Duke's funeral. Received the hourglass pendant with the words "I'll keep the hourglass turning."</td>
+            </tr>
+            <tr>
+              <td>Count Alren Da'varre</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Head of House Da'varre; last of the line</td>
+              <td>House Da'varre; possibly Mithe</td>
+              <td><span class="tag tag-blue">Glass Prism</span></td>
+              <td>Alive (reportedly)</td>
+              <td>Last known blood of a lost Original 12 house. Lost his children, brother Alden, nieces. His last letter: "loyalties I cannot speak of" and "the still water." Legal guardian of Mithe.</td>
+            </tr>
+            <tr>
+              <td>Hathor</td>
+              <td><span class="tag tag-gold">1st Circle</span><br><small>Posted to Zen'tar (6th)</small></td>
+              <td>Military Adjudicant; possibly the masked Establishment Leader</td>
+              <td>Order of the Blue Fist / House Mournen (cadet)</td>
+              <td><span class="tag tag-blue">Blue hand glove with crest</span></td>
+              <td>Alive; active in Zen'tar</td>
+              <td>Encountered on the caravan road (Session 2): "We know and saw the enemy, ash and dust." Walks with arrogance. Believes in "serving Him." The masked Establishment Leader in Session 5 — who arranged Zenzar's sale to Secus — is likely Hathor.</td>
+            </tr>
+            <tr>
+              <td>Secus Domitae</td>
+              <td><span class="tag tag-gold">1st Circle (via Khol marriage)</span></td>
+              <td>Coup organizer</td>
+              <td>House Khol (extremely loyal); personal ambition</td>
+              <td>—</td>
+              <td>Alive; active in Zen'tar</td>
+              <td>2nd child of House Domitae. Trained in cloak-and-dagger. Married into House Khol. Now organizing a coup of Zen'tar's Council of Regency. Purchasing Zenzar. Branded Decima in Session 5. "Guild affairs — next hit prince loyalists and Arthur."</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Zen'tar Figures (6th Circle) <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Circle</th><th>Role</th><th>Allegiance</th><th>Status</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Arthur Augustus</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Major Investigator</td>
+              <td>Nobles / Magistrate</td>
+              <td>Alive; crippled (legs)</td>
+              <td>Noble-born. Killed Mithris ~Year 625 in single combat; cost him the use of his legs (cane/sword). Blue Pirates fractured after that night. Hates elves but possibly took in Lantis (half-elf, possibly Mithris's child). Target of "next hit prince loyalists and Arthur" (Secus, Session 5). Gave Kane a hidden weapon.</td>
+            </tr>
+            <tr>
+              <td>Garth / Garf</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Deputy Sergeant in Arms</td>
+              <td>Magistrate / whoever holds power</td>
+              <td>Alive</td>
+              <td>"Keeps his job regardless of who holds power." Wants to impress "first circlers." Now reporting to the Assembly about the Marshall. Sided with the nobles over the Marshall's mine jurisdiction.</td>
+            </tr>
+            <tr>
+              <td>Lantis</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Junior Investigator</td>
+              <td>Arthur / Magistrate</td>
+              <td>Missing; likely dead</td>
+              <td>Half-elf. Good heart; commoner background. Frequented the Sunken Croc. The Marshall was in contact with him — suspicious. Possibly Mithris's child (player theory).</td>
+            </tr>
+            <tr>
+              <td>Rarik Ville</td>
+              <td><span class="tag tag-blue">6th Circle</span><br><small>Suspected Inquisitor (2nd Circle body)</small></td>
+              <td>Head Justice / suspected Inquisitor</td>
+              <td>Church / Inquisition</td>
+              <td>Alive; escorted to back chambers after Marshall interrogation</td>
+              <td>Brown robes. Seen as a child (~age 9) in Session Knavers time-jump from Sister Erithine's orphanage. Playing very carefully around the Marshall — "just trying not to die." Testified on behalf of the ecclesiastical church at Decima and Ryo's court session.</td>
+            </tr>
+            <tr>
+              <td>The Marshall</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Military commander; controls Yearning Mines</td>
+              <td>Vo'dyn / allegedly tied to a noble house</td>
+              <td>Alive; active</td>
+              <td>Controls the Special Military Zone (Yearning Mines). Uses colored orb + glass spindle for interrogations. Fiddles with red, yellow, purple marbles. Has Aldred's crest. Appears uncomfortable enforcing certain actions — "his body protests." Refused noble access to his mines; Selka Morren is their only window.</td>
+            </tr>
+            <tr>
+              <td>Selka Morren</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Lady Factor / Auditor</td>
+              <td>House Morren / Nobles</td>
+              <td>Alive; active</td>
+              <td>Full immunity inside the Yearning Mines. Nobles' only window into mine operations. Accused by Marshall of "using a heretic." Kane has been cultivating a relationship with her. "Cliche-type princess."</td>
+            </tr>
+            <tr>
+              <td>Zenzar / Xanthran</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Former Militia leader</td>
+              <td>Zen'tar city (formerly)</td>
+              <td>Missing ~7 years; being sold to Secus</td>
+              <td>Disappeared ~same time as the Prince. Nobody could replace him (too charismatic). Found by N'thoda in underground fighting arenas. Being auctioned to Secus by the masked Establishment Leader.</td>
+            </tr>
+            <tr>
+              <td>Mithris ("The Exalted")</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Consortium founder</td>
+              <td>Consortium / Self</td>
+              <td>Dead (killed by Arthur, ~Year 625)</td>
+              <td>High elf. Ran the Consortium. Passed an oilcloth-wrapped package (almost certainly the green ledger) to Caldun before Arthur's raid. Arthur killed him in single combat at the cost of his own legs.</td>
+            </tr>
+            <tr>
+              <td>Caldun</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Consortium enforcer; possible ledger-holder</td>
+              <td>Consortium (now fractured)</td>
+              <td>Alive; at large</td>
+              <td>Elvish name meaning "weapon." Trained from childhood as a weapon. Holds the oilcloth package (green ledger?). Broke from fighting Arthur mid-combat to kill Crane — the Order of the Rose was a higher priority target to the Consortium. Has maintained a diplomatic channel with Thog.</td>
+            </tr>
+            <tr>
+              <td>Artemis</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Order of the Rose operative</td>
+              <td>Order of the Rose</td>
+              <td>Alive; now traveling with party</td>
+              <td>Big, scarred, strong. Crane's apprentice; received his name as a gift from Crane before he died. Has been searching for the oilcloth materials for 8 years. Interested in the green book symbol in the meteorite room. Motto absorbed from Crane: "We're not heroes. We're scaffolding."</td>
+            </tr>
+            <tr>
+              <td>Volk Stormhammer</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Senior non-penal dwarf miner</td>
+              <td>Himself / Dwarven tradition</td>
+              <td>Alive</td>
+              <td>Old. Non-penal worker in the Yearning Mines. Confirmed dwarven lore: forefathers "vowed to never speak" of another world. Gets excited around the ancient machines. Seen having tea with the Veinwarden (Oral Oxthain).</td>
+            </tr>
+            <tr>
+              <td>Boltin Crestfyre</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Lt., 4th Investigative Enforcement Wing</td>
+              <td>Nobles / Magistrate</td>
+              <td>Alive; active</td>
+              <td>Watched the O'Malley ambush without intervening. Heard the codeword "Dagger" from the assassins. Now accusing the party of starting the fight. His unit is a Special Investigation Unit (no assigned number). Possible corrupt noble influence.</td>
+            </tr>
+            <tr>
+              <td>Oral Oxthain</td>
+              <td><span class="tag tag-grey">Unknown</span></td>
+              <td>Veinwarden</td>
+              <td>Yearning Mines</td>
+              <td>Alive</td>
+              <td>Likely the head of the mine's trustee system (the "Overman Jar"). Seen having tea with Volk Stormhammer after party was released from interrogation.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Historical Figures &amp; Martyrs <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Era</th><th>Role</th><th>Sigil / ID</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ser Gavriel Val'Tan ("Him")</td>
+              <td>Pre-Capital / ~Year 0</td>
+              <td>1st Martyr (theorized)</td>
+              <td><span class="tag tag-grey">Plinth at The Spur</span></td>
+              <td>Sacrificed himself at Basalt Ridge so Vo'dyn could survive the Cataclysm. Said: "I see the wound that drinks the names of kings." Buried beneath The Spur. Penal Outriders trace their oath to him. Fresh rope and blade laid each season at his plinth.</td>
+            </tr>
+            <tr>
+              <td>The Evening Star</td>
+              <td>~Year 1–25</td>
+              <td>2nd Martyr</td>
+              <td>—</td>
+              <td>Led the survivors underground. "Stood between them and the truth." Founded the Inquisition through blood and prayer. Possibly also the Warden of the Deep (player theory).</td>
+            </tr>
+            <tr>
+              <td>Great Martyred Lady</td>
+              <td>~Year 452</td>
+              <td>4th Martyr</td>
+              <td>—</td>
+              <td>Died on Martyr's Day. Used magic at great cost. During her era the Great Schism occurred — when the Church asserted dominance over the nobles; one Great House was expunged. Possibly founded the Luminary Council.</td>
+            </tr>
+            <tr>
+              <td>Jorell</td>
+              <td>~Year 2–24 (journals)</td>
+              <td>5th Martyr</td>
+              <td><span class="tag tag-red">Crimson red eyes</span></td>
+              <td>Established Avar's capital at "the thinnest point." Spent 19 years binding himself to eternal watching of the seal beneath. Struck his name from all records. His journals document the gradual loss of himself to the watching.</td>
+            </tr>
+            <tr>
+              <td>The Quiet Architect (K)</td>
+              <td>Ancient / Ongoing</td>
+              <td>Ancient interventionist</td>
+              <td><span class="tag tag-gold">Hourglass; Staff of the Magi</span></td>
+              <td>Has gone by many names across history: guide, emperor, architect, hero, villain, innovator. Carries an hourglass. Has intervened before, in other places, in other times. Warned by The Witness: "observation, not orchestration." Theorized to be the Prophet / Final Chronicler.</td>
+            </tr>
+            <tr>
+              <td>The Prophet (Wanderer)</td>
+              <td>Unknown / Transplanar</td>
+              <td>Ancient seer; gave party the ledger</td>
+              <td><span class="tag tag-purple">Deep midnight blue cloak, glowing stars; Staff of the Magi; basin/snowglobe showing constellations</span></td>
+              <td>Appeared in Velderra (one-shot). Gave the party the green ledger. No record of ascension. Theorized to be the Quiet Architect (K) and the Final Chronicler.</td>
+            </tr>
+            <tr>
+              <td>Warden of the Deep</td>
+              <td>Pre-civilizational / Sub-6th</td>
+              <td>Ancient guardian of the Shard</td>
+              <td><span class="tag tag-grey">Wears a mask; large humanoid; emerged from pool in The Abyss</span></td>
+              <td>"I am the hinge that keeps the broken heavens closed." "Duty bound to He who stood for us." Sees corruption in all party members: "You are all potential vessels." Has cast off the chains of whatever bound him. Believes the seal must stay closed.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Entities &amp; Ancient Beings <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Nature</th><th>Status</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ryo's Wyrm</td>
+              <td>Pre-civilizational ancient entity; resides inside Ryo via a severed finger</td>
+              <td>Active</td>
+              <td>Crimson red eyes. Stronghold in his mindscape: trident, white/red, and lapis lazuli banners. "Finally, after millenia, I have found a suitable one." Had an apprentice (Decima read the apprentice's tome). Claims to have saved Ryo from "the concentrated power of ___" (name gargled — cannot say it). "I do not serve, I rule." "I chose my own fate."</td>
+            </tr>
+            <tr>
+              <td>Fate (entity)</td>
+              <td>Primordial force; featureless figure with stars for eyes</td>
+              <td>Dead? ("I knew Fate once. She was killed.")</td>
+              <td>Encountered by the party in Session Knavers — the green ledger appeared first, dissolved, replaced by Fate. Party asked "Why is fate so cruel?" — entity replied "I am fate, aren't I?" The Quiet Architect appears to have loved Fate.</td>
+            </tr>
+            <tr>
+              <td>The Dav Ki</td>
+              <td>Pre-human civilization; ancient builders</td>
+              <td>Ancient / ruins remain</td>
+              <td>Built strongholds to contain deep nightmares. Their volatile ore technology is the "secret of Dav Ki." The Yearning Mines are built on their ruins. Volatile ore — "slowly and precisely."</td>
+            </tr>
+            <tr>
+              <td>The Urd</td>
+              <td>Cosmic parasite / hunger</td>
+              <td>Resurfacing (Dwarven Report, Year 622)</td>
+              <td>"Not spiders, not exactly — more like a hunger that learned to build webs." Brought from another world by Dark Elves. A symptom, not the cause, of the Cataclysm — a vector for the Wound. May not be physical invaders at all; may be parasitic forces living inside cognition and memory. All races hate the Urd; the Urd hate all.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     IV. PLAYER CHARACTERS
+══════════════════════════════════════ -->
+<div class="segment" id="section-iv">
+  <div class="section-title">Section IV</div>
+  <h2 class="section-h2">Player Characters</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Party Roster <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="grid2">
+
+        <div class="card">
+          <h3>Mithe Demacia Khol</h3>
+          <div class="meta">Echo: BLOOD · Half-Elf · Bard · Age 19 · 5'6" | 1st Circle (raised Capital / Da'varre); now 6th Circle</div>
+          <p>Bastard daughter of Midas Khol and elven mage Lux. Left eye whites permanently blackened from a failed arcane alteration. Raised as a ward of House Da'varre under Count Alren. Imprisoned at 19 after an assassination attempt on Midas following Lux's death from entropic decay. Educated in nobility, politics, and healing. Father is Midas (alive; known only to Midas). Legal guardian is Alren Da'varre.</p>
+        </div>
+
+        <div class="card">
+          <h3>Ryo Dayana</h3>
+          <div class="meta">Echo: KEY · Human · Sorcerer · Age 21 · 5'9" | 8th Circle origin (Bandlewoods farm); now 6th Circle</div>
+          <p>Former farmer and self-professed historian. Found an ancient entity's severed finger in a chimera's mouth — absorbing it awakened him as a sorcerer. The Wyrm inside him needs a "suitable host" and claims to have saved Ryo from something that "has destroyed worlds." Carries an obsidian key-spline (3 triangle notches) and a partial mural rubbing: "Weaver's Arch," "IV:3," "Westwell 2nd," and a trident sigil. Being chased by a branch of the Inquisition. Slight red marks in mostly black hair; faint black markings on face.</p>
+        </div>
+
+        <div class="card">
+          <h3>Decima Domitae</h3>
+          <div class="meta">Echo: VEIL · Human · Sorcerer · Early 20s · 5'2" | 3rd Circle (Domitae); used 6th Circle vacation homes for research; now 6th Circle</div>
+          <p>Now goes by Delattre. 10th child of House Domitae (eyes originally green, now unnaturally pale — blind). Lost her sight and speech upon waking with an entity from another plane eating her memories. Made a deal she doesn't remember. Became a heretic after beloved sister Nona (possibly killed by Velintra) disappeared into the clergy. Researched "changing Fate." Read the Wyrm's apprentice's tome. Branded by brother Secus. Holds herself regally.</p>
+        </div>
+
+        <div class="card">
+          <h3>Velintra Caelmyr</h3>
+          <div class="meta">Echo: MASK · Dark Elf / Owlin · Rogue · Age 27 (human years) · 5'8" | Outside standard circle structure</div>
+          <p>Member of a dark elf guild that tortures and kills. Crimson red eyes. Long snow-white hair in braids with garnet and silver pendants. Confident, well-poised, strong moral code in specific areas. Possibly responsible for the death of Nona Domitae (Decima's sister). Connected to the high-elf/dark-elf war era. Knocked Ryo and Decima unconscious during the Wyrm encounter.</p>
+        </div>
+
+        <div class="card">
+          <h3>Kane Vestrist Forscin</h3>
+          <div class="meta">Echo: ECHO · High Elf · Warlock | Circle of origin unspecified</div>
+          <p>Haunted by a shadowy entity — most likely his dead twin brother Able, puppeted by a vampire necromancer. Made a deal with an apparation upon witnessing his brother's death during the high-elf/dark-elf war. Doesn't trust dark elves. Has been cultivating a relationship with Selka Morren.</p>
+        </div>
+
+        <div class="card">
+          <h3>Aldred</h3>
+          <div class="meta">Echo: OATH · Human · Paladin | Former Order of the Flame; circle unspecified</div>
+          <p>Former paladin of the Order of the Flame, now likely possessed by a demon — does not appear to realize this, unlike Decima, Ryo, and Kane. The only survivor of the pentagram incident, woke with sword bloodied and amulet glowing red. Doesn't remember why he was banished from the Order. Receives powers from God. The Marshall has his crest.</p>
+        </div>
+
+        <div class="card">
+          <h3>N'thoda</h3>
+          <div class="meta">Echo: FLAME · Human · Barbarian · Age 21 · 6'2" | 6th Circle (Zen'tar underground arenas)</div>
+          <p>Black hair; bruises and scars from underground fighting arenas. Observant; fight-first mentality. Trying to learn more about the world. Was fighting Zenzar in the ring when the party found the former militia leader. Escaped the O'Malley scene through the sewers.</p>
+        </div>
+
+        <div class="card">
+          <h3>Thog Mossass</h3>
+          <div class="meta">Echo: ROOT · Firbolg · Druid · Aliases: Corvus, "The Devil of 19B," "Saint of Spores" | Outer / Frontier (beyond circle classification)</div>
+          <p>Classified by the Empire as a "Pagan druid / Suspected eco-terrorist." Wears patchwork of bark, twine, feathers, and moss. Face obscured by archaic plague helm. Carries a gnarled bough. Frontier populations revere him as a "virulent guardian." Opened a diplomatic channel with Caldun. Currently sitting at the Drunken Dog Inn during the O'Malley crisis.</p>
+        </div>
+
+      </div>
+
+      <div class="lore-note" style="margin-top:16px;">
+        <strong>Party Possession Status:</strong> Ryo (Wyrm), Decima (unknown plane entity), Aldred (demon — unaware), Kane (vampire-puppeted twin). All four are "potential vessels" per the Warden of the Deep. The Wyrm apprenticed a Domitae, directly connecting it to Decima's family line.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     V. LOCATIONS
+══════════════════════════════════════ -->
+<div class="segment" id="section-v">
+  <div class="section-title">Section V</div>
+  <h2 class="section-h2">Locations &amp; Map Positions</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Zen'tar — Key Districts &amp; Sites <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Location</th><th>District / Zone</th><th>Controller</th><th>Map</th><th>Key Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Yearning Mines</td>
+              <td>Southwest; red-bordered zone</td>
+              <td>The Marshall (Special Military Zone)</td>
+              <td>Bottom-left; Veinhold Gatehouse at entrance</td>
+              <td>Main export: Cobalt (blue and explosive when awakened). Penal colony. Pits of Hell spiral deep. Every 7th thump + silence on 4th-of-4th = warning signal. Meteorite chamber below with star map. 4 ancient entropic stabilizer machines. Only Auditors (Selka Morren) can contest Marshall's authority here.</td>
+            </tr>
+            <tr>
+              <td>The Abyss (sub-mine)</td>
+              <td>Sub-6th; deepest mine level</td>
+              <td>Warden of the Deep</td>
+              <td>Below bottom-left map; not shown</td>
+              <td>"A room that hears itself. A single drop meets the lake and the ripples never finish." Large pool. Fog curls. Cobalt absorbs magic. The Warden emerged here. Below lies the four-machine zone and the meteorite chamber.</td>
+            </tr>
+            <tr>
+              <td>Meteorite Chamber</td>
+              <td>Sub-mine (past the ebony gate)</td>
+              <td>Unknown / Ancient</td>
+              <td>Below The Abyss</td>
+              <td>Natural meteorite — unheard of. Cylindric table with concave top. Star map on ceiling matching Mithe's pool visions. Three wall symbols: Green Book, Blue Scepter, Red Crown. Five masks in side hallway. Obsidian rim responds to Ryo's key. Door behind star-map plinths leads to the four machines.</td>
+            </tr>
+            <tr>
+              <td>Merchant District</td>
+              <td>Central/North; white-bordered zone</td>
+              <td>Merchant Guilds / Hired mercenaries (contested)</td>
+              <td>Top-left and bottom-left maps</td>
+              <td>Site of O'Malley's ambush and killing. Merchants kicking out magistrate; bringing their own mercenaries. Trebuchets, arbalests, and scorpions being assembled. Maestor Velitor (Guild Master) has disappeared.</td>
+            </tr>
+            <tr>
+              <td>Inn — Drunken Dog</td>
+              <td>Intermediary District</td>
+              <td>Neutral</td>
+              <td>Mid-right and bottom-right maps; flag icon</td>
+              <td>Party base. Lantis frequented here. Drinking competitions, poker, floor-level espionage. Thog is currently here during the Session 17 crisis.</td>
+            </tr>
+            <tr>
+              <td>The Narrows</td>
+              <td>East of the Drunken Dog</td>
+              <td>Unknown / Contested</td>
+              <td>East of party base</td>
+              <td>Narrow district. Likely smuggling and movement corridor. Not yet explored.</td>
+            </tr>
+            <tr>
+              <td>Sunken Croc (Tavern)</td>
+              <td>Outskirts / Lower district</td>
+              <td>Consortium / Blue Pirates</td>
+              <td>Bottom-right; bottom-zoom; red-outlined building</td>
+              <td>Front for criminal operations. Drinking competition (Ryo), Decima's money loss, upstairs conspiracies. Secus met here with the masked Establishment Leader. Syndicate Agents nearby on map.</td>
+            </tr>
+            <tr>
+              <td>The Warf (Dockyards)</td>
+              <td>South / waterfront</td>
+              <td>Militarum / 7th Fleet (now)</td>
+              <td>Bottom map; waterfront zone</td>
+              <td>7th Fleet docked here. Naval yellow flares fired from these waters. Arthur conducted his raid on Blue Pirates here years ago. Ravenward Keep anchors the eastern edge.</td>
+            </tr>
+            <tr>
+              <td>Ravenward Keep</td>
+              <td>East</td>
+              <td>"The Wardens" / Zentari 1st Regiment</td>
+              <td>Eastern section of map</td>
+              <td>Major fortification. 7th Fleet flagship anchors nearby.</td>
+            </tr>
+            <tr>
+              <td>Magistrate / City Guard Station</td>
+              <td>Upper District</td>
+              <td>City Guard / Nobles</td>
+              <td>Upper district on map</td>
+              <td>Blood at the fortified door during Session 6. Arthur was inside with sword-cane drawn. 3–4 guards downed. Investigator Station is here.</td>
+            </tr>
+            <tr>
+              <td>AX42 Sanitarium</td>
+              <td>Outskirts</td>
+              <td>Unknown</td>
+              <td>Outskirts; noted as more "run down with purpose"</td>
+              <td>Last known location of the disappearances. Syndicate Agents nearby on map.</td>
+            </tr>
+            <tr>
+              <td>The Spur</td>
+              <td>Southern wall of Zen'tar</td>
+              <td>Unguarded (sacred)</td>
+              <td>Southern wall</td>
+              <td>Bare stone plinth. Ser Gavriel Val'Tan buried beneath. Penal Outriders recite their oath here. "The wound beneath the Spur has never truly slept." Fresh rope and blade laid each season.</td>
+            </tr>
+            <tr>
+              <td>Weaver's Arch</td>
+              <td>Zen'tar proper (ruined)</td>
+              <td>Ruined</td>
+              <td>Referenced; currently broken stones</td>
+              <td>Where the late Duke gave speeches before his death. Now broken stones and rock. Referenced in Ryo's partial mural rubbing.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Broader Avar — Empire &amp; Beyond <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Location</th><th>Circle</th><th>Controller</th><th>Key Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kholinar ("The Capital")</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>High Nobility; Vo'dyn Empire</td>
+              <td>Center of the empire. Where the Great Game is played. Da'varre's Gloamspire tower is here on a cavern lake. Jorell built the capital here at "the thinnest point" so living civilization would press against the seal.</td>
+            </tr>
+            <tr>
+              <td>Gloamspire</td>
+              <td><span class="tag tag-gold">1st Circle (Capital outskirts)</span></td>
+              <td>House Da'varre</td>
+              <td>Tower rising from a still cavern lake. Halls lit by glass lanterns and etched mirrors that glow when truth is spoken. Da'varre's archive and ancestral seat.</td>
+            </tr>
+            <tr>
+              <td>Basalt Ridge</td>
+              <td><span class="tag tag-blue">6th Circle (now Zen'tar Stronghold)</span></td>
+              <td>Historical / Stronghold foundation</td>
+              <td>Where Gavriel's company held for 10 hours during the Cataclysm retreat. Ridge "trembles on windless nights." Foundation of Zen'tar Stronghold. "The wound beneath the Spur has never truly slept."</td>
+            </tr>
+            <tr>
+              <td>Principality of Al'tan</td>
+              <td>Outside Zen'tar / Independent</td>
+              <td>Mixed / Self-governing</td>
+              <td>One of only two mixed-race locations empire-wide. Small community of a few strongholds. Used as neutral meeting ground. Not under standard Vo'dyn doctrine.</td>
+            </tr>
+            <tr>
+              <td>The Bazaar</td>
+              <td><span class="tag tag-blue">6th Circle</span><br><small>Inquisition-controlled</small></td>
+              <td>Inquisition (direct governance)</td>
+              <td>The second of only two mixed-race locations in the empire. One of the few places directly governed by the Inquisition rather than a noble house.</td>
+            </tr>
+            <tr>
+              <td>Banmore Keep</td>
+              <td><span class="tag tag-blue">10th Circle</span></td>
+              <td>Highlord Xzal</td>
+              <td>Edge of Avar. Xzal sealed a redacted report (Year 606 / 616) about unknown others beyond the borders who rebuffed contact and consumed every expedition.</td>
+            </tr>
+            <tr>
+              <td>Velderra</td>
+              <td>Surface world (pre-cataclysm)</td>
+              <td>Destroyed</td>
+              <td>Surface territory lost to the Cataclysm. Two moons (silver/gold), blue-white sun, red pulsing planet. Location of the one-shot. The Prophet gave the party the green ledger here. The star map in the meteorite chamber matches what Mithe saw in the pool during a vision.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     VI. SIGILS & MARKERS
+══════════════════════════════════════ -->
+<div class="segment" id="section-vi">
+  <div class="section-title">Section VI</div>
+  <h2 class="section-h2">Sigils, Identifiers &amp; Visual Markers</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Confirmed Sigils &amp; Faction Markers <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Sigil / Marker</th><th>Associated With</th><th>Circle</th><th>Where Seen</th><th>Significance</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Red Fist</td>
+              <td>Duke of Zen'tar / House Mournen</td>
+              <td><span class="tag tag-gold">1st Circle</span> / <span class="tag tag-blue">6th Circle (domain)</span></td>
+              <td>Confirmed in Session 5 (Lantis at Sunken Croc)</td>
+              <td>Sigil of the late Duke. Used to identify loyalists and materials connected to Mournen's dynastic rule of Zen'tar.</td>
+            </tr>
+            <tr>
+              <td>Blue Hand Glove with Crest</td>
+              <td>Hathor / Order of the Blue Fist</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>Session 2 — on Hathor</td>
+              <td>Identifies Blue Fist members. Cadet branch of House Mournen. Military, not religious.</td>
+            </tr>
+            <tr>
+              <td>Elven Symbol (right shoulder)</td>
+              <td>Mithris / Consortium; also House Maelis</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Session 4 (cloaked figure); Session 5 (Caldun)</td>
+              <td>Mithris's personal elven sigil, also used by his Consortium agents including Caldun. High-elf identifier. May overlap with Maelis.</td>
+            </tr>
+            <tr>
+              <td>Gray Banner / Crimson Red Drops</td>
+              <td>Penal Outriders / Penitant Deathriders</td>
+              <td><span class="tag tag-blue">6th Circle+</span></td>
+              <td>Referenced in lore; seen at Duke's funeral</td>
+              <td>Bone-white helmets with rank scraped off. Oath taken at The Spur before missions. Trace lineage to Ser Gavriel Val'Tan.</td>
+            </tr>
+            <tr>
+              <td>Brown Robes + Rosette</td>
+              <td>Inquisition</td>
+              <td><span class="tag tag-gold">Empire-wide</span></td>
+              <td>Session 2 (road); Session Knavers (tall man)</td>
+              <td>Standard Inquisition field uniform. New rosettes have magic-key properties; older ones were engraved power symbols.</td>
+            </tr>
+            <tr>
+              <td>Sigil of Him (on ships)</td>
+              <td>7th Fleet / Vo'dyn Empire religion</td>
+              <td><span class="tag tag-blue">6th Circle (docked)</span></td>
+              <td>Session 14 — on every 7th Fleet ship</td>
+              <td>Holy/imperial identifier of the highest order. Each ship of the 7th Fleet displays it. Signals both religious and imperial authority.</td>
+            </tr>
+            <tr>
+              <td>Rose-Sealed Wax Orders</td>
+              <td>Order of the Rose</td>
+              <td><span class="tag tag-grey">Unknown / Covert</span></td>
+              <td>Referenced by Crane/Artemis</td>
+              <td>Written mission orders sealed with a rose wax emblem. Only identifier of the secretive order.</td>
+            </tr>
+            <tr>
+              <td>Hourglass (pendant / staff)</td>
+              <td>The Quiet Architect (K) / Midas Khol / The Prophet</td>
+              <td><span class="tag tag-grey">Transplanar / 1st Circle</span></td>
+              <td>Session 16 (Midas → Valerian); Session Knavers (Ashen Warrior's pendant); Artifacts doc</td>
+              <td>Symbol of the Quiet Architect. Midas gave one to Valerian: "I'll keep the hourglass turning." The Ashen Warrior in the Knavers portal vision wore a hourglass glass pendant. Connects probability control, fate, and the Architect's interventions.</td>
+            </tr>
+            <tr>
+              <td>Thorn Talisman</td>
+              <td>O'Malley / Unknown faction</td>
+              <td><span class="tag tag-blue">6th Circle</span></td>
+              <td>Session 16 — found on O'Malley's body by Velintra</td>
+              <td>Affiliation unknown. O'Malley's possession suggests possible allegiance beyond the merchant guild.</td>
+            </tr>
+            <tr>
+              <td>Four-Leaf Clover</td>
+              <td>House Khol</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>House heraldry</td>
+              <td>House Khol's identifying sigil. Symbol of prosperity and fortune.</td>
+            </tr>
+            <tr>
+              <td>Glass Prism</td>
+              <td>House Da'varre</td>
+              <td><span class="tag tag-gold">1st Circle</span></td>
+              <td>House heraldry; Gloamspire architecture</td>
+              <td>Truth-telling association. The mirrors of Gloamspire glow when truth is spoken.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      Meteorite Chamber Symbols &amp; Armband Hierarchy <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Symbol / Marker</th><th>Where</th><th>Meaning / Label</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Green Book</td><td>Meteorite chamber wall (1st symbol)</td><td>Luminescent. Feelings: regality, inevitability, loss. Label: "Fate's Final Rest."</td></tr>
+            <tr><td>Blue Scepter</td><td>Meteorite chamber wall (2nd symbol)</td><td>Label: "Humanity's Unyielding Spirit."</td></tr>
+            <tr><td>Red Crown</td><td>Meteorite chamber wall (3rd symbol)</td><td>Sadness, melancholy, anger, betrayal; also happiness, certainty, faith. Labels: "The end of the Starborn." / "My sacrifice is your duty." Mithe took −3 psychic damage touching it.</td></tr>
+            <tr><td>Obsidian Mask (1st)</td><td>Side hallway off meteorite chamber</td><td>Ryo's key activates it: "Before the first veil was woven, the universe was our anchor — and I was its guide."</td></tr>
+            <tr><td>3rd Mask Reed</td><td>Side hallway</td><td>Comes out freely; thin charcoal line reads "For the many masks you've worn throughout time."</td></tr>
+            <tr><td>5th Mask Reed (key-shaped)</td><td>Side hallway</td><td>"For the life you left behind." — used to unlock the exit door.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:14px;">
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr><th>Armband Color</th><th>Location</th><th>Affiliation / Rank</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Red armbands</td><td>Magistrate attack (Session 6)</td><td>Attackers — suspected Brigans or Blue Pirates</td></tr>
+              <tr><td>Green armbands</td><td>Yearning Mines entrance (Cavers)</td><td>Lower mine guard rank</td></tr>
+              <tr><td>Maroon armbands</td><td>Yearning Mines (Cavers)</td><td>Mid-rank mine guards</td></tr>
+              <tr><td>Darker armbands</td><td>Yearning Mines (guards around Mithe/Ryo)</td><td>Higher authority; senior mine staff</td></tr>
+              <tr><td>Silver armbands</td><td>Interrogation (Session 12)</td><td>Guards who took Thog to be "killed"</td></tr>
+              <tr><td>Black armbands</td><td>Interrogation (Session 12)</td><td>Marshall's personal guard; Rarik Ville's escorts</td></tr>
+              <tr><td>Blue feather</td><td>Merchant District checkpoint (Session 16)</td><td>Militarum guards at district boundary</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     VII. WORLD LORE & COSMOLOGY
+══════════════════════════════════════ -->
+<div class="segment" id="section-vii">
+  <div class="section-title">Section VII</div>
+  <h2 class="section-h2">World Lore &amp; Cosmology</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      The Wound, The Veils &amp; The Machines <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Concept</th><th>Nature</th><th>Connection</th><th>Current Status</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Wound</td>
+              <td>Ancient corruption beneath consciousness; pre-cosmic</td>
+              <td>= Abyss = Urd (vector) = Everfrost = Quiet/Silence = Mouths = Fog = Forgetfulness. Confirmed equivalence by DM: <em>"Abyss = Urd = Wound = Everfrost = Quiet/Silence = Mouths = Fog = Forgetfulness = Stain."</em></td>
+              <td>Sealed beneath Avar's capital. Seal straining as the hymn grows thin. Every 7th thump + 4th-of-4th silence signals its stirring.</td>
+            </tr>
+            <tr>
+              <td>The Three Fundamentals + Entropy</td>
+              <td>Matter (resists), Energy (moves), Flux (changes). Fourth: Entropy.</td>
+              <td>Confirmed in machine panels in the Yearning Mines. Awakened Cobalt is the only thing that counters the Flux. Entropy was discovered only when they "dug deep enough to feel it pressing back."</td>
+              <td>"Entropy can only be delayed." The four ancient machines in the mines enforce this delay via a 16-beat rhythm. The 4th-of-4th beat is a deliberate silence — a moment of "listening rather than speaking."</td>
+            </tr>
+            <tr>
+              <td>The Veils</td>
+              <td>Metaphysical barriers woven over the Wound</td>
+              <td>Each likely created through a Martyr's sacrifice. The 16-beat machine rhythm preserves the veil via "humanity's hymn." Multiple veils stack over time like bandages over a wound. Confirmed by DM: "there are in fact numerous martyrs."</td>
+              <td>Currently thinning. "When it thinned and forgetting learned to sing, I was no maker, only a keeper."</td>
+            </tr>
+            <tr>
+              <td>The Shard</td>
+              <td>Fragment of the Wound / broken heavens</td>
+              <td>The Warden keeps it sealed under the Yearning Mines. "I keep the shard beneath the surface of our night." The party are all "potential vessels" for it.</td>
+              <td>Contained. The Warden's jar metaphor: earth = walls, fog = fluid, cities settled like silt atop it.</td>
+            </tr>
+            <tr>
+              <td>The Martyrs</td>
+              <td>Willing sacrifices who weave veils and become eternal watchers</td>
+              <td>1st = Ser Gavriel Val'Tan ("Him"); 2nd = Evening Star; 3rd = Unknown; 4th = Great Martyred Lady; 5th = Jorell; 6th–7th = Unknown. DM confirmed multiple Martyrs exist.</td>
+              <td>Possibly continue to exist as watchers on the Threaded Paths. United with The Witness's coalition against the Wound across spheres.</td>
+            </tr>
+            <tr>
+              <td>The Primordials</td>
+              <td>Personified cosmic concepts (Oath/Law, Exile, Fate, Truth, Honor)</td>
+              <td>Appear in "Echoes of the Veil." Law wrote a Final Litany. Fate has been killed ("I knew Fate once. She was killed."). The Quiet Architect appears to have loved Fate.</td>
+              <td>Oath/Law is the entity in crystal reliquary (SD-ΔΞ-HN). Exile exists "beyond the margin." The Speaker was "created by the others."</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="false">
+      The Empire, Religion &amp; Runes — DM Confirmed <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Topic</th><th>Confirmed Fact (DM)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Circle Structure</td><td>Vo'dyn Empire: ~9–11 concentric circles. 1st = Capital (Kholinar). 2nd = Religious sector. 3rd = Significant nobles/advisors. 4th = Upper merchant class. 6th = Zen'tar (sub-capital). 10th = Banmore Keep (edge of Avar). "Not a random number" re: 270 cycles to New Year.</td></tr>
+            <tr><td>House Mournen's Circle</td><td>DM: "While the city is in the outer edges (6th-ish circle), given its historical and material significance the noble house governing it has quite an odd 'influence' designation. They were prevalent in the capital... and have always had some level of significance in capital politics. However, after a falling out in the capital the Duke withdrew to the city itself."</td></tr>
+            <tr><td>Runes</td><td>DM: "Runes are reactive, not active... Think of them as transistors." Rune A will always do the same thing given the same stimulus, but replicating a rune physically still results in mutations — it is not an exact science, and not purely physical. "You can't just copy a rune 1:1 with a sketch on a canvas — that won't produce an effect."</td></tr>
+            <tr><td>The Ledger / Factions</td><td>DM: "There are some simply vying for control of Zentar, the 6th circle, after the Duke's death. And some additionally knowledgeable of the more historical and magical pieces of info, and vying for control of the Ledger that was last known to be with the Duke."</td></tr>
+            <tr><td>The Campaign Theme</td><td>DM (Session 0): "You are all in a remnant of a decaying empire continuously losing its border skirmishes. And the only faith that exists is religious fervor. And the fact magic / tech is starting to innovate again."</td></tr>
+            <tr><td>Medicine &amp; Entropy</td><td>DM: "No cure, but there are different ailments and treatments. Medicine isn't too crazy yet and isn't magic based. The effects are probably due to exposure of some sort. Exposure leads to entropic decay of who you are." (Re: Lux's death from Flux exposure.)</td></tr>
+            <tr><td>Artemis (mine conversation)</td><td>DM response to Mithe: "It has to have been an accident... or some other issue." (Re: the floor collapse.) "Longer than I would have liked... much longer." (Re: how long underground.) On the runes: "I know a few tried to make a run for it... but the runes... the stories weren't pretty... think they came back in parts." "Not sure about these ones... they are different." On the mines: "In the penal colony... many go down... not many come back up... 'tis the nature of things."</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     VIII. CONNECTIONS & ALLEGIANCE WEB
+══════════════════════════════════════ -->
+<div class="segment" id="section-viii">
+  <div class="section-title">Section VIII</div>
+  <h2 class="section-h2">Key Connections &amp; Allegiance Web</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Active Plots &amp; Threads <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="grid2">
+        <div class="card">
+          <h3>The Ledger Trail</h3>
+          <div class="meta">Status: UNKNOWN · Last confirmed: Caldun (oilcloth package)</div>
+          <p>Prophet → Velderra heroes carried it → Duke of Zen'tar found it → Duke killed for/by it → Mithris obtained it (how?) → passed to Caldun in oilcloth before Arthur's raid → explosion at warehouse → status unknown. Midas suspects it exists and that it's connected to what the Duke found. The ledger is described as "as primordial as the magic in the air."</p>
+        </div>
+        <div class="card">
+          <h3>The Coup Network</h3>
+          <div class="meta">Actors: Secus Domitae + masked Hathor + Blue Pirates + Militia (via Zenzar)</div>
+          <p>Secus (1st Circle via Khol marriage) → masked figure (likely Hathor) → purchasing Zenzar (former militia leader) → intends coup of Council of Regency. Guild affairs: "next hit prince loyalists and Arthur." Marshall simultaneously maneuvering with his own platoon. Multiple factions converging on the post-Duke power vacuum.</p>
+        </div>
+        <div class="card">
+          <h3>Midas's Long Game</h3>
+          <div class="meta">Operator: Midas Khol · Agents: Valerian Than'dal; possibly Artemis (unconfirmed)</div>
+          <p>Midas (old friends with the Duke) → knew the Duke found something → sent Valerian to watch the Prince → at the funeral: "I'll keep the hourglass turning" + gave Valerian the pendant → working without the ledger now. Possibly also behind the Order of the Rose (Crane / Artemis). Timeline accelerated by the Duke's death.</p>
+        </div>
+        <div class="card">
+          <h3>The Party's Possession Problem</h3>
+          <div class="meta">Affected: Ryo (Wyrm), Decima (unknown entity), Aldred (demon), Kane (vampired twin)</div>
+          <p>All four are haunted/possessed. The Wyrm inside Ryo apprenticed a Domitae — connecting it to Decima's family. Decima's entity says she "agreed to it." The Wyrm saved Ryo from "something that has destroyed worlds." All are "potential vessels" per the Warden. Decima doesn't think Aldred realizes he is possessed.</p>
+        </div>
+        <div class="card">
+          <h3>The 7th Fleet's Arrival</h3>
+          <div class="meta">Commander: Admiral Galewind · Ship: The Martyr (flagship)</div>
+          <p>Unexpected. Pre-cataclysm ship. Nobody knows why they're here — including the Marshall's own spy. Carries "Sigil of Him" on each vessel. Answers to Nautica Liticus; associated with both nobles and religious groups via money. Triggered martial law upon arrival. Naval flares draw attention from things that lurk in the waters.</p>
+        </div>
+        <div class="card">
+          <h3>The Disappearances</h3>
+          <div class="meta">Pattern locations: Sanitarium · Yearning Mines · Merchant District · broader city</div>
+          <p>Missing: Ralph Alvarez (mines), Jonathan Wineford (mines — disappeared when light flickered), Lantis (investigator), Maestor Velitor (Guild Master), the Prince. Pattern similar to Velderra: those who "reach too far" are taken. Mine manifest discrepancy: 16 in ledger, 15 went down, 14 came back. Mist wraiths return "to the earth, forgotten."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     IX. WORLD KNOWLEDGE & THEORIES
+══════════════════════════════════════ -->
+<div class="segment" id="section-ix">
+  <div class="section-title">Section IX</div>
+  <h2 class="section-h2">World Knowledge &amp; Player Theories</h2>
+
+  <div class="theory-disclaimer">
+    <strong style="color:#d4a843;">⚑ Source Attribution</strong><br>
+    Entries marked <strong style="color:#3a8a4a;">DM Confirmed</strong> reflect information explicitly provided by the DM. All other analysis and interpretations are <strong style="color:#c8a0e0;">player theories</strong> unless otherwise stated.
+  </div>
+
+  <div class="knowledge-block">
+    <button class="knowledge-header" onclick="toggle(this)" aria-expanded="true">
+      The Wound, Memory &amp; the Cataclysm <span class="k-arrow">▶</span>
+    </button>
+    <div class="knowledge-body open">
+      <div class="confirmed">DM confirmed: "Abyss = Urd = Wound = Everfrost = Quiet/Silence = Mouths = Fog = Forgetfulness = Stain."</div>
+      <div class="confirmed">DM confirmed: The Wound is sealed beneath the capital. The 4-beat machine rhythm acts as a lullaby/lock. The 4th-of-4th beat is a deliberate silence — "a moment of listening rather than speaking... something needs to be reminded, regularly, that something is watching."</div>
+      <div class="player-theory">The Vo'dyn Empire's religious doctrine — cleanliness, faithfulness, suppression of heresy (defined as curiosity and deviation) — may have originated as a practical defense against memory corruption caused by the Urd/Wound, later warped into dogma after the Recreance (Year 427).</div>
+      <div class="player-theory">The disappearances in Zen'tar mirror the pattern of Velderra: "those who reach too far are taken." The High Elves (Aeilin, Year 616) also disappeared. History appears to be repeating — the Ether returning means the Wound is returning with it.</div>
+      <div class="player-theory">The Urd may not be physical at all. "Not spiders, not exactly — more like a hunger that learned to build webs." They may be parasitic forces that live inside cognition and memory, stepping through seams between worlds and leaving forgetting behind. They are a symptom (a vector), not the cause of the Cataclysm.</div>
+    </div>
+  </div>
+
+  <div class="knowledge-block">
+    <button class="knowledge-header" onclick="toggle(this)" aria-expanded="false">
+      The Martyrs &amp; The Veils <span class="k-arrow">▶</span>
+    </button>
+    <div class="knowledge-body">
+      <div class="confirmed">DM confirmed: There are in fact numerous Martyrs. The 7th Fleet's arrival is not a random event. New Year is 270 cycles away — "this is not a random number."</div>
+      <div class="player-theory">Each Veil was woven through the sacrifice of a Martyr respectively. The veil creates the faint Abjuration magic everyone feels — a protection against mass forgetfulness / Urd-takeover. Each time the veil wore thin, another Martyr sacrificed themselves to pull a new "bandage" over the Wound.</div>
+      <div class="player-theory">Current known sequence — 1st Martyr: Ser Gavriel Val'Tan ("Him"); 2nd: Evening Star (Inquisition founder); 3rd: Unknown; 4th: Great Martyred Lady; 5th: Jorell; 6th–7th: Unknown. If a Martyr dies roughly every century, we should be around the 6th or 7th by Year 626. Notes about ether/magic resurgence appear around the 20s of any century in historical records.</div>
+      <div class="player-theory">Jorell's experience — spending 19 years watching the seal beneath, until he could no longer distinguish seeing from touching, until he struck his name from all records — may be the common fate of all Martyrs. They become Watchers, joining The Witness's coalition to fight the Wound across spheres while humanity remains in "safe ignorance."</div>
+      <div class="player-theory">The Evening Star (2nd Martyr) who "stood between them and the truth" may also be the Warden of the Deep — duty-bound since the earliest days of Avar, now cast off those chains.</div>
+    </div>
+  </div>
+
+  <div class="knowledge-block">
+    <button class="knowledge-header" onclick="toggle(this)" aria-expanded="false">
+      The Quiet Architect (K), The Prophet &amp; The Ledger <span class="k-arrow">▶</span>
+    </button>
+    <div class="knowledge-body">
+      <div class="confirmed">DM confirmed: The green ledger is "as primordial as the magic in the air." It contains a "litany of preserved names and truths." The Prophet carried it through Velderra; it ended up with the Duke; it was passed to Caldun in oilcloth before Arthur's raid.</div>
+      <div class="player-theory">The Quiet Architect (K) = The Prophet (the Wanderer who gave the party the ledger in Velderra) = The Final Chronicler. All three carry or are associated with hourglasses and probability control. The Ashen Warrior seen in the Knavers portal vision wore a hourglass pendant — possibly K observing the Velderra-era events.</div>
+      <div class="player-theory">Midas Khol may be aware of K's long game. "I'll keep the hourglass turning" — giving Valerian the pendant at the Duke's funeral may be a signal, not just a gift. Midas may also be behind the Order of the Rose (Crane/Artemis) as part of this same long game.</div>
+      <div class="player-theory">The oilcloth-wrapped package Mithris passed to Caldun before Arthur's raid is almost certainly the green ledger. The Consortium was pursuing awakened metals and the ledger — the same materials Artemis has been tracking for 8 years.</div>
+    </div>
+  </div>
+
+  <div class="knowledge-block">
+    <button class="knowledge-header" onclick="toggle(this)" aria-expanded="false">
+      The Wyrm, Decima's Entity &amp; Aldred's Demon <span class="k-arrow">▶</span>
+    </button>
+    <div class="knowledge-body">
+      <div class="confirmed">DM confirmed (Warden): "You are all potential vessels." Decima's entity: she "agreed to it." The Wyrm: "I do not serve, I rule." Both Aldred and Kane are haunted by something; Decima believes Aldred does not realize he is possessed, unlike the others.</div>
+      <div class="player-theory">The Wyrm apprenticed a Domitae — meaning someone in Decima's family line was trained by the same entity now inside Ryo. Decima read that apprentice's tome. This may be why the Wyrm spoke directly to Decima in Session 15, referencing "my apprentice's tome."</div>
+      <div class="player-theory">The three crimson-red-eyed figures in the campaign (Jorell, Velintra, the Wyrm) may share a connection — red eyes as an indicator of contact with primordial forces, possession, or ancient bloodlines.</div>
+      <div class="player-theory">Arthur possibly took in Lantis (a half-elf) after killing Mithris, who was also a high elf. Theory: Mithris had a child; Arthur killed his way through the Consortium and stopped to take the child, feeling guilt. This would explain why the Marshall — who contacts Lantis — and Arthur's history are tied together in unexpected ways.</div>
+    </div>
+  </div>
+
+  <div class="knowledge-block">
+    <button class="knowledge-header" onclick="toggle(this)" aria-expanded="false">
+      Political Analysis: Zen'tar Power Vacuum <span class="k-arrow">▶</span>
+    </button>
+    <div class="knowledge-body">
+      <div class="confirmed">DM confirmed: "Garth (and the investigator station/magistrate?) is allied/report to the Nobles. Marshall does not want the Nobles to be in his mines business (which nobles are already trying to do via Auditor Selka Morren). Inquisitor Rarik Ville is just trying not to die from Marshall so they are both playing nice with each other."</div>
+      <div class="confirmed">DM confirmed: The Council of Regency had something to do with the Duke's death (Marshall, Session 11 interrogation).</div>
+      <div class="player-theory">The coup Secus is organizing — purchasing Zenzar, coordinating with Hathor/Blue Fist — is aimed at replacing the Council of Regency. Secus is loyal to House Khol; this coup likely serves Midas's interests or is sanctioned by House Khol. Wanting Zenzar = wanting the military resource and charismatic authority of the former militia leader.</div>
+      <div class="player-theory">The 7th Fleet's arrival may have been triggered specifically because of what's happening in Zen'tar — not an accident. Whether this is the Church, the nobles, or something older that called them is unknown.</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     X. TIMELINE
+══════════════════════════════════════ -->
+<div class="segment" id="section-x">
+  <div class="section-title">Section X</div>
+  <h2 class="section-h2">Known Timeline</h2>
+
+  <div class="accordion">
+    <button class="accordion-toggle" onclick="toggle(this)" aria-expanded="true">
+      Timeline — Pre-Cataclysm to Present <span class="acc-arrow">▶</span>
+    </button>
+    <div class="accordion-body open">
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Approx. Year</th><th>Event</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Pre-cataclysm</td><td>Velderra civilization flourishes on the surface. Two moons (silver/gold), blue-white sun, red pulsing planet. Magic flows freely. Dav Ki civilization flourishes underground. High-elf/dark-elf war. House Voss visible in proto-elvish Fragment 8C — involved in inter-dimensional activities.</td></tr>
+            <tr><td>~Year 0 (Cataclysm)</td><td>The sky breaks. Scholars of Velderra "reached through the veil" and the Urd came through. Reality frayed. Ser Gavriel Val'Tan ("Him") sacrificed himself at Basalt Ridge — held 10 hours with his company on the final day. The 7th Fleet descended. The Vo'dyn devout fled underground, seizing the ruins of the Dav Ki.</td></tr>
+            <tr><td>~Year 1–25</td><td>The Evening Star (2nd Martyr) led survivors underground. Stood between them and the truth. Founded the Inquisition through blood and prayer. The surviving Great Houses formed.</td></tr>
+            <tr><td>~Year 2–24</td><td>Jorell (5th Martyr) established Avar's capital at "the thinnest point." Over 19 years, his gift of sight bound him to eternal watching of the seal beneath. Struck his name from all records.</td></tr>
+            <tr><td>~Year 427</td><td>The Recreance: magically-attuned races became more mundane. Pre-cataclysm magic suppressed.</td></tr>
+            <tr><td>~Year 452 (est.)</td><td>The Great Martyred Lady fell on Martyr's Day. Used her magical curse for Vo'dyn. During her era: the Great Schism occurred — the Church asserted dominance over the nobles; one Great House was expunged. Possibly founded the Luminary Council.</td></tr>
+            <tr><td>Year 512</td><td>The Grand Scholar wrote: "Life is not a riddle to be solved." Later annotated (~Year 524): "greatest lie."</td></tr>
+            <tr><td>Year 606</td><td>Highlord Xzal sealed a redacted report: others beyond the borders rebuffed all contact; every expedition disappeared.</td></tr>
+            <tr><td>Year 616</td><td>Aeilin (High Elves) disappearance documented in the redacted report.</td></tr>
+            <tr><td>Year 618</td><td>Duke of Zen'tar died (officially: heart failure; widely disbelieved). Beginning of the current crisis. Prince disappeared around this time or earlier. Midas attended the funeral; gave Valerian the hourglass pendant.</td></tr>
+            <tr><td>Year 622</td><td>Dwarven Report: Urd resurface. Dark Elf lords wandering borders with malevolent intent.</td></tr>
+            <tr><td>~Year 625</td><td>Arthur Augustus killed Mithris. Blue Pirates fractured. Caldun killed Crane (Order of the Rose). Artemis survived.</td></tr>
+            <tr><td>Year 626 (CURRENT)</td><td>The Awakening — ancient magics reawakening. 7th Fleet arrives unexpectedly at Zen'tar. Martial law declared. The party enters play. O'Malley killed by Consortium. New Year is 270 cycles away.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">✦ ✦ ✦</div>
+
+<!-- ══════════════════════════════════════
+     XI. SESSION NOTES
+══════════════════════════════════════ -->
+<div class="segment" id="section-xi">
+  <div class="section-title">Section XI</div>
+  <h2 class="section-h2">Session Notes</h2>
+
+  <div class="theory-disclaimer">
+    <strong style="color:#d4a843;">⚑ On Theories &amp; Discussions</strong><br>
+    Unless a note is explicitly attributed to the DM, all theories, interpretations, and analytical commentary are <strong style="color:#c8a0e0;">player theories</strong> — not confirmed lore. Logic chains are included to show how conclusions were reached, not to assert them as fact.
+  </div>
+
+  <!-- SESSION 0 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 0 — The Caravan Begins <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>A lizard pulls the caravan. Party is in chains.</li>
+      </ul>
+      <div class="s-dm">🟢 <strong>DM (Campaign Theme):</strong> "You are all in a remnant of a decaying empire continuously losing its border skirmishes. And the only faith that exists is religious fervor. And the fact magic / tech is starting to innovate again." — This establishes the macro lens for everything that follows.</div>
+    </div>
+  </div>
+
+  <!-- SESSION 1 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 1 — Goblin Ambush on the Road <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Party fought goblins and an ogre on the caravan road.</li>
+        <li>Obtained an echo for a devil's bargain of small consequence. +1 insight (about enemies).</li>
+        <li>A devil's laugh is heard at the end of the session.</li>
+      </ul>
+      <h4>Observations &amp; Intel</h4>
+      <ul>
+        <li>Duskwatchers are referenced — guards in iron robes, silent and still, patrolling tunnel routes between circles.</li>
+        <li>Blue Fist markings visible on boards along the road — noted as "slightly out of place as they are from the 3rd circle." (Later context: Blue Fist is a cadet branch of House Mournen, a 1st Circle house — their presence this far out is unusual.)</li>
+        <li>Scouts reported the ambush to the caravan ahead of time, suggesting someone knows the party's route.</li>
+        <li>The dead ogre and goblin leader had an unusual arcane aura — not normal for this creature type. No explanation given yet.</li>
+        <li>Verin Ralthar introduced as head supervisor — adverse to magic; his name is on the contract signed with blood.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Blue Fist markings on boards — Order of the Blue Fist, cadet branch of House Mournen. Unusual 1st Circle presence in outer roads.</div>
+      <div class="s-npc">🔹 <strong>NPCs:</strong> Verin Ralthar (supervisor; magic-averse), Aldric (provisional supervisor), Ulric Ironfist (military house; noted as "good" — "not the Inquisition type; more than meets the eye").</div>
+    </div>
+  </div>
+
+  <!-- SESSION 2 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 2 — En Route to Zen'tar; Mist Wraiths <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Introduction to Vo'dyn prayer (Hymn) and religious tenets: cleanliness, faithfulness, service to "Him."</li>
+        <li>Party received battered symbols — oak talismans with inlaid steel. Described as "power and an obligation."</li>
+        <li>Caravan started at the 6th circle. Zen'tar is ~1 day's travel. Geography briefing: city between two giant rivers, not easily accessible, acts as sub-capital.</li>
+        <li>Hathor (Military Adjudicant) encountered on the road: "We know and saw the enemy, ash and dust." Heavily armed, arrogant bearing. Wears a blue hand glove with crest. Believes in "serving Him." Walks as if the world bends to him.</li>
+        <li>A woman, Evelynn, screams of her missing child (names him inconsistently — "Tim? Tom?"). Party investigates; instead encounters mist wraiths — weak to radiant damage (1d10 per turn). "They will return to the earth, forgotten." / "All that dies becomes to ash."</li>
+        <li>Introduction to faint elements of Abjuration in the universe — described as a background magical presence.</li>
+        <li>Criminal organizations mentioned as working inconsistently with guilds.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Blue hand glove with crest — Hathor / Order of Blue Fist (1st Circle).</div>
+      <div class="s-logic">🔮 <strong>Logic note:</strong> The mist wraiths returning "to the earth, forgotten" mirrors the language of the Wound and the Urd. This is the party's first encounter with entities connected to the broader cosmological threat, though it is not recognized as such at the time.</div>
+      <div class="s-npc">🔹 <strong>NPCs:</strong> Hathor (Military Adjudicant; blue fist glove; 1st Circle). Evelynn (grieving mother on the road; child's name inconsistent — pattern of the Wound erasing memory).</div>
+    </div>
+  </div>
+
+  <!-- SESSION 3 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 3 — Arrival in Zen'tar; The Missing Prince <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Attempted to speak with Evelynn (the mother from Session 2). Velintra witnessed the mother kill herself.</li>
+        <li>Overheard discussion: <em>"What about the prince? He will be secured. Is the plan in motion? Yes. We must secure the paradigm. The diadem will give us the correct portent."</em> — Unidentified speaker, unknown who is being spoken to. First confirmation a plan exists around the Prince.</li>
+        <li>Arrived in Zen'tar. Confirmed: Duke dead; Prince missing.</li>
+        <li>Garth (Deputy Sergeant) wants to impress the "first circler" coming to the city — first indication a 1st Circle figure is inbound.</li>
+        <li>Party tasked: find Junior Investigator Lantis, who has gone missing while leading the disappearances investigation.</li>
+        <li>Investigation into disappearances formally begins.</li>
+      </ul>
+      <div class="s-logic">🔮 <strong>Logic note:</strong> "The diadem will give us the correct portent" — a diadem is a crown-like object associated with ruling succession. This conversation suggests whoever overheard it is planning to use some succession artifact to legitimize a claim or verify the correct heir. The "paradigm" is undefined — possibly the ledger, possibly the Prince himself.</div>
+      <div class="s-npc">🔹 <strong>NPCs introduced:</strong> Arthur Augustus Esquire (Major Investigator; limp; fancy cane/sword; scar across knee). Garth (Deputy Sergeant). Lantis (Junior Investigator; last seen at the Sunken Croc).</div>
+    </div>
+  </div>
+
+  <!-- SESSION 4 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 4 — Disappearances; The Sunken Croc <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Investigated disappearances. Last known location: AX42 Sanitarium block — described as "more run down with purpose" (not simply neglected; intentionally so).</li>
+        <li>Spotted a cloaked figure with an elven symbol on the right shoulder. Later identified as Consortium/Maelis identifier.</li>
+        <li>An hourglass stamp seen on an entrance notice — unknown affiliation at this point.</li>
+        <li>Posting boards reference a "Constintene." (Identity unknown; possibly a contact or person of interest in the disappearances.)</li>
+        <li>Party entered the Sunken Croc (outskirts; poorer class; Blue Pirate territory).</li>
+        <li>Ryo entered a drinking competition. Aldred kept watch. Decima lost all her money and was taken upstairs. Mithe overheard fragments of a dragonchess conversation near the entrance before the group went upstairs.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Elven symbol on cloaked figure's right shoulder — Mithris's personal elven identifier; also associated with House Maelis.</div>
+      <div class="s-sigil">🔷 <strong>Marker:</strong> Hourglass stamp on entrance notice — significance unknown at time. (Later connects to the Quiet Architect / Midas / Valerian thread.)</div>
+    </div>
+  </div>
+
+  <!-- SESSION 5 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 5 — Blue Pirates Confirmed; Secus; Caldun's Attack <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Confirmed: Blue Pirates control this area of Zen'tar. Heavy-handed, uncouth. Hate Arthur Augustus specifically. The Exalted One (Mithris) is their patron — now confirmed as a past High Elf who was very powerful but is dead.</li>
+        <li>Lantis frequents the Sunken Croc. An important noble has disappeared. Red fist = confirmed sigil of the late Duke (Mournen).</li>
+        <li>Mithe overhears further disappearance discussion (from the poker game area downstairs).</li>
+        <li>A prisoner fighting N'thoda wears a tattered martial uniform — possibly an ex-militia member or soldier.</li>
+        <li><strong>Upstairs at the Sunken Croc:</strong> N'thoda, Velintra, and Decima discover Decima's brother Secus in a room with a masked Establishment Leader. Secus is threatening. Overheard: <em>"Guild affairs — next hit prince loyalists and Arthur."</em> The masked figure threatens Decima's life to Secus for leverage in a confession.</li>
+        <li>Secus brands Decima as a test of loyalty to the masked man. (Mark of sigil: "Greater than us all" / "Conviction".)</li>
+        <li>Outside the tavern: the other party members are confronted by Caldun — cloaked, heavily armed, bearing Mithris's elven sigil. He attacks because the party is investigating what "some people would prefer remain untouched." He is acting under Mithris's orders.</li>
+        <li>Substory (Velintra/Decima in the room): Establishment Leader trying to sell Zenzar (ex-militia leader) to Secus. Secus wants Zenzar because of the military resource and charismatic authority he represents — confirming coup intent. <em>"Heavy doth the crown weight on one's head, for its banner waves in vanity and defiance."</em></li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Red fist = late Duke / House Mournen. Confirmed this session.</div>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Mithris's elven symbol — on Caldun's person. Identifies Consortium/Concierge operatives.</div>
+      <div class="s-logic">🔮 <strong>Logic chain:</strong> Secus (married into 1st Circle via Khol) is buying Zenzar (former militia leader, missing ~7 years) through a masked figure (likely Hathor, Order of Blue Fist, cadet branch of Mournen). If Secus = Khol loyalty + Zenzar = military resource, the coup of the Council of Regency is the next move. The target: "prince loyalists and Arthur" suggests the party and Arthur are in the coup's crosshairs.</div>
+      <div class="s-npc">🔹 <strong>NPCs confirmed:</strong> Secus Domitae (Decima's brother; 1st Circle). Caldun (Consortium enforcer; Mithris's weapon). Rarik Ville (Head Justice). Alazar (wants to join Archidibus). Establishment Leader (masked; likely Hathor).</div>
+    </div>
+  </div>
+
+  <!-- SESSION 6 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 6 — Magistrate Attack; Entering the Mines <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Devil's bargain occurred. Lantis remains missing — possibly dead.</li>
+        <li>Party reaches the Magistrate office: blood at the fortified door, divination magic dot inside = Arthur, standing with cane/sword drawn. 3–4 guards downed. Alazar seen with crossbow. Embers in the Ministerial and Aristocracy District.</li>
+        <li>Attackers had <strong>red armbands</strong>. Arthur suspects "Brigans" (possibly from a mining district or Blue Pirates). The entire Ministerial and Aristocracy District was hit with attacks simultaneously — a coordinated strike.</li>
+        <li>Party tasked: find the missing people before "the Bigwigs" (a 1st Circle figure and a 3rd Circle figure) arrive at the city.</li>
+        <li>The Narrows are east of the Drunken Dog Inn.</li>
+        <li>Velintra goes to the Alchemy Shop to analyze mist droplets. Finds a Dark Elf dead on the road with a unique weapon. First body (Persephone) was slashed through the door slit. Second body held a shortsword cut clean in half. It is snowing.</li>
+        <li>Rest of party moves toward the Yearning Mines (formerly owned by the Duke; now under the Marshall). Ryo outed himself as a magistrate operative in front of the bathhouse. Mithe follows others into the mines.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Marker:</strong> Red armbands on attackers at the Magistrate — suspected Blue Pirates or Brigans.</div>
+      <div class="s-logic">🔮 <strong>Logic note:</strong> The Dark Elf body with a unique weapon — killed before any combat reached the Alchemy Shop area — suggests someone eliminated a Dark Elf operative in advance of the party finding it. This may be Caldun, Velintra's guild, or an independent third party cleaning house.</div>
+    </div>
+  </div>
+
+  <!-- SESSION CAVERS -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session Cavers (Parts 1–3) — The Yearning Mines &amp; The Abyss <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Part 1 — Mine Entry &amp; Intel</h4>
+      <ul>
+        <li>Ryo and Mithe talk to Zane inside the mines. Aldred and Thog attempt entry separately (Aldred presents as "an executioner of monsters and heretics").</li>
+        <li>Miners sent in groups down the Pits of Hell — spirals deep; high cave-in rate. Penal colony / trustee system. Overman Jar = head of the trustee system.</li>
+        <li>Fog curls inward. Mist clumps around. Lantern casings contain dimly glowing stone. No metal casings for miners — only guards have metal helmets.</li>
+        <li><strong>Manifest Board discrepancy:</strong> 15 went down, 14 came up. The ledger showed 16. Ralph Alvarez is missing.</li>
+        <li><strong>Prayer Board:</strong> Names, prayers ("ash and dust"), various crimes. Main name: Hollis. Jonathan Wineford — disappeared when light flickered — crossed out with a triangle symbol.</li>
+        <li>34th expedition: 20 noted, 19 went down, 1 came back up. Sole survivor won't speak, shakes constantly. Taken to clinic by the Overman.</li>
+        <li>Expedition yesterday also failed. Guards talking about a "girl."</li>
+        <li>Every 7th thump: a pause + brief light flicker. The 4-beat machine rhythm begins here.</li>
+        <li>Weaver's Arch: where the late Duke gave speeches. Now broken stones.</li>
+      </ul>
+      <div class="s-logic">🔮 <strong>Logic chain (the discrepancy):</strong> Ledger shows 16. 15 went down. 14 came up. The missing person is not on the manifest — which means either the manifest was altered, or someone went down through a different route. The triangle on Jonathan Wineford's name (he disappeared when a light flickered) is the same phenomenon: a momentary absence of light = a seam through which someone is taken. This maps to the Wound's behavior (forgetting = fog = absence).</div>
+
+      <h4>Part 2 — The Fall; The Ebony Gate; The Warden</h4>
+      <ul>
+        <li>Mithe, Ryo, Thog and others fall through mine floors. Survivors: Artemis (big/scarred/"Criminal"), Volk Stormhammer (old dwarf), one grizzled guard, Ryo, Mithe, Thog.</li>
+        <li>A beat every 12 seconds. Cobalt magnifies light and distorts space around it. Magic is absorbed into the cobalt. The vents sucked in the fog.</li>
+        <li>Party discovers the dark ebony gate: heavy stone weight on chain, ore carts with lead ingots on both sides (left: halfway sealed, right: full). Hitting the chain on-beat unlocks the gate without penalty. Off-beat = psychic damage.</li>
+        <li>Past the gate: a room with a large pool below a dangling hook, 15 ft above a downward air draft vent. <strong>The Warden of the Deep emerges from the pool.</strong></li>
+        <li>Warden's words: <em>"I am the hinge that keeps the broken heavens closed... I am the weight on the mouth of the world... I do not wish to harm you, but the jar must stay sealed for I am the Warden of the Deep — bound by Oath."</em> / <em>"Destiny feels like freedom until you hear the hinges."</em></li>
+        <li>Warden sees corruption in all party members: <em>"You are all potential vessels."</em> / <em>"I've cast those chains aside."</em> / <em>"Duty bound to He who stood for us — who is a god that I believe we all worship."</em></li>
+      </ul>
+      <div class="s-logic">🔮 <strong>Logic note:</strong> The Warden says he is "duty bound to He who stood for us" — referring to Ser Gavriel Val'Tan ("Him"). This means the Warden predates or is contemporary with Gavriel. The Warden says he has "cast those chains aside" — suggesting he is no longer fully bound by whatever oaths originally constrained him. He remains as Warden by choice now, not compulsion.</div>
+
+      <h4>Part 3 — The Meteorite Chamber &amp; The Machines</h4>
+      <ul>
+        <li>Through a 7 ft seam: a circular room of <strong>natural meteorite</strong> — unheard of; no known natural source. Center: cylindric table with concave top.</li>
+        <li>Ceiling: star map of yellow dots connected by semi-geometric lines — matches Mithe's pool visions. Prestidigitation fails when it too closely replicates the pattern: "almost as if it is a system of rule or law that cannot be broken."</li>
+        <li>Volk on another world: <em>"The forefathers did spoke... they vowed to never speak of this topic, and only once we traded with you, when we were alone in the stone."</em></li>
+        <li><strong>Three wall symbols (Mithe touches all):</strong>
+          <ul>
+            <li><strong>Green Book:</strong> Luminescent. Feelings: regality, inevitability, loss. Label: "Fate's Final Rest."</li>
+            <li><strong>Blue Scepter:</strong> Label: "Humanity's Unyielding Spirit."</li>
+            <li><strong>Red Crown:</strong> Sadness, melancholy, anger, betrayal, happiness, certainty, faith. Labels: "The end of the Starborn." / "My sacrifice is your duty." Voice: <em>"Will you undertake this path? Will you pledge yourself — the loss of your body, of your potential existence — to be the world's warden, chosen out of callousness."</em> / <em>"A lord's final people."</em> Mithe takes −3 psychic damage.</li>
+          </ul>
+        </li>
+        <li>Ryo taps the concave centerpiece with his obsidian key → light falls from the ceiling onto the 3 symbols. Rotating the cylinder 270 times inverts the reflection. 540 = original. "Time leaves the universe's burdens" engraved on a wall behind a slit.</li>
+        <li>Side hallway: thousands of light-emitting specks, inscriptions in unknown language on plinths. Five masks:
+          <ul>
+            <li>1st (Obsidian): Key touch reveals translation — <em>"Before the first veil was woven, the universe was our anchor — and I was its guide."</em></li>
+            <li>3rd: Reed comes out freely; thin charcoal line: <em>"For the many masks you've worn throughout time."</em></li>
+            <li>5th: Reed shaped like a key. <em>"For the life you left behind."</em> — used to unlock exit door.</li>
+          </ul>
+        </li>
+        <li>Beyond the door: 4 ancient machines. Three thumping; 4th struggling. On the 4th-of-4th beat — silence. The world lurches. "Entropic stabilization containment failing."</li>
+        <li>Machine panels: 1st = "Matter — that which resists." 2nd = "Flux — that which changes." 3rd = "Energy — that which moves." 4th = tablet fragment: <em>"Entropy can only be delayed."</em></li>
+        <li>Party fixes the 16th beat. Returns to the wardroom. Cavers are handcuffed while Knavers meet Rarik Ville.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigils in meteorite chamber:</strong> Green Book ("Fate's Final Rest"), Blue Scepter ("Humanity's Unyielding Spirit"), Red Crown ("The end of the Starborn" / "My sacrifice is your duty").</div>
+      <div class="s-logic">🔮 <strong>Logic chain (the chamber's purpose):</strong> The star map on the ceiling matches Mithe's visions and the pattern cannot be fully magically replicated — it is a law, not just a pattern. The three symbols correspond to three fundamental objects (book, scepter, crown = knowledge, authority, sacrifice). The voice from the Red Crown asks for a "world's warden" — the same title the Warden of the Deep holds. This chamber may be a site where wardens are chosen or pledged.</div>
+      <div class="s-npc">🔹 <strong>NPCs introduced:</strong> Artemis (Order of the Rose; 6th Circle). Volk Stormhammer (non-penal dwarf miner). Warden of the Deep (ancient guardian; Sub-6th).</div>
+    </div>
+  </div>
+
+  <!-- SESSION KNAVERS -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session Knavers — Rarik Ville; The Cobalt Portal; Fate <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>A tall brown-robed man (Inquisitor) mistakes Velintra for "Sister Erithine" — establishing that Erithine is real and well known to this Inquisitor. Rarik Ville seen as a child (~age 9) in a time-jump: he is from Sister Erithine's orphanage.</li>
+        <li>The Great Martyred Lady discussed: heroically died; used magic at great cost; of much significance to the current era.</li>
+        <li>Selka Morren introduced as "Lady Factor." The Morren family made a syndicate guild deal with "Clandet Morren."</li>
+        <li>A convoy was attacked; info forwarded to higher-ups. Heretics brawl; ecclesiastical forces get involved.</li>
+        <li>Brown-robed individual spotted pulling out a vial. <strong>Symbol of Avar</strong> seen on an ornate glowing box containing ebony liquid. Brown robe dipped after the vial was splashed on someone's skin. No blood from the injured arm — unusual.</li>
+        <li><strong>Decima strikes the magical item.</strong> The box begins to break — a piece of themselves is ripped away. Burning and cold nothingness. The awakened cobalt rips a portal between realities.</li>
+        <li>Party spawns in a burning village with dead bodies and smoke. 4 people are fighting. Velintra recognizes one figure but cannot place them from where. <strong>"Ashen Warrior"</strong>: high-quality gear, epaulettes scrubbed off, covered in ash, younger-middle age, <strong>hourglass glass pendant</strong>, eyes purposely concealed. Part of a group of 5 adventurers.</li>
+        <li><strong>The Fate Encounter (party-wide event):</strong> The green-bound ledger appeared before the party. Before them, where the book had been, a featureless figure with stars for eyes replaced it. Party asked: <em>"Why is fate so cruel?"</em> The entity replied: <em>"I am fate, aren't I?"</em> This is a party encounter — not specific to any one character.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Hourglass pendant — on the "Ashen Warrior" in the portal vision. Connects to Midas's gift to Valerian and the Quiet Architect.</div>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Symbol of Avar — on the ornate glowing box that triggered the cobalt portal event.</div>
+      <div class="s-logic">🔮 <strong>Logic chain (the Ashen Warrior):</strong> The portal opened by awakened cobalt showed a pre-cataclysm burning village. The Ashen Warrior's epaulettes are scrubbed off (rank/identity concealed deliberately) but the gear is high quality. The hourglass pendant matches the Quiet Architect's symbol. Velintra recognizes this person from somewhere — suggesting a dark elf guild connection or pre-campaign history. The 5 adventurers visible are the legendary party the documents reference (the party Lux joined that disappeared).</div>
+      <div class="s-npc">🔹 <strong>NPCs confirmed:</strong> Selka Morren (Lady Factor / Auditor). Rarik Ville — confirmed from Sister Erithine's orphanage. Fate (primordial entity — featureless figure, stars for eyes).</div>
+    </div>
+  </div>
+
+  <!-- SESSION 11 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 11 — Marshall's Interrogation (Part 1) <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>The Marshall uses an orb + glass spindle for interrogation: taps when hiding something, blue = truthful, purple = hiding something. Ryo interrogated first.</li>
+        <li><strong>The Marshall reveals:</strong> The Council of Regency had something to do with the Duke's death.</li>
+        <li>Special Military Zone = Marshall's jurisdiction here. Only the Auditors (Selka Morren) and the head of the city can contest it. No head of city currently exists — the power vacuum is total.</li>
+        <li>City political summary: multiple factions, power shifts, inconsistent guard resources. Council of Regency cares only about short-term. Watchtowers and heavy ballistae focused outward.</li>
+        <li>The Marshall is allegedly tied to a noble house (name not disclosed).</li>
+        <li>Original 12 Great Houses explained: 9 known, 1 lost to time, 2 expunged. One expelled during the Great Schism — the moment the Church asserted dominance over nobles. During the years of the Great Martyred Lady.</li>
+      </ul>
+      <div class="s-logic">🔮 <strong>Logic chain (Council of Regency + Duke's death):</strong> If the Council of Regency was involved in killing the Duke, and the Council is composed of nobles focused on short-term gains, then the Duke's death was a political maneuver — likely to seize the city's resources (mines, trade, Stork Industries) without the Prince's dynastic claim getting in the way. The Prince's simultaneous disappearance ~Year 618 makes this more sinister.</div>
+    </div>
+  </div>
+
+  <!-- SESSION 12 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 12 — Marshall's Interrogation (Part 2) <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Full interrogation sequence. All have wristbands.</li>
+        <li>Order: Rarik Ville (whereabouts unknown after); Ryo (taken to prison); Mithe (released); Velintra (released); Decima (taken to prison); three remain in waiting room; Thog (sent to be executed — guards have silver armbands — escaped as a spider); Kane (no wristband); Reginald; Aldred (Marshall has his crest).</li>
+        <li>Decima and Ryo imprisoned in separate single cells. One guard at the entrance.</li>
+        <li>Marshall accuses Decima of being a "witch." Claims: <em>"The tragic incident was from a heretic employed by Lady Morren"</em> — implicating Selka Morren.</li>
+        <li>Outside the interrogation room, the Marshall's body "looks as if it is protesting against what he is doing. He is not happy." He appears to be acting under compulsion or conflicted loyalties.</li>
+        <li>Court scene: bound prisoners, Rarik Ville seated with two Marshall guards (black armbands) staring intently beside him. One guard side-eyes the Marshall. Rarik is testifying on behalf of the ecclesiastical church.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Markers:</strong> Silver armbands = guards who took Thog. Black armbands = Marshall's personal detail (also assigned as Rarik's bodyguard, creating a chain of control).</div>
+      <div class="s-logic">🔮 <strong>Logic note:</strong> The Marshall has Aldred's crest. This means the Marshall has been tracking the Order of the Flame — or someone from it — for some time. The Marshall blaming Selka Morren (the nobles' auditor) may be a strategic deflection to create conflict between the party and the noble faction that sent Morren.</div>
+    </div>
+  </div>
+
+  <!-- SESSION 13 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 13 — Release; The Three-Rune Bracelets; Martial Law Buildup <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Marshall offers compromise: the bracelets are technologies used to manage unruly prisoners — remote-activatable under certain ether conditions. <em>"If activated, you will no longer be anyone's problem."</em></li>
+        <li>Rarik Ville escorted to his back chambers (out of the picture for now).</li>
+        <li>Party brought to the front of the mines with ~12 guards. Given older, slightly chipped bracelets — runes facing inward (touching skin).</li>
+        <li>Party spots Volk Stormhammer and Oral Oxthain (Veinwarden) having tea. Ryo arranges to meet Volk at the Drunken Dog Inn.</li>
+        <li><strong>Three runes on new bracelets:</strong> 1st = "Strictus" (strictest variant, similar to the mine bracelets). 2nd = airy/free-flowing feel ("Aerie?"). 3rd = familiar but unidentified.</li>
+        <li>Marshall fiddles with red, yellow, and purple marbles. (Purpose unknown — possibly a communication device, magical instrument, or personal habit.)</li>
+        <li>Reinforcements at the top of the wall: ammo, quivers, crossbows, oil being loaded. Town crier announces "the council of the glorious esteemed noble senate, calling the entire estates of this subcircle." Upper senate = in power. Lower senate = all the nobles.</li>
+        <li>Faction alignment clarified: Garth/Magistrate → Nobles. Marshall → refuses noble access to mines. Inquisitor Rarik Ville → "just trying not to die from Marshall"; both playing nice.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Markers:</strong> 3-rune bracelets (Strictus / Aerie / Unknown). Red, yellow, purple marbles — Marshall's personal items; purpose unknown.</div>
+      <div class="s-logic">🔮 <strong>Logic note (bracelets):</strong> DM confirmed runes are "like transistors" — reactive, not active. The 3rd rune being "familiar" suggests the party has encountered a version of this rune before, possibly in the mines or on earlier wristbands. If the bracelets are remote-activated, whoever holds the activation method holds a kill-switch on the party.</div>
+    </div>
+  </div>
+
+  <!-- SESSION 14 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 14 — The 7th Fleet Arrives; Merchant District Tensions <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>Yellow naval flares seen from the waters — not city flares (those are red/green and very expensive). N'thoda appears in front of Mithe and Artemis outside the magistrate station.</li>
+        <li>A trail of ships enters and begins surrounding the city. Ships carry Vo'dyn empire flags. <strong>Sigil of Him on each ship.</strong></li>
+        <li>City guard declares: anything within 15–20 ft of the border is Militarum jurisdiction. Martial law declared on outer walls. Garth: <em>"Nobody was expecting these ships, those are naval flares."</em></li>
+        <li><strong>7th Fleet briefing (from Aldred's insights):</strong> Led by Admiral Galewind; deputy Commodore Sal'vin (Hell's Fury). Not under the Militarum but under the Nautica Liticus. They "directly answer to the capital." Associated with both nobles (commission) and religious groups (funding). They theoretically have the resources to take over a small city — and do have marines. The Martyr is the flagship: pre-cataclysm galleon, 600+ years old, following manuals no one fully understands. Naval flares "draw attention and attract some things that lurk in the water." It is currently 4am.</li>
+        <li>Militia leader (Zenzar) missing for 7 years — same time as the Prince. Nobody could replace him.</li>
+        <li>Society of Brilliance has a chapter in Zen'tar — offshoot of the Luminary Council (2nd Circle arcane authority).</li>
+        <li>Merchants throwing a "huge spree in crime" claim; hiring ruffians; giving free food to people who leave the district. Trebuchets, arbalests, and scorpions being assembled in the Merchant District.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Sigil of Him on 7th Fleet ships — highest imperial/holy identifier.</div>
+      <div class="s-sigil">🔷 <strong>Marker:</strong> Yellow = naval flares. Red/green = city flares (rare/expensive). Blue feather = Militarum guards at the merchant district checkpoint.</div>
+      <div class="s-logic">🔮 <strong>Logic chain (7th Fleet arrival):</strong> Nobody was expecting them. Not even the Marshall's intelligence anticipated it. The 7th Fleet only docks when resupplying or in a crisis deployment. Their arrival with the Sigil of Him on each ship suggests either a religious mandate or a direct Capital order of the highest priority. The fact that they fired naval flares — which "draw things from the water" — suggests either they were forced to signal, or they arrived in a crisis themselves.</div>
+      <div class="s-npc">🔹 <strong>NPCs introduced:</strong> Admiral Galewind (7th Fleet). Commodore Sal'vin (Hell's Fury).</div>
+    </div>
+  </div>
+
+  <!-- SESSION 15 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 15 — The Wyrm Speaks; Ryo &amp; Decima's Shared Vision <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>The Shared Vision (Ryo &amp; Decima)</h4>
+      <ul>
+        <li>Both are pulled into a shared space: a wooden-furnished room, long-hall shape, grandfather clock in center. Long table. 3 candles: 1 red, 1 green, 1 blue. Only the green candle is lit. Clock reads 11:50 — 10 minutes to midnight. Only sound: ticking. Decima's hair is muted white.</li>
+        <li>Decima has read the Wyrm's apprentice's tome. The Wyrm speaks to both.</li>
+      </ul>
+      <h4>The Wyrm's Monologue (direct quotes where available)</h4>
+      <ul>
+        <li><em>"Without me, you would have been sundered, destroyed, like her. I protected you, and used my own soul to protect you lest you be destroyed. The concentrated power of—"</em> [gargle; tries to say a name; cannot say it].</li>
+        <li><em>"This thing has destroyed worlds, empires. Only the foolish are not afraid of those THINGS. Their path only leads to damnation and ruin as they try and trickle you in, as they offer you everything. I do not serve, I rule."</em></li>
+        <li>To Decima: <em>"You've read my apprentice's tome I see. You asked for it. You agreed to get this gift. They do not force, they tempt. They offer. That is the old law, the law written in the cosmos. You chose it, and paid the price thinking you can control it. And that is what makes you the greatest fool."</em></li>
+        <li><em>"A price paid. A gift given. A fate rewrote. I chose my own fate. You? You've given it away."</em></li>
+        <li>To Ryo asking for a name: <em>"You have yet to earn the right."</em></li>
+      </ul>
+      <h4>Ryo's Dirty 20 Perception (Wyrm's mindscape)</h4>
+      <ul>
+        <li>The Wyrm's eyes are <strong>crimson red</strong>.</li>
+        <li>Setting: wooded at first, but a <strong>stronghold</strong> visible in the distance — new in construction, but old in design.</li>
+        <li>Have I seen the stronghold before? — No.</li>
+        <li>Banners: <strong>Trident</strong>, <strong>White banner with a red dot</strong> (similar to Penitant Deathriders), <strong>Lapis lazuli color banner</strong>. Three banners total.</li>
+      </ul>
+      <h4>End of Vision</h4>
+      <ul>
+        <li>Green candle's wick shortens; drips have a light black aura. A flame begins on the red candle. Clock strikes midnight. Doors open to the right. Ryo and Decima awaken at the tavern in cold sweats.</li>
+        <li>Velintra knocks them both out as they begin spasming and screaming. Party attempts a long rest.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigils on Wyrm's stronghold:</strong> Trident (House Gulfen/Trinton?), White + Red Dot banner (similar to Penitant Deathriders), Lapis Lazuli banner. Location and era of stronghold: unknown.</div>
+      <div class="s-logic">🔮 <strong>Logic chain:</strong> The Wyrm says it "used my own soul" to protect Ryo — meaning it has a soul, and it chose to sacrifice part of it. It says Decima read its "apprentice's tome" — the tome Decima found in her house's stores that she used for her ritual. The Wyrm therefore taught a Domitae before Ryo, which means the Wyrm's fingerprint was already in Decima's family line before both of their stories began. The green candle (currently burning) is likely the Wyrm's presence. The red candle beginning to light at midnight may signal an escalation or change in its hold.</div>
+      <h4>Additional Backstory Confirmed This Session</h4>
+      <ul>
+        <li>Secus: trained in cloak-and-dagger; married into House Khol; extremely loyal to them.</li>
+        <li>Quartus (Domitae sibling): works part of a 4th Circle family; operates a mineral well.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SESSION 16 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 16 — Merchant District Ambush; O'Malley Killed; Midas at the Funeral <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Key Events</h4>
+      <ul>
+        <li>It is 4am. Blue feather on Militarum guards at the merchant district checkpoint. Will not let the party in initially.</li>
+        <li>Merchants claiming a huge crime spree; hiring ruffians; giving free food to those who leave the district. Siege equipment (trebuchets, arbalests, scorpions) being assembled — the Merchant District is preparing for a fight.</li>
+        <li>Peoples' Merchant Guild of Commerce: major guild specializing in weapon innovation, industrial goods, and shipping.</li>
+        <li><strong>Party ambushed</strong> by the same people who attacked the militia. Attempted poisoning — everyone hit except Decima.</li>
+        <li><strong>O'Malley killed.</strong> She was the party's contact from the Marshall. Dying words: <em>"Premier."</em> (ARG note — not in-session but associated: "The melody is sweet but I preferred the silence.")</li>
+        <li>Velintra looted O'Malley's body while investigators weren't watching: Note (Westfall. Ravenscreft.), 7 gold, bloodied dagger, sealed letter, a <strong>thorn talisman</strong>.</li>
+        <li>Concierge operatives flee; metal clanking heard as they move.</li>
+        <li>Lt. Boltin Crestfyre (4th Investigation Enforcement Wing) arrives on scene. Was ordered to hold position until the codeword "Dagger" — which he heard from the assassins themselves. Now accusing the party of starting the fight. "Stood by while we were ambushed."</li>
+        <li>Investigators do not get involved with merchants (Charter of Commerce). Decima gives alias Delattre (first name real). Boltin's unit is a Special Investigation Unit (no number assigned).</li>
+        <li><strong>Midas Khol at the Duke's funeral (contextual / flashback detail confirmed this session):</strong> Gave Valerian Than'dal an hourglass pendant: <em>"I'll keep the hourglass turning."</em> Valerian confirmed tasked with watching the Prince.</li>
+      </ul>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Thorn talisman — found on O'Malley. Unknown affiliation.</div>
+      <div class="s-sigil">🔷 <strong>Sigil:</strong> Hourglass pendant — Midas → Valerian. "I'll keep the hourglass turning."</div>
+      <div class="s-logic">🔮 <strong>Logic chain (Boltin):</strong> Boltin heard the codeword "Dagger" from the assassins and then used it to hold position — which allowed the Consortium assassins to complete the job and flee. Whether Boltin is corrupt or simply following orders he didn't know were compromised is unclear. The fact that his is a Special Investigation Unit (no number, no standard chain of command) makes it harder to trace who gave the order.</div>
+      <div class="s-npc">🔹 <strong>NPCs introduced:</strong> Boltin Crestfyre (Lt., 4th Wing / Special Unit). O'Malley (dead; Marshall's contact). Valerian Than'dal (Midas's knight; confirmed as watcher of the Prince).</div>
+    </div>
+  </div>
+
+  <!-- SESSION 17 -->
+  <div class="session-block">
+    <button class="session-toggle" onclick="toggle(this)" aria-expanded="false">
+      Session 17 — Aftermath; Party Scattered; Current State <span class="s-arrow">▶</span>
+    </button>
+    <div class="session-body">
+      <h4>Situation Summary</h4>
+      <ul>
+        <li>Consortium assassins killed O'Malley (the party's contact from the Marshall), fled with their dead, leaving no traces. Boltin Crestfyre watched without intervening before "securing the perimeter." Suggests corrupt noble influence routing through the Special Investigation Unit.</li>
+        <li>Party is surrounded by the Special Investigation Unit wanting to question under Zone of Truth or Detect Thoughts.</li>
+        <li>Decima establishes: party is working with investigators, investigating disappearances (particularly Maestor Velitor — head of merchant guilds, also now missing), acting under Garth's and Arthur's authority.</li>
+      </ul>
+      <h4>Party Positions at End of Session 17</h4>
+      <ul>
+        <li><strong>Thog</strong> — at the Drunken Dog Inn.</li>
+        <li><strong>Kane</strong> — fled the Merchant District scene immediately.</li>
+        <li><strong>Artemis</strong> — fled the scene.</li>
+        <li><strong>Ryo</strong> — staying nearby the scene; hanging back.</li>
+        <li><strong>Decima</strong> — staying near Ryo; established cover with investigators as "Delattre."</li>
+        <li><strong>Mithe</strong> — at the scene; needs to blend in; high risk of identification; tried and failed to heal O'Malley.</li>
+        <li><strong>Velintra</strong> — at the scene; successfully looted O'Malley while investigators weren't watching.</li>
+        <li><strong>N'thoda</strong> — escaped through the sewers.</li>
+        <li><strong>Aldred</strong> — location unspecified at session end.</li>
+      </ul>
+      <div class="s-logic">🔮 <strong>Open threads heading into next session:</strong> Who is "Premier" (O'Malley's dying word)? What is in the sealed letter on O'Malley's body? Where did Maestor Velitor go? Who gave Boltin the compromised orders? Why does the Marshall want O'Malley dead — or was this purely a Consortium hit? The Merchant District is now locked down and assembling siege equipment — what are they expecting to attack, or to be attacked by?</div>
+      <div class="s-npc">🔹 <strong>NPCs engaged:</strong> Boltin Crestfyre (Special Unit). O'Malley (dead). Maestor Velitor (Guild Master; missing).</div>
+    </div>
+  </div>
+
+</div><!-- /segment -->
+
+<!-- footer -->
+<div class="page-footer">
+  AVAR INTELLIGENCE COMPENDIUM · COMPILED YEAR 626 · ALL INFORMATION SUBJECT TO REVISION BY FURTHER DISCOVERY
+</div>
+
+</div><!-- /wrapper -->
+<script src="davar.js"></script>
+</body>
+</html>

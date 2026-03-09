@@ -1,0 +1,844 @@
+/* avar.css */
+/* AVAR WORLD CODEX — STYLESHEET
+   Aesthetic: parchment · blood · gold · void
+   Fonts: Cinzel / Crimson Text / Share Tech Mono 
+   */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --ink:           #1a1208;
+  --parchment:     #f0e8d0;
+  --parchment-dark:#e0d4b0;
+  --blood:         #8b1a1a;
+  --gold:          #b8922a;
+  --gold-light:    #d4a843;
+  --ash:           #6b6358;
+  --mist:          #c4bfb0;
+  --deep:          #2a1f0f;
+  --cobalt:        #2a4a7f;
+  --void:          #0d0a06;
+  --surface:       #12120f;
+  --surface-mid:   #1a1a14;
+  --surface-high:  #22221a;
+  --border-gold:   rgba(184,146,42,0.25);
+  --border-blood:  rgba(139,26,26,0.4);
+}
+
+body {
+  background: var(--void);
+  color: var(--parchment);
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  line-height: 1.6;
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(42,31,15,0.8) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(139,26,26,0.15) 0%, transparent 50%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: rgba(26, 18, 8, 0.5); }
+::-webkit-scrollbar-thumb { background: #8b1a1a; border-radius: 3px; }
+
+
+/* Header */
+
+.header {
+  background: linear-gradient(180deg, #1a0a0a 0%, #0d0d1a 100%);
+  border-bottom: 1px solid #2a1f1f;
+  padding: 28px 32px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: padding 0.3s ease;
+}
+
+/* Shrunk state toggled by JS when the user scrolls down */
+.header.shrunk {
+  padding: 10px 32px 0;
+}
+
+.header-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.eyebrow {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  color: var(--blood);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  /* Animate out when shrunk */
+  max-height: 30px;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+.title {
+  font-family: 'Cinzel', serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  color: #d4af37;
+  text-shadow: 0 0 40px rgba(184,146,42,0.3);
+  transition: font-size 0.3s ease;
+}
+
+.subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  color: var(--mist);
+  margin: 4px 0 0;
+  text-transform: uppercase;
+  /* Animate out when shrunk */
+  max-height: 30px;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+/* Collapse eyebrow and subtitle when header is shrunk */
+.header.shrunk .eyebrow,
+.header.shrunk .subtitle {
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+}
+
+.header.shrunk .title {
+  font-size: 26px;
+  text-shadow: 0 0 46px rgba(184,146,42,0.3);
+}
+
+.search-container {
+  margin-bottom: 8px;
+}
+
+.search-input {
+  background: #1a1a1a;
+  border: 1px solid rgba(184, 146, 42, 0.2);
+  border-radius: 4px;
+  color: #e8dfc8;
+  padding: 8px 14px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  width: 240px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-input::placeholder { color: #6b6358; }
+
+.search-input:focus { border-color: #d4af37; }
+
+
+/* Tabs */
+
+.tabs {
+  display: flex;
+  gap: 0;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  background: transparent;
+  border: 1px solid rgba(184, 146, 42, 0.15);
+  border-bottom: none;
+  color: #6b6358;
+  padding: 8px 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px 2px 0 0;
+  margin: 0 1px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.tab:hover:not(.active) {
+  background: rgba(42, 31, 15, 0.6);
+  color: #d4af37;
+}
+
+.tab.active {
+  background: rgba(42, 31, 15, 0.98);
+  border-color: rgba(184, 146, 42, 0.4);
+  color: #d4af37;
+}
+
+
+/* Main content area */
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+
+/* All-tab section dividers */
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 36px 0 8px;
+}
+
+.section-divider:first-child { margin-top: 0; }
+
+.section-divider-label {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--blood);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+  
+}
+
+.section-divider-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #8b1a1a, transparent);
+}
+
+.section-title {
+  /* 
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  color: #d4af37;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(184, 146, 42, 0.2);
+  margin-bottom: 16px;
+  */
+  
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  color: var(--gold);
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-gold);
+}
+
+
+/* Accordion items (PC, NPC, Org) */
+
+.item {
+  background: #1a1208;
+  border: 1px solid rgba(184, 146, 42, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Left accent stripe; color set per item type below */
+.item::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+}
+
+.item.pc-item::before  { background: #8b1a1a; }
+.item.npc-item::before { background: #2a4a7f; }
+.item.org-item::before { background: #b8922a; }
+
+.item-header {
+  padding: 12px 16px 12px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  transition: background 0.15s;
+}
+
+.item-header:hover { background: rgba(42, 31, 15, 0.5); }
+
+.item-name-block {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.item-title {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #d4af37;
+  margin: 0;
+}
+
+.item-subtitle {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #6b6358;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+.item-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.item-toggle {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #8b1a1a;
+  transition: transform 0.2s;
+  margin-left: 4px;
+}
+
+.item.expanded .item-toggle { transform: rotate(90deg); }
+
+.item-body {
+  display: none;
+  border-top: 1px solid rgba(184, 146, 42, 0.15);
+  padding: 14px 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.item.expanded .item-body { display: grid; }
+
+/* Single-column variant for NPCs */
+.item-body.single-col { grid-template-columns: 1fr; }
+
+.item-body .full-row { grid-column: 1 / -1; }
+
+.field-label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #8b1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 3px;
+}
+
+.field-value {
+  font-family: 'Crimson Text', serif;
+  font-size: 13.5px;
+  color: #c4bfb0;
+  line-height: 1.6;
+}
+
+
+/* Tags */
+
+.tag {
+  display: inline-block;
+  padding: 2px 9px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  border-radius: 2px;
+  letter-spacing: 0.08em;
+}
+
+.echo-tag {
+  background: rgba(139, 26, 26, 0.25);
+  border: 1px solid rgba(139, 26, 26, 0.5);
+  color: #e88;
+}
+
+.status-tag {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  padding: 2px 9px;
+  border-radius: 2px;
+  border: 1px solid;
+  letter-spacing: 0.08em;
+}
+
+.age-tag {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #6b6358;
+}
+
+.org-type-tag {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  padding: 2px 9px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #c4bfb0;
+}
+
+
+/* Locations */
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+}
+
+.location-card {
+  background: #1a1208;
+  border: 1px solid rgba(184, 146, 42, 0.2);
+  border-top: 2px solid #b8922a;
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+
+.location-name {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  color: #d4af37;
+  margin-bottom: 3px;
+}
+
+.location-type {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #8b1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 6px;
+}
+
+.location-desc {
+  font-family: 'Crimson Text', serif;
+  font-size: 13px;
+  color: #c4bfb0;
+  line-height: 1.6;
+}
+
+
+/* Theories */
+
+.theories-warning {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #6b6358;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  background: rgba(30, 15, 40, 0.5);
+  border: 1px solid rgba(139, 94, 158, 0.3);
+  border-radius: 4px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.theory-card {
+  background: #1a1208;
+  border: 1px solid rgba(184, 146, 42, 0.15);
+  border-left: 3px solid #b8922a;
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+}
+
+.theory-label {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #d4af37;
+  margin-bottom: 8px;
+}
+
+.theory-detail {
+  font-family: 'Crimson Text', serif;
+  font-size: 13.5px;
+  color: #c4bfb0;
+  line-height: 1.75;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 32px 0 20px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: rgba(184, 146, 42, 0.25);
+  letter-spacing: 0.3em;
+}
+
+
+/* Collapsible accordion sections used for tables */
+
+.accordion-section {
+  background: rgba(30, 22, 10, 0.95);
+  border: 1px solid rgba(184,146,42,0.18);
+  border-radius: 2px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+
+.accordion-section.open {
+  background: rgba(13, 10, 6, 0.85);
+}
+
+.accordion-header {
+  padding: 11px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #d4af37;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(184, 146, 42, 0.15);
+  transition: background 0.15s;
+}
+
+.accordion-header:hover { background: rgba(42,31,15,0.98); }
+
+.acc-arrow {
+  font-size: 9px;
+  color: var(--blood);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+
+/* Scrollable table wrapper */
+
+.tbl-wrap {
+  overflow-x: auto;
+  padding: 12px 14px;
+  border: none;
+  border-top: 1px solid rgba(184,146,42,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Crimson Text', serif;
+  font-size: 13.5px;
+}
+
+thead tr {
+  border-bottom: 1px solid rgba(184, 146, 42, 0.4);
+}
+
+th {
+  font-family: 'Cinzel', monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  color: #d4a843;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  background: rgba(42,31,15,0.9);
+  text-align: left;
+  white-space: nowrap;
+}
+
+td {
+  padding: 7px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(184, 146, 42, 0.08);
+  color: rgb(202, 198, 186);
+  line-height: 1.55;
+}
+
+tr:last-child td { border-bottom: none; }
+
+tr:hover td { background: rgba(42, 31, 15, 0.3); }
+
+.cell-name {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  color: #d4af37;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.cell-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 13.5px;
+  color: #e8dfc8;
+}
+
+
+/* Circle / type / sigil tags used inside table cells */
+
+.tag {
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 2px;
+  margin: 1px 2px;
+  letter-spacing: 0.05em;
+}
+.tag-red    { background: rgba(139,26,26,0.35); color: #e88; border: 1px solid rgba(139,26,26,0.5); }
+.tag-gold   { background: rgba(184,146,42,0.25); color: #d4a843; border: 1px solid rgba(184,146,42,0.4); }
+.tag-blue   { background: rgba(42,74,127,0.35); color: #88aadd; border: 1px solid rgba(42,74,127,0.5); }
+.tag-grey   { background: rgba(100,90,80,0.35); color: #bbb; border: 1px solid rgba(100,90,80,0.5); }
+.tag-green  { background: rgba(30,80,40,0.35); color: #8c8; border: 1px solid rgba(30,80,40,0.5); }
+.tag-purple { background: rgba(80,30,100,0.35); color: #c8a0e0; border: 1px solid rgba(80,30,100,0.5); }
+
+/* Info box used in Great Houses header */
+
+.info-box {
+  background: rgba(26,20,12,0.85);
+  border-left: 4px solid var(--gold);
+  border-radius: 3px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #d4c9a8;
+}
+
+.info-box strong { color: var(--gold-light); }
+
+
+/* Sub-section label used inside open accordion panels */
+
+.sub-section-label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  color: #8b1a1a;
+  text-transform: uppercase;
+  padding: 10px 14px 4px;
+}
+
+
+/* Player character card grid */
+
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.player-card {
+  background: #1a1208;
+  border: 1px solid rgba(184, 146, 42, 0.2);
+  border-top: 2px solid #8b1a1a;
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+
+.player-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.player-name {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  color: #d4af37;
+  margin: 0;
+}
+
+.player-echo {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  color: #e8dfc8;
+  letter-spacing: 0.15em;
+}
+
+.player-meta {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #6b6358;
+  margin-bottom: 6px;
+}
+
+.player-appearance {
+  font-family: 'Crimson Text', serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #9a9080;
+  margin-bottom: 6px;
+}
+
+.player-bio {
+  font-family: 'Crimson Text', serif;
+  font-size: 13px;
+  color: #c4bfb0;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+.possession-note {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #6b6358;
+  letter-spacing: 0.12em;
+  background: rgba(139, 26, 26, 0.1);
+  border: 1px solid rgba(139, 26, 26, 0.25);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+
+.possession-note strong { color: #e88; }
+
+
+/* Active plot thread card grid */
+
+.thread-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.thread-card {
+  background: #1a1208;
+  border: 1px solid rgba(184, 146, 42, 0.15);
+  border-left: 3px solid #b8922a;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.thread-title {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  color: #d4af37;
+  margin: 0 0 4px;
+}
+
+.thread-status {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  color: #8b1a1a;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.thread-detail {
+  font-family: 'Crimson Text', serif;
+  font-size: 13px;
+  color: #c4bfb0;
+  line-height: 1.65;
+  margin: 0;
+}
+
+
+/* Theory cards — confirmed variant gets a green-tinted badge */
+
+.confirmed-card {
+  border-left-color: #3a8a4a;
+}
+
+.confirmed-badge {
+  display: inline-block;
+  background: rgba(26, 100, 26, 0.3);
+  border: 1px solid rgba(60, 140, 60, 0.5);
+  color: #8c8;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 8px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  letter-spacing: 0.15em;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+
+/* Session notes blocks */
+
+.session-block {
+  background: #1a1208;
+  border: 1px solid rgba(184, 146, 42, 0.15);
+  border-radius: 4px;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+
+.session-toggle {
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  color: #c4bfb0;
+  letter-spacing: 0.1em;
+  transition: background 0.15s;
+}
+
+.session-toggle:hover { background: rgba(42, 31, 15, 0.5); }
+
+.session-block.open .session-toggle {
+  border-bottom: 1px solid rgba(184, 146, 42, 0.12);
+  color: #d4af37;
+}
+
+.session-body {
+  padding: 12px 18px;
+}
+
+.session-sub {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  color: #8b1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin: 10px 0 4px;
+}
+
+.session-sub:first-child { margin-top: 0; }
+
+.session-list {
+  margin: 0 0 4px;
+  padding-left: 18px;
+}
+
+.session-list li {
+  font-family: 'Crimson Text', serif;
+  font-size: 13px;
+  color: #c4bfb0;
+  line-height: 1.6;
+  margin-bottom: 3px;
+}
+
+.session-dm {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: #8c8;
+  background: rgba(26, 80, 26, 0.15);
+  border: 1px solid rgba(60, 120, 60, 0.3);
+  border-radius: 3px;
+  padding: 7px 10px;
+  margin-top: 10px;
+  letter-spacing: 0.05em;
+  line-height: 1.55;
+}

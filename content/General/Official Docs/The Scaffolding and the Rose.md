@@ -81,7 +81,7 @@ One man. Walking through the main gate like he owned it. Like he'd been invited.
 
 The boy saw him clearly in the lamplight: young, maybe mid-twenties, wearing the formal coat of nobility but moving like a trained fighter. Sword already drawn. Face set with the kind of cold fury that came from decisions made long before tonight.
 
-"That's [[Arthur]] Augustus," Crane breathed, recognition sharp in his voice."He is the Regent Council Representative and Senator's son with the investigator's detachment. What is he -"
+"That's [[Arthur]] Augustus," Crane breathed, recognition sharp in his voice. "He is the Regent Council Representative and Senator's son with the investigator's detachment. What is he -"
 
 Arthurian didn't announce himself. Didn't give warning.
 He just started killing.

@@ -53,5 +53,5 @@ Decima has 9 other siblings outside of her.
 9. [[Nona]] - dead. Closest sister to Decima. Had gotten married off to someone in the clergy. May have died 7 years ago by the hands of [[Velintra]] (hypothesized).
 10. [[Decima]] - alive (so far). 
 
-[[Dextra]] and [[Sinetra]] are the right and left of the [[House Domitae]], respectively.
+[[Dextra]] and [[Sinestra]] are the right and left of the [[House Domitae]], respectively.
 
