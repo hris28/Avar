@@ -396,7 +396,6 @@ function renderTheories(theories, target) {
   });
 }
 
-
 // Create an element with a class and optional text content
 function makeEl(tag, className, text) {
   const el = document.createElement(tag);

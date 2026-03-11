@@ -154,20 +154,7 @@ body {
   gap: 0;
   margin-top: 14px;
   flex-wrap: wrap;
-  transition: margin 0.3s ease;
 }
-
-/* On shrunk: single scrollable row, smaller tabs */
-.header.shrunk .tabs {
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin-top: 6px;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;
-}
-
-.header.shrunk .tabs::-webkit-scrollbar { display: none; }
 
 .tab {
   background: transparent;
@@ -182,15 +169,7 @@ body {
   cursor: pointer;
   border-radius: 2px 2px 0 0;
   margin: 0 1px;
-  white-space: nowrap;
-  flex-shrink: 0;
-  transition: background 0.15s, color 0.15s, padding 0.3s ease, font-size 0.3s ease;
-}
-
-.header.shrunk .tab {
-  padding: 5px 10px;
-  font-size: 8.5px;
-  letter-spacing: 0.12em;
+  transition: background 0.15s, color 0.15s;
 }
 
 .tab:hover:not(.active) {
@@ -227,16 +206,16 @@ body {
 
 .section-divider-label {
   font-family: 'Cinzel', serif;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.3em;
+  font-size: 13px;
+  letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: #d63a3a;
+  color: var(--blood);
   margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 12px;
   white-space: nowrap;
+  
 }
 
 .section-divider-rule {
@@ -283,9 +262,9 @@ body {
   width: 3px; height: 100%;
 }
 
-.item.pc-item::before  { background: #c0282a; }
-.item.npc-item::before { background: #4a8fd4; }
-.item.org-item::before { background: #3a9e7a; }
+.item.pc-item::before  { background: #8b1a1a; }
+.item.npc-item::before { background: #2a4a7f; }
+.item.org-item::before { background: #b8922a; }
 
 .item-header {
   padding: 12px 16px 12px 20px;
@@ -395,7 +374,6 @@ body {
   padding: 2px 9px;
   border-radius: 2px;
   border: 1px solid;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
@@ -508,41 +486,37 @@ body {
 }
 
 
-/* Collapsible accordion sections used for tables — unified with .item card style */
+/* Collapsible accordion sections used for tables */
 
 .accordion-section {
-  background: #1a1208;
-  border: 1px solid rgba(184, 146, 42, 0.2);
-  border-top: 2px solid rgba(184, 146, 42, 0.45);
-  border-radius: 4px;
-  margin-bottom: 8px;
+  background: rgba(30, 22, 10, 0.95);
+  border: 1px solid rgba(184,146,42,0.18);
+  border-radius: 2px;
+  margin-bottom: 6px;
   overflow: hidden;
 }
 
 .accordion-section.open {
-  background: rgba(13, 10, 6, 0.92);
+  background: rgba(13, 10, 6, 0.85);
 }
 
 .accordion-header {
-  padding: 12px 16px 12px 16px;
+  padding: 11px 16px;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Cinzel', serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   color: #d4af37;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  border-bottom: 1px solid rgba(184, 146, 42, 0.15);
   transition: background 0.15s;
 }
 
-.accordion-header:hover { background: rgba(42, 31, 15, 0.5); }
-
-.accordion-section.open .accordion-header {
-  border-bottom: 1px solid rgba(184, 146, 42, 0.15);
-}
+.accordion-header:hover { background: rgba(42,31,15,0.98); }
 
 .acc-arrow {
   font-size: 9px;
@@ -593,6 +567,12 @@ td {
   line-height: 1.55;
 }
 
+/* Make notes column wider */
+td:last-child {
+  min-width: 350px;
+  width: 40%;
+}
+
 tr:last-child td { border-bottom: none; }
 
 tr:hover td { background: rgba(42, 31, 15, 0.3); }
@@ -650,10 +630,9 @@ tr:hover td { background: rgba(42, 31, 15, 0.3); }
 
 .sub-section-label {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 9px;
   letter-spacing: 0.3em;
-  color: #d63a3a;
+  color: #8b1a1a;
   text-transform: uppercase;
   padding: 10px 14px 4px;
 }
@@ -778,381 +757,33 @@ tr:hover td { background: rgba(42, 31, 15, 0.3); }
 }
 
 
-/* Theory disclaimer banner */
+/* Theory cards — confirmed variant gets a green-tinted badge */
 
-.theory-disclaimer {
-  background: rgba(26, 20, 12, 0.85);
-  border-left: 4px solid #d4a843;
-  border-radius: 3px;
-  padding: 12px 16px;
-  margin-bottom: 18px;
-  font-size: 13px;
-  line-height: 1.65;
-  color: #c4bfb0;
+.confirmed-card {
+  border-left-color: #3a8a4a;
 }
 
-.confirmed-inline { color: #8c8; }
-.theory-inline    { color: #c8a0e0; }
-
-
-/* Knowledge blocks (Theories tab) — collapsible topic groups */
-
-.knowledge-block {
-  background: rgba(20, 16, 8, 0.9);
-  border: 1px solid rgba(184, 146, 42, 0.18);
-  border-radius: 3px;
-  margin-bottom: 8px;
-  overflow: hidden;
-}
-
-.knowledge-header {
-  padding: 11px 16px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Cinzel', serif;
-  font-size: 11px;
-  font-weight: 600;
-  color: #d4af37;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(184, 146, 42, 0.12);
-  transition: background 0.15s;
-}
-
-.knowledge-header:hover { background: rgba(42, 31, 15, 0.98); }
-
-.k-arrow {
-  font-size: 9px;
-  color: #8b1a1a;
-  flex-shrink: 0;
-  margin-left: 10px;
-}
-
-.knowledge-body {
-  padding: 10px 16px 14px;
-}
-
-/* Confirmed DM fact — green tinted row */
-.confirmed {
-  background: rgba(20, 50, 20, 0.45);
-  border-left: 3px solid #3a8a4a;
-  border-radius: 2px;
-  padding: 8px 12px;
-  margin-bottom: 8px;
-  font-family: 'Crimson Text', serif;
-  font-size: 13.5px;
-  color: #b8d8b8;
-  line-height: 1.7;
-}
-
-/* Player theory — purple tinted row */
-.player-theory {
-  background: rgba(30, 15, 40, 0.5);
-  border-left: 3px solid rgba(139, 94, 158, 0.6);
-  border-radius: 2px;
-  padding: 8px 12px;
-  margin-bottom: 8px;
-  font-family: 'Crimson Text', serif;
-  font-size: 13.5px;
-  color: #c4bfb0;
-  line-height: 1.7;
-}
-
-
-/* Footer */
-
-.footer {
-  text-align: center;
-  padding: 32px 0 20px;
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
-  color: rgba(184, 146, 42, 0.25);
-  letter-spacing: 0.3em;
-}
-
-
-
-
-
-/* Scrollable table wrapper */
-
-.tbl-wrap {
-  overflow-x: auto;
-  padding: 12px 14px;
-  border: none;
-  border-top: 1px solid rgba(184,146,42,0.1);
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: 'Crimson Text', serif;
-  font-size: 13.5px;
-}
-
-thead tr {
-  border-bottom: 1px solid rgba(184, 146, 42, 0.4);
-}
-
-th {
-  font-family: 'Cinzel', monospace;
-  font-size: 10px;
-  letter-spacing: 0.25em;
-  color: #d4a843;
-  text-transform: uppercase;
-  padding: 6px 10px;
-  background: rgba(42,31,15,0.9);
-  text-align: left;
-  white-space: nowrap;
-}
-
-td {
-  padding: 7px 10px;
-  vertical-align: top;
-  border-bottom: 1px solid rgba(184, 146, 42, 0.08);
-  color: rgb(202, 198, 186);
-  line-height: 1.55;
-}
-
-tr:last-child td { border-bottom: none; }
-
-tr:hover td { background: rgba(42, 31, 15, 0.3); }
-
-.cell-name {
-  font-family: 'Cinzel', serif;
-  font-size: 12px;
-  color: #d4af37;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.cell-text {
-  font-family: 'Crimson Text', serif;
-  font-size: 13.5px;
-  color: #e8dfc8;
-}
-
-
-/* Circle / type / sigil tags used inside table cells */
-
-.tag {
+.confirmed-badge {
   display: inline-block;
+  background: rgba(26, 100, 26, 0.3);
+  border: 1px solid rgba(60, 140, 60, 0.5);
+  color: #8c8;
   font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
-  padding: 2px 7px;
+  font-size: 8px;
+  padding: 1px 6px;
   border-radius: 2px;
-  margin: 1px 2px;
-  letter-spacing: 0.05em;
-}
-.tag-red    { background: rgba(139,26,26,0.35); color: #e88; border: 1px solid rgba(139,26,26,0.5); }
-.tag-gold   { background: rgba(184,146,42,0.25); color: #d4a843; border: 1px solid rgba(184,146,42,0.4); }
-.tag-blue   { background: rgba(42,74,127,0.35); color: #88aadd; border: 1px solid rgba(42,74,127,0.5); }
-.tag-grey   { background: rgba(100,90,80,0.35); color: #bbb; border: 1px solid rgba(100,90,80,0.5); }
-.tag-green  { background: rgba(30,80,40,0.35); color: #8c8; border: 1px solid rgba(30,80,40,0.5); }
-.tag-purple { background: rgba(80,30,100,0.35); color: #c8a0e0; border: 1px solid rgba(80,30,100,0.5); }
-
-/* Info box used in Great Houses header */
-
-.info-box {
-  background: rgba(26,20,12,0.85);
-  border-left: 4px solid var(--gold);
-  border-radius: 3px;
-  padding: 14px 18px;
-  margin-bottom: 18px;
-  font-size: 13.5px;
-  line-height: 1.7;
-  color: #d4c9a8;
-}
-
-.info-box strong { color: var(--gold-light); }
-
-
-/* Sub-section label used inside open accordion panels */
-
-.sub-section-label {
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.3em;
-  color: #d63a3a;
-  text-transform: uppercase;
-  padding: 10px 14px 4px;
-}
-
-
-/* Player character card grid */
-
-.player-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 14px;
-  margin-top: 8px;
-}
-
-.player-card {
-  background: #1a1208;
-  border: 1px solid rgba(184, 146, 42, 0.2);
-  border-top: 2px solid #8b1a1a;
-  border-radius: 4px;
-  padding: 14px 16px;
-}
-
-.player-name-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 4px;
-}
-
-.player-name {
-  font-family: 'Cinzel', serif;
-  font-size: 13px;
-  color: #d4af37;
-  margin: 0;
-}
-
-.player-echo {
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 9px;
-  padding: 2px 8px;
-  border-radius: 2px;
-  color: #e8dfc8;
   letter-spacing: 0.15em;
-}
-
-.player-meta {
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
-  color: #6b6358;
-  margin-bottom: 6px;
-}
-
-.player-appearance {
-  font-family: 'Crimson Text', serif;
-  font-size: 12px;
-  font-style: italic;
-  color: #9a9080;
-  margin-bottom: 6px;
-}
-
-.player-bio {
-  font-family: 'Crimson Text', serif;
-  font-size: 13px;
-  color: #c4bfb0;
-  line-height: 1.6;
-  margin: 0 0 8px;
-}
-
-.possession-note {
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
-  color: #6b6358;
-  letter-spacing: 0.12em;
-  background: rgba(139, 26, 26, 0.1);
-  border: 1px solid rgba(139, 26, 26, 0.25);
-  border-radius: 4px;
-  padding: 8px 12px;
-  margin-bottom: 12px;
-}
-
-.possession-note strong { color: #e88; }
-
-
-/* Active plot thread card grid */
-
-.thread-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 12px;
-  margin-top: 8px;
-}
-
-.thread-card {
-  background: #1a1208;
-  border: 1px solid rgba(184, 146, 42, 0.15);
-  border-left: 3px solid #b8922a;
-  border-radius: 4px;
-  padding: 12px 16px;
-}
-
-.thread-title {
-  font-family: 'Cinzel', serif;
-  font-size: 12px;
-  color: #d4af37;
-  margin: 0 0 4px;
-}
-
-.thread-status {
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 9px;
-  color: #8b1a1a;
-  letter-spacing: 0.1em;
-  margin-bottom: 8px;
-}
-
-.thread-detail {
-  font-family: 'Crimson Text', serif;
-  font-size: 13px;
-  color: #c4bfb0;
-  line-height: 1.65;
-  margin: 0;
-}
-
-
-/* Sigil card grid (emoji-symbol card display for Sigils tab) */
-
-.sigil-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 14px;
-  margin-bottom: 20px;
-}
-
-.sigil-card {
-  background: #1a1208;
-  border: 1px solid rgba(184, 146, 42, 0.2);
-  border-radius: 4px;
-  padding: 16px 14px 14px;
-  text-align: center;
-  transition: background 0.15s;
-}
-
-.sigil-card:hover { background: rgba(42, 31, 15, 0.6); }
-
-.sigil-symbol {
-  font-size: 26px;
-  display: block;
-  margin-bottom: 8px;
-  line-height: 1.2;
-}
-
-.sigil-card h4 {
-  font-family: 'Cinzel', serif;
-  font-size: 11px;
-  font-weight: 600;
-  color: #d4af37;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0 0 6px;
-}
-
-.sigil-card p {
-  font-family: 'Crimson Text', serif;
-  font-size: 12.5px;
-  color: #9a9080;
-  line-height: 1.55;
-  margin: 0;
+  margin-right: 6px;
+  vertical-align: middle;
 }
 
 
 /* Session notes blocks */
 
 .session-block {
-  background: rgba(20, 16, 8, 0.9);
+  background: #1a1208;
   border: 1px solid rgba(184, 146, 42, 0.15);
-  border-radius: 3px;
+  border-radius: 4px;
   margin-bottom: 6px;
   overflow: hidden;
 }
@@ -1178,7 +809,7 @@ tr:hover td { background: rgba(42, 31, 15, 0.3); }
 }
 
 .session-body {
-  padding: 12px 18px 16px;
+  padding: 12px 18px;
 }
 
 .session-sub {
@@ -1187,7 +818,7 @@ tr:hover td { background: rgba(42, 31, 15, 0.3); }
   color: #8b1a1a;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  margin: 12px 0 6px;
+  margin: 10px 0 4px;
 }
 
 .session-sub:first-child { margin-top: 0; }
@@ -1204,6 +835,7 @@ tr:hover td { background: rgba(42, 31, 15, 0.3); }
   line-height: 1.65;
   margin-bottom: 4px;
 }
+
 
 /* Intel callout rows — base style */
 .s-intel {

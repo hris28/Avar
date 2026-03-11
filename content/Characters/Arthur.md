@@ -1,6 +1,6 @@
 ## Arthurian
 
-Arthur Augustus Esquire (Aurthorian) is a significant figure in the investigator world, described with a complex personality encompassing traits like racism, righteousness, sardonicism, and a belief in scientific racism. He is of noble standing.
+Arthur Augustus Esquire (Arthurian) is a significant figure in the investigator world, described with a complex personality encompassing traits like racism, righteousness, sardonicism, and a belief in scientific racism. He is of noble standing.
 
 ### Role & Affiliations:
 - A big player in the investigator world.

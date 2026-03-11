@@ -9,10 +9,10 @@ const data = {
       {
         name: "Khol", circle: "1st Circle", circleTag: "gold",
         motto: '"From Ash, We Rise"', sigil: "Four-Leaf Clover", sigilTag: "green",
-        power: "Economic; trade routes; noble marriages. Mining interests (outer territories); military veteran networks; private security 'orders'",
+        power: "Economic; trade routes; noble marriages",
         members: "Midas Khol (head); Secus Domitae (married in)",
-        disposition: "Quietly aggressive, patient, far-reaching; sacrifices short-term reputation for long-term position",
-        notes: "One of the 9 known original Great Houses. Once a fading bloodline on the edge of obscurity, they were revived through the singular achievement of Midas Khol, who returned from an imposed exile with great riches and tact. They control significant mining interests in the outer territories and maintain extensive networks among military veterans and private security forces through a variety of ‘order’ based politics. In the Great Game, Khol plays aggressively and with long patience, making moves that seem minor until years later when their true purpose becomes apparent. They are willing to sacrifice short-term reputation for long-term position and have a reputation for remembering slights decades after others have forgotten them. Midas himself rarely appears in court, operating through proxies and intermediaries, which makes his house difficult to read and impossible to predict. Old friends with the late Duke. Gave Valerian an hourglass pendant at the Duke's funeral."
+        disposition: "Quietly aggressive, patient, far-reaching",
+        notes: "Midas is a covert operator running a long game. Old friends with the late Duke. Gave Valerian an hourglass pendant at the Duke's funeral."
       },
       {
         name: "Da'varre", circle: "1st Circle", circleTag: "gold",
@@ -20,23 +20,23 @@ const data = {
         power: "Archive; pre-cataclysm relics; truth-seeking; scribes to powerful patrons",
         members: "Count Alren (last of the line)",
         disposition: "Isolated, scholarly, haunted",
-        notes: "One of the 9 known original Great Houses. A cadet house of a far more ancient line that was said to have mostly been extinguished. A line of archivists and record-keepers who dwell in the Gloamspire in the capitol's outskirts. They maintain extensive private archives and lending their scribes to other houses for 'historical consultation.' In truth, Da'varre's power comes from knowing things others wish to forget and preserving records others thought destroyed. They play the Great Game as archivists and information brokers, never leading openly but always positioned to benefit from others' conflicts. Count Alren Da'varre, the last of his direct line, is a careful man who collects secrets, though has grown more cautious since the deaths of his children, brother, and nieces. The house presents itself as harmless scholars, which allows them to be underestimated until their carefully documented evidence of ancient land claims or forgotten marriage contracts suddenly becomes relevant to a succession dispute. Da'varre rarely wins outright, but they never lose badly, and their institutional memory makes them invaluable allies and terrifying enemies. They tend to stay farthest from the ‘game.'"
+        notes: "A cadet house of a far more ancient line that was said to have mostly been extinguished. A line of archivists and record-keepers who dwell in the Gloamspire — a tower rising from the still waters of the cavern's central lake. Halls lit by glass lanterns and etched mirrors said to glow faintly when truth is spoken nearby. They record what others bury and lend their scribes to powerful patrons who prefer discretion. Count Alren, the last of his line, is a careful and patient man whose loyalty lies in silence."
       },
       {
         name: "Lanvar", circle: "1st Circle", circleTag: "gold",
         motto: "Through Subtlety, Dominance", sigil: "-", sigilTag: "",
-        power: "Dealmaking; alliance brokering. Minority stakes in dozens of enterprises.",
+        power: "Dealmaking; alliance brokering",
         members: "Lady Vesrin Lanvar, current matriarch.",
         disposition: "Perpetual junior partner",
-        notes: "One of the 9 known original Great Houses. Aided by House Maelis. Deal-brokers; rarely act alone. House Lanvar is the eternal junior partner who somehow ends up owning pieces of everyone's ventures. They specialize in brokerage, small favors that compound over time, and the careful cultivation of being necessary without being threatening. Lanvar holds no single dominant industry but maintains minority stakes in dozens of enterprises across the capitol and beyond, making them impossible to exclude from major economic decisions. In the Great Game, they play as facilitators and dealmakers, positioning themselves as the house that makes things happen between rivals who refuse to speak directly. The house operates on the principle that lasting power comes not from dominance but from making yourself essential to everyone else's success. Other houses use Lanvar services constantly while quietly resenting how much influence the 'junior partner' has accumulated. Lanvar considers this ideal."
+        notes: "Eternal deal-brokers; rarely act alone."
       },
       {
         name: "Sadin", circle: "1st Circle", circleTag: "gold",
         motto: "Steel Tempered, Oaths Unbroken", sigil: "-", sigilTag: "",
         power: "Military; honorable service",
-        members: "Lord Commander Thrain Sadin, current patriarch; views politics as a necessary evil..",
+        members: "Lord Commander Thrain Sadin, current patriarch, views politics as a necessary evil..",
         disposition: "Honor-bound",
-        notes: "One of the 9 known original Great Houses. House Sadin built their position on military service, honor codes, and a reputation for keeping their word even when breaking it would be profitable. Produce more officers, military commanders, and security specialists than any other Great House and control the majority of the capitol's and guilds weapon forges and armor workshops. In the Great Game, Sadin plays as the house of reliability and direct action, which makes them predictable but also invaluable when agreements need enforcement or protection needs guaranteeing. Sadin appears easy to outmaneuver in complex schemes but dangerous to cross directly because they respond to threats with straightforward violence rather than counter-intrigue. Younger Sadin are beginning to question whether old codes of honor serve in a game increasingly dominated by information and economics rather than martial prowess, creating internal tension the house struggles to resolve. Other houses alternate between respecting Sadin's integrity and exploiting their predictability."
+        notes: "Military and honor culture. Produce more officers, military commanders, and security specialists than any other Great House and control the majority of the capitol's and guilds weapon forges and armor workshops. In the Great Game, Sadin plays as the house of reliability and direct action, which makes them predictable but also invaluable when agreements need enforcement or protection needs guaranteeing. Sadin appears easy to outmaneuver in complex schemes but dangerous to cross directly because they respond to threats with straightforward violence rather than counter-intrigue. Younger Sadin are beginning to question whether old codes of honor serve in a game increasingly dominated by information and economics rather than martial prowess, creating internal tension the house struggles to resolve. Other houses alternate between respecting Sadin's integrity and exploiting their predictability."
       },
       {
         name: "Vostin", circle: "1st Circle", circleTag: "gold",
@@ -44,7 +44,7 @@ const data = {
         power: "Deep mining monopoly",
         members: "Duke Garren Vostin, an old man with a scarred face and missing fingers,",
         disposition: "Essential; leverage via resources. Philosophy: power comes from doing essential work others cannot or will not do.",
-        notes: "One of the 9 known original Great Houses. House Vostin are the practical power players who care nothing for courtly graces and everything for controlling the literal foundations of Avar's existence. They hold the deepest mining contracts, pioneered the expansion techniques that allowed the capitol to grow beyond its original caverns, and understand the stone better than any other house. In the Great Game, Vostin plays as the house everyone needs and no one can replace, leveraging their expertise to extract favorable terms on everything from trade agreements to marriage alliances. They are blunt, uninterested in social climbing, and willing to tell other houses uncomfortable truths about structural realities. This makes them simultaneously essential and easy to underestimate until they choose to remind everyone that without Vostin expertise, the capitol cannot safely expand, and collapse becomes a real possibility. They wield this leverage carefully but absolutely."
+        notes: "House Vostin are the practical power players who care nothing for courtly graces and everything for controlling the literal foundations of Avar's existence. They hold the deepest mining contracts, pioneered the expansion techniques that allowed the capitol to grow beyond its original caverns, and understand the stone better than any other house. In the Great Game, Vostin plays as the house everyone needs and no one can replace, leveraging their expertise to extract favorable terms on everything from trade agreements to marriage alliances. They are blunt, uninterested in social climbing, and willing to tell other houses uncomfortable truths about structural realities. This makes them simultaneously essential and easy to underestimate until they choose to remind everyone that without Vostin expertise, the capitol cannot safely expand, and collapse becomes a real possibility. They wield this leverage carefully but absolutely."
       },
       {
         name: "Relkan", circle: "1st Circle", circleTag: "gold",
@@ -52,7 +52,7 @@ const data = {
         power: "Imperial banking",
         members: "Matron Selyse Relkan, a woman in her sixties.",
         disposition: "Creditor to all",
-        notes: "One of the 9 known original Great Houses. House Relkan established the Merchant's Consortium (and variety of charters that went with it), the banking operations, and the majority of liquid capital in the capitol. They understand that everything has a price and that knowing that price before others do is its own form of power. In the Great Game, Relkan plays as the house that finances everyone else's ambitions and collects when circumstances shift. They are patient creditors who will extend generous terms to rising houses and quietly acquire assets from declining ones. Relkan believes in investment over inheritance, arguing that static wealth dies while flowing capital grows and creates dependencies. This philosophy has made them rich and mistrusted in equal measure. Every Great House owes Relkan favors or money or both. This makes Relkan seemingly weak in direct confrontation but terrifyingly powerful when they choose to call in debts or withdraw financial support at critical moments. The house considers being feared and needed superior to being loved and optional."
+        notes: "House Relkan established the Merchant's Consortium (and variety of charters that went with it), the banking operations, and the majority of liquid capital in the capitol. They understand that everything has a price and that knowing that price before others do is its own form of power. In the Great Game, Relkan plays as the house that finances everyone else's ambitions and collects when circumstances shift. They are patient creditors who will extend generous terms to rising houses and quietly acquire assets from declining ones. Relkan believes in investment over inheritance, arguing that static wealth dies while flowing capital grows and creates dependencies. This philosophy has made them rich and mistrusted in equal measure. Every Great House owes Relkan favors or money or both. This makes Relkan seemingly weak in direct confrontation but terrifyingly powerful when they choose to call in debts or withdraw financial support at critical moments."
       },
       {
         name: "Velthara", circle: "1st Circle", circleTag: "gold",
@@ -60,7 +60,7 @@ const data = {
         power: "Pre-cataclysm relics; surface expeditions",
         members: "Count Erivan Velthara, melancholic scholar.",
         disposition: "Relic hunters; surface-focused",
-        notes: "One of the 9 known original Great Houses. House Velthara claims descent from Velderra's astronomical institutes and positions themselves as keepers (controlling access) of pre-cataclysm knowledge and artifacts. They maintain one of the few functioning reliquaries in the capitol and the sole organization to sponsor expeditions towards the surface. They also collect ancient technologies and forbidden texts.  In the Great Game, Velthara plays as the house of specialized knowledge and ancient precedents, using their archives to support land claims, challenge succession rights, and provide historical justification for contemporary power grabs. Their fixation on the past has left them politically weakened in immediate influence, but their collection of pre-cataclysm artifacts and sealed knowledge makes them valuable allies when ancient magic or lost technologies become relevant. Velthara often trades information for protection, offering other houses historical leverage in exchange for political backing. They are consulted on matters requiring obscure expertise, then largely ignored until their research suddenly becomes critical to someone's ambitions. They also tend to be the pioneers of naval technologies."
+        notes: "Organize surface expeditions. Control access to pre-cataclysm artifacts."
       },
       {
         name: "Rayne", circle: "1st Circle", circleTag: "gold",
@@ -68,7 +68,7 @@ const data = {
         power: "Infrastructure; trade routes; arbitration",
         members: "Rayne Borim Rayne, current patriarch, traditionalist.",
         disposition: "Neutral arbiters",
-        notes: "One of the 9 known original Great Houses. House Rayne holds the contracts for maintaining the capitol's critical infrastructure: ventilation systems, water channels, structural supports that prevent collapse. They are engineers and architects whose expertise keeps the city functional and whose withdrawal of services could be catastrophic. In the Great Game, Rayneplays as the house of binding commitments and neutral arbitration, positioning themselves as the only house whose word can be absolutely trusted because violating it would destroy their fundamental value. This makes them sought after as mediators and guarantors but also makes them inflexible when other houses seek to renegotiate terms. Rayne accumulates power through accumulated obligations: every house needs infrastructure maintenance, and Rayne ensures that those who honor agreements receive priority service while those who break faith find themselves waiting for critical repairs. The house considers political maneuvering a dance."
+        notes: "House Rayne holds the contracts for maintaining the capitol's critical infrastructure: ventilation systems, water channels, structural supports that prevent collapse. They are engineers and architects whose expertise keeps the city functional and whose withdrawal of services could be catastrophic. In the Great Game, Rayneplays as the house of binding commitments and neutral arbitration, positioning themselves as the only house whose word can be absolutely trusted because violating it would destroy their fundamental value. This makes them sought after as mediators and guarantors but also makes them inflexible when other houses seek to renegotiate terms. Rayne accumulates power through accumulated obligations: every house needs infrastructure maintenance, and Rayne ensures that those who honor agreements receive priority service while those who break faith find themselves waiting for critical repairs. The house considers political maneuvering a dance."
       },
       {
         name: "Calder", circle: "1st Circle", circleTag: "gold",
@@ -76,7 +76,7 @@ const data = {
         power: "Intelligence networks",
         members: "Lord Severan Calder.",
         disposition: "Rivals Korvath",
-        notes: "One of the 9 known original Great Houses. House Calder operates the capitol's intelligence networks, courier systems, and information exchanges with the same openness other houses apply to trade or warfare. They are professional spymasters who have made discretion and information brokerage their public business rather than pretending to be something else. In the Great Game, Calder plays as the house that knows everyone's secrets and trades them carefully, maintaining elaborate networks of informants, blackmail material, and compromising information. They accumulate power through knowing what others wish to hide and deploying that knowledge with strategic precision. Calder teaches its children that secrets have lifecycles, that timing is everything, and that the house controlling when information becomes public holds more power than the house that information concerns. They maintain neutrality on most political conflicts while ensuring all sides pay for intelligence, making them simultaneously indispensable and deeply mistrusted. Every house fears what Calder knows about them. This fear is Calder's primary asset. House Calder tends to have a rivalry with House Korvath."
+        notes: "House Calder operates the capitol's intelligence networks, courier systems, and information exchanges with the same openness other houses apply to trade or warfare. They are professional spymasters who have made discretion and information brokerage their public business rather than pretending to be something else. In the Great Game, Calder plays as the house that knows everyone's secrets and trades them carefully, maintaining elaborate networks of informants, blackmail material, and compromising information. They accumulate power through knowing what others wish to hide and deploying that knowledge with strategic precision. Calder teaches its children that secrets have lifecycles, that timing is everything, and that the house controlling when information becomes public holds more power than the house that information concerns. They maintain neutrality on most political conflicts while ensuring all sides pay for intelligence, making them simultaneously indispensable and deeply mistrusted. Every house fears what Calder knows about them. This fear is Calder's primary asset. House Calder tends to have a rivalry with house Korvath."
       },
       {
         name: "Korvath", circle: "1st Circle", circleTag: "gold",
@@ -84,7 +84,7 @@ const data = {
         power: "Assassination; enforcement",
         members: "Duke Marten Korvath, cold methodical man.",
         disposition: "Rivals Calder",
-        notes: "One of the 9 known original Great Houses. House Korvath operates in the shadows of the Great Game, specializing in problems that require permanent solutions delivered discreetly. They maintain networks of enforcers, assassins, and operatives who handle the unpleasant necessities other houses prefer not to acknowledge publicly. In the Great Game, Korvath plays as the house that makes inconvenient people disappear, destroys reputations beyond repair, and ensures certain secrets die with those who know them. They are expensive, utterly discreet, and have never been proven to have committed any of the acts attributed to them despite widespread knowledge of their function. Korvath accumulates power through reputation and fear: other houses know that crossing Korvath means risking not political defeat but physical elimination, which makes even powerful houses negotiate rather than confront. The house maintains plausible deniability while ensuring everyone understands exactly what services they provide. They are never invited to social functions but always included in serious political calculations. House Korvath tends to have a rivalry with House Calder."
+        notes: "House Korvath operates in the shadows of the Great Game, specializing in problems that require permanent solutions delivered discreetly. They maintain networks of enforcers, assassins, and operatives who handle the unpleasant necessities other houses prefer not to acknowledge publicly. In the Great Game, Korvath plays as the house that makes inconvenient people disappear, destroys reputations beyond repair, and ensures certain secrets die with those who know them. They are expensive, utterly discreet, and have never been proven to have committed any of the acts attributed to them despite widespread knowledge of their function. Korvath accumulates power through reputation and fear: other houses know that crossing Korvath means risking not political defeat but physical elimination, which makes even powerful houses negotiate rather than confront. The house maintains plausible deniability while ensuring everyone understands exactly what services they provide. They are never invited to social functions but always included in serious political calculations.House Korvath tends to have a rivalry with house Calder."
       },
       {
         name: "Branneth", circle: "1st–2nd Circle", circleTag: "gold",
@@ -92,12 +92,12 @@ const data = {
         power: "Church; Inquisition pipeline",
         members: "Lady Meriath Branneth, current matriarch, devout.",
         disposition: "Church-aligned",
-        notes: "One of the 9 known original Great Houses. House Branneth maintains close ties to the Church and the Inquisition, positioning themselves as the Great House most aligned with ecclesiastical authority. They produce more priests, inquisitors, and religious scholars than any other house and hold significant influence over the interpretation of doctrine and the application of religious law. In the Great Game, Branneth plays as the house that can invoke divine authority and Inquisitorial support, making accusations of heresy or doctrinal violation that other houses must take seriously regardless of their truth. This makes Branneth dangerous to oppose directly but also limits their maneuvering room since overt political scheming damages their religious credibility. They accumulate power by being the house other houses approach when they need ecclesiastical approval, religious justification for territorial claims, or Inquisitorial investigation of rivals. Branneth balances genuine piety with calculated political use of religious authority, creating internal tensions between true believers and pragmatic operators within the house."
+        notes: "House Branneth maintains close ties to the Church and the Inquisition, positioning themselves as the Great House most aligned with ecclesiastical authority. They produce more priests, inquisitors, and religious scholars than any other house and hold significant influence over the interpretation of doctrine and the application of religious law. In the Great Game, Branneth plays as the house that can invoke divine authority and Inquisitorial support, making accusations of heresy or doctrinal violation that other houses must take seriously regardless of their truth. This makes Branneth dangerous to oppose directly but also limits their maneuvering room since overt political scheming damages their religious credibility. They accumulate power by being the house other houses approach when they need ecclesiastical approval, religious justification for territorial claims, or Inquisitorial investigation of rivals. Branneth balances genuine piety with calculated political use of religious authority, creating internal tensions between true believers and pragmatic operators within the house."
       },
       {
         name: "Mournen", circle: ["1st / 6th Circle", "6th Circle (dynastic)"], circleTag: ["gold", "blue"],
         circleSub: "Prevalent in the Capital; tied to Zen'tar dynastically",
-        motto: '"Heavy Doth the Crown"', sigil: "Red Fist", sigilTag: "red",
+        motto: '-', sigil: "Red Fist", sigilTag: "red",
         power: "Zen'tar dynastic control; cadet branch = Order of the Blue Fist",
         members: "Duke (deceased); Prince (missing, ~23-24 yrs old)",
         disposition: "Retreated from Capital politics; bound to the city",
@@ -114,7 +114,7 @@ const data = {
       {
         name: "[Records Sealed]", circle: "1st Circle — EXPUNGED", circleTag: "red",
         motto: "—", sigil: "EXPUNGED", sigilTag: "red",
-        power: "Fell to the Inquisition",
+        power: "Unknown",
         members: "Bloodline ended",
         disposition: '"Direct opposition to the Church\'s mandate"',
         notes: "Details sealed by Inquisitorial decree. Fell to the Inquisition for reasons described only as opposition to the Church's mandate. Speculation about their specific crimes is considered unwise and potentially dangerous."
@@ -124,7 +124,7 @@ const data = {
       {
         name: "Domitae", circle: "3rd Circle", circleTag: "blue",
         circleSub: "Influence into 4th/5th; 1st Circle via Secus/Khol marriage",
-        sigil: "", sigilTag: "grey",
+        sigil: "Dextra / Sinetra (right/left divisions)", sigilTag: "grey",
         power: "3rd circle noble influence; mineral wells (4th circle)",
         members: "Father: Magus; Mother: Julia. Secus (2nd child, married into Khol). Decima (10th child, heretic).",
         disposition: "Quiet expansion through marriage and resource control",
@@ -175,7 +175,7 @@ const data = {
         name: "Consortium / Concierge", circle: "6th Circle", circleTag: "blue",
         type: "Criminal Syndicate", typeTag: "red",
         sigil: "Elven sigil of Mithris",
-        members: "Mithris (founder, dead); Caldun (enforcer)",
+        members: "Mithris (founder, dead); Caldun (enforcer); Assassins with red armbands.",
         notes: "Multi-level criminal network including Blue Pirates. Heavy-handed and uncouth; operate in Zen'tar's outskirts; control Sunken Croc area; Arthur massacred them and killed Mithris ~1 year ago. Sought awakened metals, artifacts, political leverage. Fractured after Mithris's death (~Year 625). The oilcloth package passed to Caldun almost certainly contained the green ledger. Killed O'Malley; fled with their dead leaving no traces; codeword 'Dagger'; possibly tied to noble influence via Boltin Crestfyre."
       },
       {
@@ -183,7 +183,7 @@ const data = {
         type: "Criminal / Paramilitary", typeTag: "red",
         sigil: "Blue Maritime Motif",
         members: "Mithris (deceased); current leader unknown",
-        notes: "Controls lower harbor and certain Zen'tar districts. Hate Arthur Augustus Esquire. Largely fractured post-Mithris. The Sunken Croc is their front."
+        notes: "Controls lower harbor and certain Zen'tar districts. Hate Arthur Augustus. Largely fractured post-Mithris. The Sunken Croc is their front."
       },
     ],
     military: [
@@ -191,7 +191,7 @@ const data = {
         name: "Militarum", circle: "Empire-wide", circleTag: "gold",
         type: "Military", typeTag: "gold",
         sigil: "Colored armbands by rank/unit",
-        members: "The Marshall (Zen'tar); Zahn (Colonel); Marshall's Men; Seers (8th Battalion); 'Inspectors' Senatorial Requested Militarum Zentari 65th Platoon",
+        members: "The Marshall (in Zen'tar); Zahn (Colonel); Marshall's Men; Seers (8th Battalion); 'Inspectors' Senatorial Requested Militarum Zentari 65th Platoon",
         notes: "Official Vo'dyn military. Controls outer walls and Yearning Mines in Zen'tar. Martial law declared with 7th Fleet's arrival."
       },
       {
@@ -236,7 +236,7 @@ const data = {
         type: "Arcane Authority", typeTag: "purple",
         sigil: "Secreted membership sigil",
         members: "Archmage Liora; formerly Relyssa Daen (disgraced)",
-        notes: "Leading authority on magical theory & its ties to the natural world.  Rumored to be founded by the Great Martyred Lady. Offshoot chapter (Society of Brilliance) active in Zen'tar. Anything else would be more hidden (think like one of the major thinktanks that discusses...less open topics). Its membership is relatively secreted but has unique identifiers (a specific sigil) and it selects a set of 'speakers' to represent the org more externally."
+        notes: "Leading authority on magical theory. Rumored founded by the Great Martyred Lady. Secreted membership. Offshoot chapter (Society of Brilliance) active in Zen'tar."
       },
       {
         name: "Auditors", circle: "Empire-wide", circleTag: "gold",
@@ -273,35 +273,35 @@ const data = {
         type: "Cult", typeTag: "red",
         sigil: "Pentagram association",
         members: "Unknown",
-        notes: "Cultist order being eradicated by Order of the Flame. Connected to a dark entity."
+        notes: "Cultist order being eradicated by Order of the Flame; an Aperation crumpled at Aldred's touch. Connected to a dark entity."
       },
     ],
     civil: [
       {
         name: "City Guard / Magistrate", circle: "6th Circle only", circleTag: "blue",
         type: "Civil Policing", typeTag: "gold",
-        sigil: "—",
-        members: "Garth (Deputy Sergeant); Arthur Augustus (Major Investigator)",
+        sigil: "-",
+        members: "Garth (Deputy Sergeant); Alazar (Formerly Corporal, now Deputy Sergeant-of-arms); 'Enforcers', 'Sweepers', 'Paperboys'",
         notes: "Keeps peace. Noble-funded. Suffered a terrorist attack and reeling. Reports to noble faction."
       },
       {
-        name: "Investigators (4th Wing)", circle: "6th Circle only", circleTag: "blue",
+        name: "Investigators (Adhoc Division)", circle: "6th Circle only", circleTag: "blue",
         type: "Intelligence / Investigation", typeTag: "gold",
-        sigil: "—",
-        members: "Arthur Augustus (Major); Lantis (Junior, missing/likely dead); Boltin Crestfyre (Lt.)",
+        sigil: "-",
+        members: "Arthur Augustus (Major Investigator); Lantis (Junior, missing/likely dead); Boltin Crestfyre (4th Wing Lt.)",
         notes: "Ad hoc unit within Zen'tar. Not a formal Vo'dyn institution. Do not touch merchants (Charter of Commerce)."
       },
       {
         name: "Council of Regency", circle: "6th Circle only", circleTag: "blue",
         type: "Political", typeTag: "gold",
-        sigil: "—",
+        sigil: "-",
         members: "Unknown members; Selka Morren (Auditor appointee)",
         notes: "Rules Zen'tar after the Duke's death. Short-term focused. Possibly involved in the Duke's death. Struggling to hold authority with martial law in effect."
       },
       {
         name: "Dustwalkers", circle: "Inter-circle routes", circleTag: "gold",
         type: "Military / Guard", typeTag: "grey",
-        sigil: "—",
+        sigil: "-",
         members: "Unknown",
         notes: "Guards in iron robes, silent and still. Patrol tunnel routes between circles."
       },
@@ -314,7 +314,7 @@ const data = {
       {
         name: "Midas Khol", circle: "1st Circle", role: "Head of House Khol", allegiance: "House Khol; personal long game",
         sigil: "Four-Leaf Clover", status: "Alive",
-        notes: "Rarely appears in court; operates through proxies. Old adventuring friends with the late Duke. Gave Valerian the hourglass pendant at the Duke's funeral: 'I'll keep the hourglass turning.'"
+        notes: "Covert operator. Old adventuring friends with the late Duke. Gave Valerian the hourglass pendant at the Duke's funeral: 'I'll keep the hourglass turning.'"
       },
       {
         name: "Duke of Zen'tar", circle: "1st Circle seat / 6th domain", role: "Former ruler of Zen'tar", allegiance: "House Mournen",
@@ -323,7 +323,7 @@ const data = {
       },
       {
         name: "The Prince", circle: "1st Circle heir", role: "Missing heir of Zen'tar", allegiance: "House Mournen",
-        sigil: "—", status: "Missing ~7 years (~Year 619)",
+        sigil: "-", status: "Missing ~7 years",
         notes: "Disappeared ~same time as Zenzar (militia leader). Midas sent Valerian to watch him. Overheard in Session 3: 'The prince will be secured.' Nobody has seen him."
       },
       {
@@ -333,23 +333,23 @@ const data = {
       },
       {
         name: "Count Alren Da'varre", circle: "1st Circle", role: "Head of House Da'varre; last of the line", allegiance: "House Da'varre; possibly Mithe",
-        sigil: "Glass Prism", status: "Alive",
-        notes: "Last known blood of a lost Original 12 house. Lost his children, brother Alden, nieces."
+        sigil: "Glass Prism", status: "Alive (reportedly)",
+        notes: "Last known blood of a lost Original 12 house."
       },
       {
         name: "Hathor", circle: "1st Circle / posted to 6th", role: "Military Adjudicant; possibly masked Establishment Leader", allegiance: "Order of the Blue Fist / House Mournen",
         sigil: "Blue hand glove with crest", status: "Alive; active in Zen'tar",
-        notes: "Encountered on the caravan road: 'We know and saw the enemy, ash and dust.' The masked Establishment Leader in Session 5 — who arranged Zenzar's sale to Secus — is likely Hathor."
+        notes: "Encountered on the caravan road: 'We know and saw the enemy, ash and dust.' The masked Establishment Leader in Session 5--who arranged Zenzar's sale to Secus--is hypothesized to be Hathor."
       },
       {
         name: "Secus Domitae", circle: "1st Circle (via Khol marriage)", role: "Coup organizer", allegiance: "House Khol; personal ambition",
         sigil: "—", status: "Alive; active in Zen'tar",
-        notes: "2nd child of House Domitae. Trained in cloak-and-dagger. Married into House Khol. Organizing a coup of Zen'tar's Council of Regency. Purchasing Zenzar. Branded Decima in Session 5."
+        notes: "2nd child of House Domitae. Trained in cloak-and-dagger. Married into House Khol. Organizing a possible coup of Zen'tar's Council of Regency. Purchasing Zenzar. Branded Decima in Session 5 as a loyalty test to Establishment Leader."
       },
     ],
     zentar: [
       {
-        name: "Arthurian Augustus", circle: "1st/6th Circle", role: "Regent Council Representative and Senator's son with the investigator's detachment", allegiance: "Nobles / Magistrate",
+        name: "Arthur Augustus Esquire (Aurthorian)", circle: "6th Circle", role: "Major Investigator", allegiance: "Nobles / Magistrate",
         sigil: "—", status: "Alive; crippled (legs)",
         notes: "Noble-born. Killed Mithris ~Year 625 in single combat; cost him the use of his legs. Blue Pirates fractured after that night. Target of 'next hit prince loyalists and Arthur' (Secus, Session 5)."
       },
@@ -380,13 +380,13 @@ const data = {
       },
       {
         name: "Zenzar / Xanthran", circle: "6th Circle", role: "Former Militia leader", allegiance: "Zen'tar city (formerly)",
-        sigil: "—", status: "Missing ~7 years (~Year 619); being sold to Secus",
-        notes: "Disappeared ~same time as the Prince. He was so charismatic, nobody could replace him. Found by N'thoda in underground fighting arenas. Being auctioned to Secus by the masked Establishment Leader."
+        sigil: "—", status: "Missing ~7 years; being sold to Secus",
+        notes: "Disappeared ~same time as the Prince. Nobody could replace him. Found by N'thoda in underground fighting arenas. Being auctioned to Secus by the masked Establishment Leader."
       },
       {
-        name: "Mithris", circle: "6th Circle", role: "The Exalted One", allegiance: "Consortium / Self",
+        name: "Mithris", circle: "6th Circle", role: "Consortium founder", allegiance: "Consortium / Self",
         sigil: "Elven sigil (right shoulder)", status: "Dead (~Year 625)",
-        notes: "High elf. Tall, commanding. Ex-member of the council (rarity for an elf). Ran the Consortium. Passed an oilcloth-wrapped package (almost certainly the green ledger) to Caldun before Arthur's raid. Arthur killed him in single combat at the cost of his own legs."
+        notes: "High elf. Ran the Consortium. Passed an oilcloth-wrapped package (almost certainly the green ledger) to Caldun before Arthur's raid. Arthur killed him in single combat at the cost of his own legs."
       },
       {
         name: "Caldun", circle: "6th Circle", role: "Consortium enforcer; possible ledger-holder", allegiance: "Consortium (fractured)",
@@ -401,7 +401,12 @@ const data = {
       {
         name: "Volk Stormhammer", circle: "6th Circle", role: "Senior non-penal dwarf miner", allegiance: "Himself / Dwarven tradition",
         sigil: "—", status: "Alive",
-        notes: "Old. Non-penal worker in the Yearning Mines. Confirmed dwarven lore: forefathers 'vowed to never speak' of another world. Gets excited around the ancient machines. Seen having tea with the Veinwarden."
+        notes: "Old Dwarf. Non-penal worker in the Yearning Mines. Confirmed dwarven lore: forefathers 'vowed to never speak' of another world. Gets excited around the ancient machines. Seen having tea with the Veinwarden."
+      },
+      {
+        name: "O'Malley", circle: "6th Circle", role: "Merchant / Informant", allegiance: "The Marshall?",
+        sigil: "-", status: "Dead",
+        notes: "Instructed to meet on behalf of the Marshall. Killed by Concierge assassins; dying words: 'Premier. The melody is sweet but I preferred the silence.'; looted by Velintra (note: 'Westfall. Ravenscreft.', 7 gold, dagger, sealed letter, thorn talisman)"
       },
       {
         name: "Boltin Crestfyre", circle: "6th Circle", role: "Lt., 4th Investigative Enforcement Wing", allegiance: "Nobles / Magistrate",
@@ -428,7 +433,7 @@ const data = {
       {
         name: "Great Martyred Lady", era: "~Year 452",
         role: "4th Martyr", sigil: "—",
-        notes: "Died on Martyr's Day. Used magic at great cost. During her era the Great Schism occurred — when the Church asserted dominance over the nobles; one Great House was expunged. Possibly founded the Luminary Council."
+        notes: "Died on Martyr's Day. Used magic at great cost. During her era the Great Schism occurred: when the Church asserted dominance over the nobles; one Great House was expunged. Possibly founded the Luminary Council."
       },
       {
         name: "Jorell", era: "~Year 2-24 (journals)",
@@ -478,18 +483,18 @@ const data = {
   // Player characters
   players: [
     {
-      name: "Mithe Demacia", echo: "BLOOD", race: "Half-Elf", cls: "Bard", age: "19", height: "5'6\"",
+      name: "Mithe Demacia Khol", echo: "BLOOD", race: "Half-Elf", cls: "Bard", age: "19", height: "5'6\"",
       origin: "Unknown; now 6th circle",
       appearance: "One eye always covered. Other eye a dark purple.",
-      bio: "Who knows ¯\_(ツ)_/¯",
-      connections: "Seen talking to a knight.",
+      bio: "Who knows /shrug",
+      connections: "idk bro",
       echoBg: "#8b1a1a"
     },
     {
       name: "Ryo Dayana", echo: "KEY", race: "Human", cls: "Sorcerer", age: "22", height: "5'9\"",
       origin: "8th Circle origin (Bandlewoods farm); now 6th Circle",
       appearance: "Slight red marks in mostly black hair; faint black markings on face.",
-      bio: "Former farmer and self-professed historian. Found an ancient entity's severed finger in a chimera's mouth — absorbing it awakened him as a sorcerer. The Wyrm inside him needs a 'suitable host.' Carries an obsidian key-spline (3 triangle notches) and a partial mural rubbing. Being chased by some group.",
+      bio: "Former farmer and self-professed historian. Found an ancient entity's severed finger in a chimera's mouth — absorbing it awakened him as a sorcerer. The Wyrm inside him needs a 'suitable host.' Carries an obsidian key-spline (3 triangle notches) and a partial mural rubbing. Being chased by a branch of the Inquisition.",
       connections: "Being hunted--possibly by a branch of the Inquisition. Obsidian key-spline (3 triangle notches). Partial mural rubbing: 'Weaver's Arch,' 'IV:3,' 'Westwell 2nd,' trident sigil.",
       echoBg: "#2a4a7f"
     },
@@ -497,7 +502,7 @@ const data = {
       name: "Decima Domitae", echo: "VEIL", race: "Human", cls: "Sorcerer", age: "Early 20s", height: "5'2\"",
       origin: "3rd Circle (Domitae); now 6th Circle — uses alias Delattre",
       appearance: "Eyes originally green, now unnaturally pale — blind.",
-      bio: "10th child of House Domitae. Lost her sight and speech upon waking with an entity from another plane eating her memories. Made a deal she doesn't remember. Became a heretic after beloved sister Nona disappeared into the clergy. Researched 'changing Fate.' Read the Wyrm's apprentice's tome. Branded by brother Secus as a test of loyalty to Establishment Leader. Holds herself regally.",
+      bio: "10th child of House Domitae. Lost her sight and speech upon waking with an entity from another plane eating her memories. Made a deal she doesn't remember. Became a heretic after beloved sister Nona disappeared into the clergy. Researched 'changing Fate.' Read the Wyrm's apprentice's tome. Branded by brother Secus. Holds herself regally.",
       connections: "Brother: Secus Domitae (House Khol). Sister Nona. Father: Magus. Mother: Julia.",
       echoBg: "#4a2a7f"
     },
@@ -505,7 +510,7 @@ const data = {
       name: "Velintra Caelmyr", echo: "MASK", race: "Dark Elf / Owlin", cls: "Rogue", age: "27 (human years)", height: "5'8\"",
       origin: "Outside standard circle structure",
       appearance: "Crimson red eyes. Long snow-white hair in braids with garnet and silver pendants.",
-      bio: "Member of a dark elf guild that tortures and kills. Confident, well-poised, strong moral code in specific areas. Possibly responsible for the death of Nona Domitae (Decima's sister). Connected to the high-elf/dark-elf war era. Knocked Ryo and Decima unconscious during the Wyrm encounter.",
+      bio: "Member of a dark elf guild that tortures and kills. Confident, well-poised, strong moral code in specific areas. Connected to the high-elf/dark-elf war era.",
       connections: "Dark elf guild (unknown name). Resembles Sister Erithine. Recognized someone in the burning-village time-vision.",
       echoBg: "#2a4a2a"
     },
@@ -513,8 +518,8 @@ const data = {
       name: "Kane Vestrist Forscin", echo: "ECHO", race: "High Elf", cls: "Warlock", age: "100+", height: "—",
       origin: "Circle of origin unspecified",
       appearance: "High elf; ancient bearing.",
-      bio: "Haunted by a shadowy entity — most likely his dead twin brother Abel, puppeted by a vampire necromancer. Made a deal with an apparation upon witnessing his brother's death during the high-elf/dark-elf war. Doesn't trust dark elves.",
-      connections: "Twin brother Abel (deceased, ~100 yrs ago during high elf/dark elf war). Made deal with an Apparation. Has been cultivating a relationship with Factor Selka Morren.",
+      bio: "Haunted by a shadowy entity--most likely his dead twin brother Abel, puppeted by a vampire necromancer. Made a deal with an apparation upon witnessing his brother's death during the high-elf/dark-elf war. Doesn't trust dark elves.",
+      connections: "Twin brother Able (deceased, ~100 yrs ago during high elf/dark elf war). Made deal with an Apparation? Cultivating relationship with Selka Morren.",
       echoBg: "#4a3a1a"
     },
     {
@@ -530,7 +535,7 @@ const data = {
       origin: "6th Circle (Zen'tar underground arenas)",
       appearance: "Black hair; bruises and scars from underground fighting arenas.",
       bio: "Observant; fight-first mentality. Trying to learn more about the world. Was fighting Zenzar in the ring when the party found the former militia leader. Escaped the O'Malley scene through the sewers.",
-      connections: "Found Zenzar in underground fighting arenas. Has been randomly teleporting and appearing all over the place with no memory of having done so.",
+      connections: "Found Zenzar in underground fighting arenas.",
       echoBg: "#7f2a0a"
     },
     {
@@ -538,7 +543,7 @@ const data = {
       origin: "Outer / Frontier (beyond circle classification) — aliases: Corvus, 'The Devil of 19B,' 'Saint of Spores'",
       appearance: "Patchwork of bark, twine, feathers, and moss. Face obscured by archaic plague helm. Carries a gnarled bough.",
       bio: "Classified by the Empire as a 'Pagan druid / Suspected eco-terrorist.' Frontier populations revere him as a 'virulent guardian.' Opened a diplomatic channel with Caldun. Currently sitting at the Drunken Dog Inn during the O'Malley crisis.",
-      connections: "Diplomatic channel with Caldun and Mr. Wonderbat. Empire classification: eco-terrorist.",
+      connections: "Diplomatic channel with Caldun. Empire classification: eco-terrorist.",
       echoBg: "#1a4a1a"
     },
   ],
@@ -560,7 +565,7 @@ const data = {
       { name: "Weaver's Arch", zone: "Zen'tar proper (ruined)", controller: "Ruined", notes: "Where the late Duke gave speeches before his death. Now broken stones and rock. Referenced in Ryo's partial mural rubbing." },
     ],
     empire: [
-      { name: "The Capitol (Formerly 'Kholinar')", circle: "0th-1st Circle", controller: "High Nobility; Vo'dyn Empire", notes: "Center of the empire. Jorell built the capital here at 'the thinnest point' so living civilization would press against the seal." },
+      { name: "Kholinar ('The Capital')", circle: "1st Circle", controller: "High Nobility; Vo'dyn Empire", notes: "Center of the empire. Jorell built the capital here at 'the thinnest point' so living civilization would press against the seal. Non-existant anymore?" },
       { name: "Gloamspire", circle: "1st Circle (Capital outskirts)", controller: "House Da'varre", notes: "Tower rising from a still cavern lake. Halls lit by glass lanterns and etched mirrors that glow when truth is spoken. Da'varre's archive and ancestral seat." },
       { name: "Basalt Ridge", circle: "6th Circle (Zen'tar Stronghold foundation)", controller: "Historical / Stronghold foundation", notes: "Where Gavriel's company held for 10 hours during the Cataclysm retreat. Ridge 'trembles on windless nights.' 'The wound beneath the Spur has never truly slept.'" },
       { name: "Principality of Al'tan", circle: "Outside Zen'tar / Independent", controller: "Mixed / Self-governing", notes: "One of only two mixed-race locations empire-wide. Small community of a few strongholds. Used as neutral meeting ground." },
@@ -570,36 +575,28 @@ const data = {
     ]
   },
 
+  // Sigils and visual markers
   sigils: {
     confirmed: [
-      { emoji: "✊", sigil: "Red Fist", assoc: "Duke of Zen'tar / House Mournen", circle: "1st / 6th Circle", seen: "Confirmed Session 5 (Lantis at Sunken Croc)", meaning: "Sigil of the late Duke. Used to identify loyalists and materials connected to Mournen's dynastic rule of Zen'tar." },
-      { emoji: "🤜", sigil: "Blue Hand Glove with Crest", assoc: "Hathor / Order of the Blue Fist", circle: "1st Circle", seen: "Session 2 — on Hathor", meaning: "Identifies Blue Fist members. Cadet branch of House Mournen. Military, not religious." },
-      { emoji: "🍀", sigil: "Elven Symbol (right shoulder)", assoc: "Mithris / Consortium; also House Maelis", circle: "6th Circle", seen: "Session 4 (cloaked figure); Session 5 (Caldun)", meaning: "Mithris's personal elven sigil. High-elf identifier. May overlap with Maelis." },
-      { emoji: "🩸", sigil: "Gray Banner / Crimson Red Drops", assoc: "Penal Outriders / Penitant Deathriders", circle: "6th Circle+", seen: "Referenced in lore; seen at Duke's funeral (~Year 618)", meaning: "Bone-white helmets with rank scraped off. Oath taken at The Spur before missions." },
-      { emoji: "🔥", sigil: "Brown Robes + Rosette", assoc: "Inquisition", circle: "Empire-wide", seen: "Session 2 (road); Session Knavers", meaning: "Standard Inquisition field uniform. New rosettes have magic-key properties; older ones were engraved power symbols." },
-      { emoji: "⛵", sigil: "Sigil of Him (on ships)", assoc: "7th Fleet / Vo'dyn Empire religion", circle: "6th Circle (docked)", seen: "Session 14 — on every 7th Fleet ship", meaning: "Holy/imperial identifier of the highest order. Signals both religious and imperial authority." },
-      { emoji: "🌹", sigil: "Rose-Sealed Wax Orders", assoc: "Order of the Rose", circle: "Unknown / Covert", seen: "Referenced by Crane/Artemis", meaning: "Written mission orders sealed with a rose wax emblem. Only identifier of the secretive order." },
-      { emoji: "⌛", sigil: "Hourglass (pendant / staff)", assoc: "The Quiet Architect (K) / Midas Khol / The Prophet", circle: "Transplanar / 1st Circle", seen: "Session 16 (Midas to Valerian); Session Knavers (Ashen Warrior)", meaning: "Symbol of the Quiet Architect. Midas gave one to Valerian: 'I'll keep the hourglass turning.'" },
-      { emoji: "🌿", sigil: "Thorn Talisman", assoc: "O'Malley / Unknown faction", circle: "6th Circle", seen: "Session 16 — found on O'Malley's body", meaning: "Affiliation unknown. O'Malley's possession suggests possible allegiance beyond the merchant guild." },
-      { emoji: "🍀", sigil: "Four-Leaf Clover", assoc: "House Khol", circle: "1st Circle", seen: "House heraldry", meaning: "House Khol's identifying sigil. Symbol of prosperity and fortune." },
-      { emoji: "◇", sigil: "Glass Prism", assoc: "House Da'varre", circle: "1st Circle", seen: "House heraldry; Gloamspire architecture", meaning: "Truth-telling association. The mirrors of Gloamspire glow when truth is spoken." },
-    ],
-    special: [
-      { emoji: "⚪", sigil: "White + Red Dot", assoc: "Wyrm's Stronghold / Penitant Deathriders", seen: "Ryo's mindscape; Velderra one-shot vision", meaning: "Second banner on the Wyrm's stronghold. Similar to the Deathriders' gray-with-crimson banner. Also seen at the first wave of the Cataclysm." },
-      { emoji: "🟦", sigil: "Lapis Lazuli Banner", assoc: "Wyrm's Stronghold / Unknown ancient house", seen: "Ryo's mindscape", meaning: "Third banner in Ryo's Wyrm's stronghold. Allegiance unknown. Possibly tied to the Cobalt theme or an ancient water/deep house." },
-      { emoji: "🔱", sigil: "Trident", assoc: "Houses Gulfen or Trinton / Ryo's mural rubbing", seen: "Ryo's mindscape; Weaver's Arch rubbing", meaning: "One of three banners in the Wyrm's stronghold. Also appears on Ryo's partial mural rubbing. Two noble houses carry trident heraldry." },
-      { emoji: "🌿", sigil: "Oak Talisman / Battered Symbol", assoc: "Vo'dyn Prayer System / Penal Contract", seen: "Session 2 — given to the party", meaning: "Oak talisman with inlaid steel. 'Power and an obligation.' Sigil of the Vo'dyn prayer system and badge of their penal contract." },
-      { emoji: "☐", sigil: "Clear Blank Crest", assoc: "Order Kronos", seen: "Referenced in lore", meaning: "Paladin order with oathblades. No identifying symbol by design — rank scraped away. The Penitant Deathriders similarly scrape rank markings from helmets." },
-      { emoji: "Ξ", sigil: "ΔΞ-HN / Subject SD-ΔΞ-HN", assoc: "Crystal Reliquary / Oath Entity", seen: "Meteorite chamber area", meaning: "Label on a sealed crystal reliquary. 'I was oath and law.' Possibly a designation for an imprisoned ancient being — the Law/Oath primordial." },
-      { emoji: "∀", sigil: "∀ / ∃ (Logical Symbols)", assoc: "Quiet Architect / Echoes of the Veil", seen: "Referenced in 'Echoes of the Veil'", meaning: "∀ (for all): 'I will not guard fate, I will BE it.' ∃ (there exists): 'one point the field cannot bend.' Tied to probability/fate concepts." },
+      { sigil: "Red Fist", assoc: "Duke of Zen'tar / House Mournen", circle: "1st / 6th Circle", seen: "Confirmed Session 5 (Lantis at Sunken Croc)", meaning: "Sigil of the late Duke. Used to identify loyalists and materials connected to Mournen's dynastic rule of Zen'tar." },
+      { sigil: "Blue Hand Glove with Crest", assoc: "Hathor / Order of the Blue Fist", circle: "1st Circle", seen: "Session 2 - on Hathor", meaning: "Identifies Blue Fist members. Cadet branch of House Mournen. Military, not religious." },
+      { sigil: "Elven Symbol (right shoulder)", assoc: "Mithris / Consortium; also House Maelis", circle: "6th Circle", seen: "Session 4 (cloaked figure); Session 5 (Caldun)", meaning: "Mithris's personal elven sigil. High-elf identifier. May overlap with Maelis." },
+      { sigil: "Gray Banner / Crimson Red Drops", assoc: "Penal Outriders / Penitant Deathriders", circle: "6th Circle+", seen: "Referenced in lore; seen at Duke's funeral", meaning: "Bone-white helmets with rank scraped off. Oath taken at The Spur before missions." },
+      { sigil: "Brown Robes + Rosette", assoc: "Inquisition", circle: "Empire-wide", seen: "Session 2 (road); Session Knavers", meaning: "Standard Inquisition field uniform. New rosettes have magic-key properties; older ones were engraved power symbols." },
+      { sigil: "Sigil of Him (on ships)", assoc: "7th Fleet / Vo'dyn Empire religion", circle: "6th Circle (docked)", seen: "Session 14 — on every 7th Fleet ship", meaning: "Holy/imperial identifier of the highest order. Signals both religious and imperial authority." },
+      { sigil: "Rose-Sealed Wax Orders", assoc: "Order of the Rose", circle: "Unknown / Covert", seen: "Referenced by Crane/Artemis", meaning: "Written mission orders sealed with a rose wax emblem. Only identifier of the secretive order." },
+      { sigil: "Hourglass (pendant / staff)", assoc: "The Quiet Architect (K) / Midas Khol / The Prophet", circle: "Transplanar / 1st Circle", seen: "Session 16 (Midas to Valerian); Session Knavers (Ashen Warrior)", meaning: "Symbol of the Quiet Architect. Midas gave one to Valerian: 'I'll keep the hourglass turning.'" },
+      { sigil: "Thorn Talisman", assoc: "O'Malley / Unknown faction", circle: "6th Circle", seen: "Session 16 — found on O'Malley's body", meaning: "Affiliation unknown. O'Malley's possession suggests possible allegiance beyond the merchant guild." },
+      { sigil: "Four-Leaf Clover", assoc: "House Khol", circle: "1st Circle", seen: "House heraldry", meaning: "House Khol's identifying sigil. Symbol of prosperity and fortune." },
+      { sigil: "Glass Prism", assoc: "House Da'varre", circle: "1st Circle", seen: "House heraldry; Gloamspire architecture", meaning: "Truth-telling association. The mirrors of Gloamspire glow when truth is spoken." },
     ],
     meteorite: [
-      { emoji: "📗", marker: "Green Book", location: "Meteorite chamber wall (1st symbol)", meaning: "Luminescent. Feelings: regality, inevitability, loss. Label: 'Fate's Final Rest.'" },
-      { emoji: "🔵", marker: "Blue Scepter", location: "Meteorite chamber wall (2nd symbol)", meaning: "Label: 'Humanity's Unyielding Spirit.'" },
-      { emoji: "👑", marker: "Red Crown", location: "Meteorite chamber wall (3rd symbol)", meaning: "Sadness, melancholy, anger, betrayal; also happiness, certainty, faith. Labels: 'The end of the Starborn.' / 'My sacrifice is your duty.' Mithe took -3 psychic damage touching it." },
-      { emoji: "🗝️", marker: "Obsidian Mask (1st)", location: "Side hallway off meteorite chamber", meaning: "Ryo's key activates it: 'Before the first veil was woven, the universe was our anchor — and I was its guide.'" },
-      { emoji: "📜", marker: "3rd Mask Reed", location: "Side hallway", meaning: "Comes out freely; thin charcoal line reads 'For the many masks you've worn throughout time.'" },
-      { emoji: "🔑", marker: "5th Mask Reed (key-shaped)", location: "Side hallway", meaning: "'For the life you left behind.' — used to unlock the exit door." },
+      { marker: "Green Book", location: "Meteorite chamber wall (1st symbol)", meaning: "Luminescent. Feelings: regality, inevitability, loss. Label: 'Fate's Final Rest.'" },
+      { marker: "Blue Scepter", location: "Meteorite chamber wall (2nd symbol)", meaning: "Label: 'Humanity's Unyielding Spirit.'" },
+      { marker: "Red Crown", location: "Meteorite chamber wall (3rd symbol)", meaning: "Sadness, melancholy, anger, betrayal; also happiness, certainty, faith. Labels: 'The end of the Starborn.' / 'My sacrifice is your duty.' Mithe took -3 psychic damage touching it." },
+      { marker: "Obsidian Mask (1st)", location: "Side hallway off meteorite chamber", meaning: "Ryo's key activates it: 'Before the first veil was woven, the universe was our anchor — and I was its guide.'" },
+      { marker: "3rd Mask Reed", location: "Side hallway", meaning: "Comes out freely; thin charcoal line reads 'For the many masks you've worn throughout time.'" },
+      { marker: "5th Mask Reed (key-shaped)", location: "Side hallway", meaning: "'For the life you left behind.' - used to unlock the exit door." },
     ],
     armbands: [
       { color: "Red armbands", location: "Magistrate attack (Session 6)", affil: "Attackers — suspected Brigans or Blue Pirates" },
@@ -620,16 +617,17 @@ const data = {
     { concept: "The Shard", nature: "Fragment of the Wound / broken heavens", connection: "The Warden keeps it sealed under the Yearning Mines. 'I keep the shard beneath the surface of our night.' Party are all 'potential vessels.'", status: "Contained. The Warden's jar metaphor: earth = walls, fog = fluid, cities settled like silt atop it." },
     { concept: "The Martyrs", nature: "Willing sacrifices who weave veils and become eternal watchers", connection: "1st = Gavriel; 2nd = Evening Star; 3rd = Unknown; 4th = Great Martyred Lady; 5th = Jorell; 6th-7th = Unknown.", status: "Possibly continue to exist as watchers on the Threaded Paths. United with The Witness's coalition against the Wound across spheres." },
     { concept: "The Primordials", nature: "Personified cosmic concepts (Oath/Law, Exile, Fate, Truth, Honor)", connection: "Appear in 'Echoes of the Veil.' Law wrote a Final Litany. Fate has been killed ('I knew Fate once. She was killed.').", status: "Oath/Law is the entity in crystal reliquary (SD-DeltaXi-HN). Exile exists 'beyond the margin.'" },
+    { concept: "Runes", nature: "3 runs touching our skin on a bracelet.", conncection: "DM: 'Runes are reactive, not active... Think of them as transistors. Rune A will always do the same thing given the same stimulus, but replicating a rune physically still results in mutations--it is not an exact science, and not purely physical. You cannot just copy a rune 1:1 with a sketch on a canvas--that will not produce an effect.'" },
   ],
 
   // Key active plot threads
   threads: [
     { title: "The Ledger Trail", status: "UNKNOWN — Last confirmed: Caldun (oilcloth package)", detail: "Prophet gave it in Velderra to heroes who carried it to the Duke of Zen'tar — Duke killed for/by it — Mithris obtained it — passed to Caldun in oilcloth before Arthur's raid — explosion at warehouse — status unknown. The ledger is described as 'as primordial as the magic in the air.'" },
     { title: "The Coup Network", status: "Actors: Secus Domitae + masked Hathor + Blue Pirates + Militia (via Zenzar)", detail: "Secus (1st Circle via Khol marriage) is purchasing Zenzar (former militia leader) through a masked figure (likely Hathor) to intend a coup of the Council of Regency. Guild affairs: 'next hit prince loyalists and Arthur.' Multiple factions converging on the post-Duke power vacuum." },
-    { title: "Midas's Long Game", status: "Operator: Midas Khol — Agents: Valerian Than'dal", detail: "Midas (old friends with the Duke) knew the Duke found something. Sent Valerian to watch the Prince. At the funeral: 'I'll keep the hourglass turning.' Possibly also behind the Order of the Rose (Crane/Artemis). Timeline accelerated by the Duke's death." },
-    { title: "The Party's Possession Problem", status: "Affected: Ryo (Wyrm), Decima (unknown entity), Aldred (demon), Kane (vampired twin)", detail: "All four are haunted/possessed. The Wyrm inside Ryo apprenticed a Domitae — connecting it to Decima's family. All are 'potential vessels' per the Warden. Decima doesn't think Aldred realizes he is possessed." },
-    { title: "The 7th Fleet's Arrival", status: "Commander: Admiral Galewind — Ship: The Martyr (flagship)", detail: "Unexpected. Pre-cataclysm ship. Nobody knows why they're here — including the Marshall's own spy. Carries 'Sigil of Him' on each vessel. Under Nautica Liticus. Triggered martial law upon arrival." },
-    { title: "The Disappearances", status: "Pattern locations: Sanitarium — Yearning Mines — Merchant District — broader city", detail: "Missing: Ralph Alvarez (mines), Jonathan Wineford (mines), Lantis (investigator), Maestor Velitor (Guild Master), the Prince. Mine manifest discrepancy: 16 in ledger, 15 went down, 14 came back. Pattern mirrors Velderra: those who 'reach too far' are taken." },
+    { title: "Midas's Long Game", status: "Operator: Midas Khol - Agents: Valerian Than'dal", detail: "Midas (old friends with the Duke) knew the Duke found something. Sent Valerian to watch the Prince. At the funeral: 'I'll keep the hourglass turning.' Possibly also behind the Order of the Rose (Crane/Artemis). Timeline accelerated by the Duke's death." },
+    { title: "The Party's Possession Problem", status: "Affected: Ryo (Wyrm), Decima (unknown entity), Aldred, Kane", detail: "All four are possibly haunted/possessed. The Wyrm inside Ryo apprenticed a Domitae — connecting it to Decima's family. 'Potential vessels' per the Warden." },
+    { title: "The 7th Fleet's Arrival", status: "Commander: Admiral Galewind - Ship: The Martyr (flagship)", detail: "Unexpected. Pre-cataclysm ship. Nobody knows why they're here — including the Marshall's own spy. Carries 'Sigil of Him' on each vessel. Under Nautica Liticus. Triggered martial law upon arrival." },
+    { title: "The Disappearances", status: "Pattern locations: Sanitarium — Yearning Mines — Merchant District — broader city", detail: "Missing: Ralph Alvarez (mines), Jonathan Wineford (mines), Lantis (investigator), Maestor Velitor (Guild Master), the Prince. Mine manifest discrepancy: 16 in ledger, 15 went down, 14 came back. Those who 'reach too far' are taken." },
   ],
 
   // Known timeline
@@ -651,19 +649,17 @@ const data = {
 
   // Theories — DM confirmed vs player theories
   theories: [
-    // { label: "", confirmed: true, detail: "" },
-    { label: "270 Cycles to New Year Is Not a Random Number", confirmed: true, detail: "'270 cycles. No, this is not a random number.' Magic re-emerged at year 427 (The Recreance), then again in year 626 (The Awakening) — exactly 199 years later." },
-    { label: "Him = Gavriel", confirmed: true, detail: "DM confirmed: 'Him' sacrificed his spirit on the first remembrance day...giving it so that the rest of the Vo'dyn may live. While stories/messages differ onto how- all agree that it was just as the clock struck the final hour." },
-    { label: "Awakened Cobalt Is the Only Counter to the Flux / Wound", confirmed: true, detail: "'Awakened Cobalt is the only thing to counter the flux.' The Cobalt in the mines ripped open a portal between realities, suggesting it interacts with the seals holding the Wound at bay." },
+    { label: "270 Cycles to New Year Is Not a Random Number", confirmed: false, detail: "DM confirmed: '270 cycles. No, this is not a random number.' Magic re-emerged at year 427 (The Recreance), then again in year 626 (The Awakening) — exactly 199 years later." },
+    { label: "Awakened Cobalt Is the Only Counter to the Flux / Wound", confirmed: false, detail: "DM confirmed: 'Awakened Cobalt is the only thing to counter the flux.' The Cobalt in the mines ripped open a portal between realities, suggesting it interacts with the seals holding the Wound at bay." },
     { label: "First Circler = Secus", confirmed: false, detail: "The 'First Circler' Garth desperately wants to impress is theorized to be Secus — Decima's brother — who married into House Khol, a 1st circle family." },
     { label: "Hathor = The Establishment Leader", confirmed: false, detail: "Hathor (Military Adjutant, 3rd circle, House Bluefist/Mournen, blue glove) is theorized to be the masked Establishment Leader from the Sunken Croc meeting." },
     { label: "Lantis = Mithris's Child", confirmed: false, detail: "Arthur massacred the Blue Pirates and killed their half-elf leader Mithris, yet now associates with Lantis — another half-elf. Theory: Mithris had a child; Arthur spared him out of guilt." },
     { label: "The Duke Found the Ledger and Was Killed for It", confirmed: false, detail: "'In the deepest vault I found a ledger... I feel them already, nibbling at my name.' The late Duke likely found the ancient ledger and was targeted for it." },
     { label: "The Martyrs Become the Veil / Watchers", confirmed: false, detail: "Each veil of the world was created from the sacrifice of a Martyr. Current working list: 1st = Gavriel/Him, 2nd = Evening Star/Warden?, 4th = Great Martyred Lady, 5th = Jorell." },
     { label: "The Quiet Architect (K) = The Prophet = The Final Chronicler", confirmed: false, detail: "All three carry or are associated with hourglasses and probability control. The Ashen Warrior in the Knavers portal vision wore a hourglass pendant — possibly K observing the Velderra-era events." },
-    { label: "Vo'dyn Religion Suppresses Knowledge of the Wound", confirmed: true, detail: "Heresy = curiosity and deviation from doctrine. The Cataclysm was caused by overreach which woke the Urd. The Church rewrote it as divine punishment to stop people trying to understand the Wound." },
+    { label: "Vo'dyn Religion Suppresses Knowledge of the Wound", confirmed: false, detail: "Heresy = curiosity and deviation from doctrine. The Cataclysm was caused by overreach which woke the Urd. The Church rewrote it as divine punishment to stop people trying to understand the Wound." },
     { label: "The Coup Web: Marshall / Blue Pirates / Secus / Hathor", confirmed: false, detail: "The Marshall is in talks with Lantis (Blue Pirates adjacent). The Blue Pirates connect to Secus and the masked Establishment Leader (theorized = Hathor). Secus (House Khol) is organizing a coup." },
-    { label: "Evening Star = Warden of the Deep", confirmed: false, detail: "The Evening Star (2nd Martyr) who 'stood between them and the truth' may also be the Warden of the Deep — duty-bound since the earliest days of Avar, now cast off those chains." },
+    { label: "Evening Star = Warden of the Deep", confirmed: false, detail: "The Evening Star (2nd Martyr) who 'stood between them and the truth' may also be the Warden of the Deep — 'Duty bound to He who stood for us. Who is a god that I believe we all worship. I followed its influence, I was its champion. I followed its influence. No more, I've cast those chains aside.' And the Second Martyr has also said 'He asked me to do this. Not with words. Not with commands. But I knew Him.' But could also be the author of The Codex Inquiere - 'The Second Martyr gave everything to ensure we would not reach again. I dedicate my life to ensuring their sacrifice was not in vain.'" },
   ],
 
   // Session notes
@@ -988,6 +984,7 @@ const data = {
   ],
 };
 
+
 // Tab labels
 const TABS = ["All", "Great Houses", "Organizations", "NPCs", "Player Characters", "Locations", "Sigils", "World Lore", "Theories", "Session Notes", "Timeline"];
 
@@ -1059,23 +1056,15 @@ function toggleItem(id) {
   renderContent();
 }
 
-// Recursively check if any string value in obj (including nested arrays/objects) matches searchTerm
+// Check if any string field in an object matches the current search term
 function matches(obj) {
-  if (!searchTerm) return true;
-  function scan(v) {
-    if (!v) return false;
-    if (typeof v === "string") return v.toLowerCase().includes(searchTerm);
-    if (Array.isArray(v)) return v.some(scan);
-    if (typeof v === "object") return Object.values(v).some(scan);
-    return String(v).toLowerCase().includes(searchTerm);
-  }
-  return scan(obj);
+  return Object.values(obj).some(v => String(v).toLowerCase().includes(searchTerm));
 }
 
 
 // All tab: render every section in sequence with labeled dividers
 function renderAll(container) {
-  renderDivider("Section I", "Great Houses of Avar", container);
+  renderDivider("Section I", "The Great Houses of Avar", container);
   renderHouses(container);
   renderDivider("Section II", "Organizations, Orders & Factions", container);
   renderOrgs(container);
@@ -1089,11 +1078,13 @@ function renderAll(container) {
   renderSigils(container);
   renderDivider("Section VII", "World Lore & Cosmology", container);
   renderLore(container);
+  renderDivider("Section VIII", "Key Connections & Allegiance Web", container);
+  renderThreads(container);
   renderDivider("Section IX", "World Knowledge & Player Theories", container);
   renderTheories(container);
   renderDivider("Section X", "Known Timeline", container);
   renderTimeline(container);
-  renderDivider("XI", "Session Notes", container);
+  renderDivider("Section XI", "Session Notes", container);
   renderSessions(container);
 }
 
@@ -1140,14 +1131,14 @@ function renderHouses(container) {
   const infoBox = makeEl("div", "info-box");
   infoBox.innerHTML = `<strong>⚑ The Original Twelve - What Is Known</strong><br>
     The Vo'dyn Empire was founded alongside <strong>12 Great Houses</strong> in the immediate aftermath of the Cataclysm. Confirmed by DM as "9 or 11 or 12 but records are imprecise." Of these 12:<br><br>
-    • <strong>Allegedly 9 are known</strong> and survive in some form: Khol, Lanvar, Sadin, Vostin, Relkan, Velthara, Rayne, Calder, Korvath, and Branneth are among the known original houses (which you may correctly count to actually be 11 Great Houses).<br>
+    • <strong>9 are known</strong> and survive in some form: Khol, Lanvar, Sadin, Vostin, Relkan, Velthara, Rayne, Calder, Korvath, and Branneth are among the known original houses.<br>
     • <strong>House Da'varre</strong> is <em>not</em> itself one of the original 12--it is a <strong>cadet branch</strong> of a far more ancient house that was "mostly extinguished." Count Alren is rumored to trace his lineage to that lost original directly.<br>
     • <strong>1 house was lost to time</strong>--no records, no name, no known descendants.<br>
     • <strong>2 houses were expunged</strong>: one fell during the <em>Great Schism</em> (during the years of the Great Martyred Lady, when the Church asserted dominance over nobles); the second was erased for "direct opposition to the Church's mandate." Both bloodlines ended.<br><br>
     <em>Note: Houses Mournen, Domitae, Maelis, Morren, Voss, and all cadet branches (Bluefist, etc.) are NOT among the original 12.</em>`;
   container.appendChild(infoBox);
 
-  renderHouseGroup("orig", "Original & Known Houses", data.houses.original, container, false);
+  renderHouseGroup("orig", "Original & Known Houses", data.houses.original, container, true);
   renderHouseGroup("cadet", "Cadet Branches & Post-Cataclysm Houses", data.houses.cadet, container, false);
 }
 
@@ -1164,7 +1155,7 @@ function renderHouseGroup(id, label, houses, container, defaultOpen) {
     : ["House", "Circle / Reach", "Sigil", "Power Base", "Key Members", "Disposition", "Notes"];
 
   const rows = filtered.map(h => {
-    const row = [makeName(h.name), makeCircleTag(h.circle, h.circleTag, h.circleSub)];
+    const row = [makeName(h.name), makeCircleTag(h.circle, h.circleTag)];
     if (isOriginal) row.push(makeText(h.motto));
     row.push(h.sigilTag ? makeSigilTag(h.sigil, h.sigilTag) : makeText(h.sigil));
     row.push(makeText(h.power), makeText(h.members), makeText(h.disposition), makeText(h.notes));
@@ -1177,82 +1168,20 @@ function renderHouseGroup(id, label, houses, container, defaultOpen) {
 }
 
 
-// Organizations — individual expand cards + full table inside each category accordion
+// Organizations — five category accordion groups
 function renderOrgs(container) {
   const groups = [
-    { id: "org_criminal", label: "Criminal & Underworld", items: data.orgs.criminal, open: false },
+    { id: "org_criminal", label: "Criminal & Underworld", items: data.orgs.criminal, open: true },
     { id: "org_military", label: "Military & Imperial Forces", items: data.orgs.military, open: false },
     { id: "org_religious", label: "Religious & Arcane Bodies", items: data.orgs.religious, open: false },
     { id: "org_paladin", label: "Paladin Orders & Covert Bodies", items: data.orgs.paladin, open: false },
     { id: "org_civil", label: "Civil & Local Bodies (Zen'tar)", items: data.orgs.civil, open: false },
   ];
-
-  const ORG_COLORS = {
-    "Criminal":  "rgba(139,26,26,0.55)",   "Assassin":  "rgba(30,20,10,0.7)",
-    "Military":  "rgba(60,60,50,0.6)",     "Penal":     "rgba(80,55,20,0.5)",
-    "Religious": "rgba(42,74,127,0.45)",   "Arcane":    "rgba(60,42,100,0.5)",
-    "Paladin":   "rgba(100,85,20,0.5)",    "Covert":    "rgba(80,20,80,0.5)",
-    "Noble":     "rgba(184,146,42,0.3)",   "Naval":     "rgba(20,60,80,0.5)",
-    "Civil":     "rgba(30,80,40,0.4)",     "Merchant":  "rgba(20,60,40,0.4)",
-    "Guild":     "rgba(20,60,40,0.4)",     "Cult":      "rgba(80,20,80,0.5)",
-  };
-  function getOrgColor(type) {
-    if (!type) return "rgba(50,50,50,0.5)";
-    for (const key of Object.keys(ORG_COLORS))
-      if (type.toLowerCase().includes(key.toLowerCase())) return ORG_COLORS[key];
-    return "rgba(50,50,50,0.5)";
-  }
-
   groups.forEach(g => {
     const { section, isOpen } = makeAccordion(g.id, g.label, container, g.open);
     if (!isOpen) return;
     const filtered = g.items.filter(matches);
     if (!filtered.length) return;
-
-    // ── Individual expand cards ──
-    filtered.forEach((o, i) => {
-      const id = g.id + "_" + i;
-      const open = expandedItems.has(id);
-      const item = makeEl("div", "item org-item" + (open ? " expanded" : ""));
-
-      const header = makeEl("div", "item-header");
-      header.onclick = () => toggleItem(id);
-
-      const nameBlock = makeEl("div", "item-name-block");
-      nameBlock.appendChild(makeEl("span", "item-title", o.name));
-      if (o.circle) nameBlock.appendChild(makeEl("span", "item-subtitle", o.circle));
-
-      const meta = makeEl("div", "item-meta");
-      if (o.type) {
-        const tag = makeEl("span", "org-type-tag", o.type);
-        tag.style.background = getOrgColor(o.type);
-        meta.appendChild(tag);
-      }
-      meta.appendChild(makeEl("span", "item-toggle", "▶"));
-      header.appendChild(nameBlock);
-      header.appendChild(meta);
-      item.appendChild(header);
-
-      if (open) {
-        const body = makeEl("div", "item-body");
-        const addF = (lbl, val, full) => {
-          if (!val) return;
-          const f = document.createElement("div");
-          if (full) f.className = "full-row";
-          f.appendChild(makeEl("div", "field-label", lbl));
-          f.appendChild(makeEl("div", "field-value", val));
-          body.appendChild(f);
-        };
-        addF("Sigil / ID", o.sigil);
-        addF("Key Figures", o.members);
-        addF("Notes", o.notes, true);
-        item.appendChild(body);
-      }
-      section.appendChild(item);
-    });
-
-    // ── Full reference table below cards ──
-    section.appendChild(makeEl("div", "sub-section-label", "Full Reference Table"));
     const wrap = makeEl("div", "tbl-wrap");
     wrap.appendChild(buildTable(
       ["Name", "Circle / Reach", "Type", "Sigil / ID", "Key Figures", "Function & Notes"],
@@ -1267,76 +1196,19 @@ function renderOrgs(container) {
 }
 
 
-// NPCs — individual expand cards + full table inside each category accordion
+// NPCs — four category accordion groups
 function renderNPCs(container) {
   const groups = [
-    { id: "npc_capital", label: "Capital & 1st Circle Figures", items: data.npcs.capital, open: false, type: "standard" },
+    { id: "npc_capital", label: "Capital & 1st Circle Figures", items: data.npcs.capital, open: true, type: "standard" },
     { id: "npc_zentar", label: "Zen'tar Figures (6th Circle)", items: data.npcs.zentar, open: false, type: "standard" },
     { id: "npc_historical", label: "Historical Figures & Martyrs", items: data.npcs.historical, open: false, type: "historical" },
     { id: "npc_entities", label: "Entities & Ancient Beings", items: data.npcs.entities, open: false, type: "entity" },
   ];
-
   groups.forEach(g => {
     const { section, isOpen } = makeAccordion(g.id, g.label, container, g.open);
     if (!isOpen) return;
     const filtered = g.items.filter(matches);
     if (!filtered.length) return;
-
-    // ── Individual expand cards ──
-    filtered.forEach((n, i) => {
-      const id = g.id + "_" + i;
-      const open = expandedItems.has(id);
-      const item = makeEl("div", "item npc-item" + (open ? " expanded" : ""));
-
-      const header = makeEl("div", "item-header");
-      header.onclick = () => toggleItem(id);
-
-      const nameBlock = makeEl("div", "item-name-block");
-      nameBlock.appendChild(makeEl("span", "item-title", n.name));
-      const subtitle = g.type === "entity" ? n.nature
-                     : g.type === "historical" ? n.era
-                     : n.role;
-      if (subtitle) nameBlock.appendChild(makeEl("span", "item-subtitle", subtitle));
-
-      const meta = makeEl("div", "item-meta");
-      if (n.status) meta.appendChild(makeStatusTag(n.status));
-      if (n.circle && g.type === "standard") {
-        const ct = n.circle.includes("1st") ? "gold" : n.circle.includes("6th") ? "blue" : "grey";
-        meta.appendChild(makeEl("span", "tag tag-" + ct, n.circle));
-      }
-      meta.appendChild(makeEl("span", "item-toggle", "▶"));
-      header.appendChild(nameBlock);
-      header.appendChild(meta);
-      item.appendChild(header);
-
-      if (open) {
-        const body = makeEl("div", "item-body");
-        const addF = (lbl, val, full) => {
-          if (!val) return;
-          const f = document.createElement("div");
-          if (full) f.className = "full-row";
-          f.appendChild(makeEl("div", "field-label", lbl));
-          f.appendChild(makeEl("div", "field-value", val));
-          body.appendChild(f);
-        };
-        if (g.type === "standard") {
-          addF("Allegiance", n.allegiance);
-          addF("Sigil / ID", n.sigil);
-          addF("Notes", n.notes, true);
-        } else if (g.type === "historical") {
-          addF("Role", n.role);
-          addF("Sigil / ID", n.sigil);
-          addF("Notes", n.notes, true);
-        } else {
-          addF("Notes", n.notes, true);
-        }
-        item.appendChild(body);
-      }
-      section.appendChild(item);
-    });
-
-    // ── Full reference table below cards ──
-    section.appendChild(makeEl("div", "sub-section-label", "Full Reference Table"));
     const wrap = makeEl("div", "tbl-wrap");
     if (g.type === "entity") {
       wrap.appendChild(buildTable(
@@ -1363,7 +1235,7 @@ function renderNPCs(container) {
 }
 
 
-// Player characters — individual expandable accordion cards
+// Player characters — card grid with detailed bios
 function renderPlayers(container) {
   const filtered = data.players.filter(matches);
 
@@ -1371,55 +1243,33 @@ function renderPlayers(container) {
   note.innerHTML = "<strong>Party Possession Status:</strong> Ryo (Wyrm), Decima (unknown planar entity), Aldred, Kane.";
   container.appendChild(note);
 
-  filtered.forEach((p, i) => {
-    const id = "pc-" + i;
-    const isOpen = expandedItems.has(id);
-    const item = makeEl("div", "item pc-item" + (isOpen ? " expanded" : ""));
+  const grid = makeEl("div", "player-grid");
+  filtered.forEach(p => {
+    const card = makeEl("div", "player-card");
 
-    const header = makeEl("div", "item-header");
-    header.onclick = () => toggleItem(id);
+    const nameRow = makeEl("div", "player-name-row");
+    nameRow.appendChild(makeEl("h3", "player-name", p.name));
+    const echo = makeEl("span", "player-echo", p.echo);
+    echo.style.background = p.echoBg || "#8b1a1a";
+    nameRow.appendChild(echo);
+    card.appendChild(nameRow);
 
-    const nameBlock = makeEl("div", "item-name-block");
-    nameBlock.appendChild(makeEl("span", "item-title", p.name));
-    nameBlock.appendChild(makeEl("span", "item-subtitle", `${p.race} · ${p.cls}`));
+    card.appendChild(makeEl("div", "player-meta", `${p.race} · ${p.cls} · Age ${p.age} · ${p.height} | ${p.origin}`));
+    if (p.appearance) card.appendChild(makeEl("div", "player-appearance", p.appearance));
+    card.appendChild(makeEl("p", "player-bio", p.bio));
+    card.appendChild(makeEl("div", "field-label", "Connections"));
+    card.appendChild(makeEl("div", "field-value", p.connections));
 
-    const meta = makeEl("div", "item-meta");
-    const echoTag = makeEl("span", "echo-tag", `Echo: ${p.echo || "—"}`);
-    echoTag.style.background = p.echoBg || "rgba(139,26,26,0.35)";
-    meta.appendChild(echoTag);
-    if (p.age && p.age !== "—") meta.appendChild(makeEl("span", "age-tag", "Age " + p.age));
-    meta.appendChild(makeEl("span", "item-toggle", "▶"));
-
-    header.appendChild(nameBlock);
-    header.appendChild(meta);
-    item.appendChild(header);
-
-    if (isOpen) {
-      const body = makeEl("div", "item-body");
-      const addF = (lbl, val, full) => {
-        if (!val) return;
-        const f = document.createElement("div");
-        if (full) f.className = "full-row";
-        f.appendChild(makeEl("div", "field-label", lbl));
-        f.appendChild(makeEl("div", "field-value", val));
-        body.appendChild(f);
-      };
-      const meta2 = [p.height, p.origin].filter(Boolean).join(" · ");
-      addF("Origin / Build", meta2);
-      addF("Appearance", p.appearance);
-      addF("Background", p.bio, true);
-      addF("Connections", p.connections, true);
-      item.appendChild(body);
-    }
-    container.appendChild(item);
+    grid.appendChild(card);
   });
+  container.appendChild(grid);
 }
 
 
 // Locations — two accordion groups
 function renderLocations(container) {
   const groups = [
-    { id: "loc_zentar", label: "Zen'tar — Key Districts & Sites", items: data.locations.zentar, open: false, key: "zone" },
+    { id: "loc_zentar", label: "Zen'tar — Key Districts & Sites", items: data.locations.zentar, open: true, key: "zone" },
     { id: "loc_empire", label: "Broader Avar — Empire & Beyond", items: data.locations.empire, open: false, key: "circle" },
   ];
   groups.forEach(g => {
@@ -1438,57 +1288,10 @@ function renderLocations(container) {
 }
 
 
-// Sigils — emoji card grid at top, then accordion tables below
+// Sigils — two accordion groups
 function renderSigils(container) {
-
-  // ── Section label ──
-  container.appendChild(makeEl("div", "sub-section-label", "Faction Sigils & Identifying Markers"));
-
-  // ── Confirmed faction sigil cards ──
-  const confirmedGrid = makeEl("div", "sigil-grid");
-  data.sigils.confirmed.filter(matches).forEach(s => {
-    const card = makeEl("div", "sigil-card");
-    card.appendChild(makeEl("span", "sigil-symbol", s.emoji || "◆"));
-    card.appendChild(makeEl("h4", "", s.sigil));
-    const p = makeEl("p", "", "");
-    p.textContent = (s.assoc ? s.assoc + ". " : "") + (s.meaning || "");
-    card.appendChild(p);
-    confirmedGrid.appendChild(card);
-  });
-  container.appendChild(confirmedGrid);
-
-  // ── Special / ancient symbol cards ──
-  if (data.sigils.special) {
-    container.appendChild(makeEl("div", "sub-section-label", "Ancient Symbols & Special Markers"));
-    const specialGrid = makeEl("div", "sigil-grid");
-    data.sigils.special.filter(matches).forEach(s => {
-      const card = makeEl("div", "sigil-card");
-      card.appendChild(makeEl("span", "sigil-symbol", s.emoji || "◆"));
-      card.appendChild(makeEl("h4", "", s.sigil));
-      const p = makeEl("p", "", "");
-      p.textContent = (s.assoc ? s.assoc + ". " : "") + (s.meaning || "");
-      card.appendChild(p);
-      specialGrid.appendChild(card);
-    });
-    container.appendChild(specialGrid);
-  }
-
-  // ── Meteorite chamber symbol cards ──
-  container.appendChild(makeEl("div", "sub-section-label", "Meteorite Chamber Symbols"));
-  const metGrid = makeEl("div", "sigil-grid");
-  data.sigils.meteorite.filter(matches).forEach(s => {
-    const card = makeEl("div", "sigil-card");
-    card.appendChild(makeEl("span", "sigil-symbol", s.emoji || "◆"));
-    card.appendChild(makeEl("h4", "", s.marker));
-    const p = makeEl("p", "", "");
-    p.textContent = (s.location ? s.location + ". " : "") + (s.meaning || "");
-    card.appendChild(p);
-    metGrid.appendChild(card);
-  });
-  container.appendChild(metGrid);
-
-  // ── Reference tables in accordions ──
-  const { section: s1, isOpen: o1 } = makeAccordion("sig_confirmed", "Reference Table — Confirmed Sigils & Faction Markers", container, false);
+  // Confirmed faction sigils
+  const { section: s1, isOpen: o1 } = makeAccordion("sig_confirmed", "Confirmed Sigils & Faction Markers", container, true);
   if (o1) {
     const filtered = data.sigils.confirmed.filter(matches);
     if (filtered.length) {
@@ -1501,7 +1304,8 @@ function renderSigils(container) {
     }
   }
 
-  const { section: s2, isOpen: o2 } = makeAccordion("sig_chamber", "Reference Table — Meteorite Chamber Symbols & Armband Hierarchy", container, false);
+  // Meteorite chamber symbols and armband hierarchy
+  const { section: s2, isOpen: o2 } = makeAccordion("sig_chamber", "Meteorite Chamber Symbols & Armband Hierarchy", container, false);
   if (o2) {
     const mf = data.sigils.meteorite.filter(matches);
     if (mf.length) {
@@ -1530,7 +1334,7 @@ function renderSigils(container) {
 // World lore — wound/veils table, confirmed facts table, then active threads
 function renderLore(container) {
   // Wound, veils, and the machines table
-  const { section: s1, isOpen: o1 } = makeAccordion("lore_main", "The Wound, The Veils & The Machines", container, false);
+  const { section: s1, isOpen: o1 } = makeAccordion("lore_main", "The Wound, The Veils & The Machines", container, true);
   if (o1) {
     const filtered = data.lore.filter(matches);
     if (filtered.length) {
@@ -1552,7 +1356,7 @@ function renderLore(container) {
       { topic: "Runes", fact: "DM: 'Runes are reactive, not active... Think of them as transistors.' Rune A will always do the same thing given the same stimulus. 'You can't just copy a rune 1:1 with a sketch on a canvas — that won't produce an effect.'" },
       { topic: "The Ledger / Factions", fact: "DM: 'There are some simply vying for control of Zentar, the 6th circle, after the Duke's death. And some additionally knowledgeable of the more historical and magical pieces of info, and vying for control of the Ledger that was last known to be with the Duke.'" },
       { topic: "The Campaign Theme", fact: "DM (Session 0): 'You are all in a remnant of a decaying empire continuously losing its border skirmishes. And the only faith that exists is religious fervor. And the fact magic / tech is starting to innovate again.'" },
-      { topic: "Medicine & Entropy", fact: "DM: 'No cure, but there are different ailments and treatments. Exposure leads to entropic decay of who you are.' (Re: Lux's death from Flux exposure.)" },
+      { topic: "Medicine & Entropy", fact: "DM: 'No cure, but there are different ailments and treatments. Exposure leads to entropic decay of who you are.'" },
     ].filter(matches);
 
     if (facts.length) {
@@ -1584,8 +1388,7 @@ function renderThreads(container) {
   container.appendChild(grid);
 }
 
-
-// Theories — knowledge blocks: DM Confirmed (green) and Player Theories (purple)
+// Theories — knowledge blocks matching davar reference: confirmed (green) and player (purple) inline entries
 function renderTheories(container) {
   const disclaimer = makeEl("div", "theory-disclaimer");
   disclaimer.innerHTML = `<strong style="color:#d4a843;">⚑ Source Attribution</strong><br>Entries marked <strong class="confirmed-inline">DM Confirmed</strong> reflect information explicitly provided by the DM. All other analysis and interpretations are <strong class="theory-inline">player theories</strong> unless otherwise stated.`;
@@ -1595,6 +1398,7 @@ function renderTheories(container) {
   const confirmed = filtered.filter(t => t.confirmed);
   const player = filtered.filter(t => !t.confirmed);
 
+  // Helper: render a knowledge-block with a header and mixed entries
   function makeKnowledgeBlock(blockId, title, entries) {
     const isOpen = !expandedItems.has(blockId + "_closed");
     const block = makeEl("div", "knowledge-block");
@@ -1625,8 +1429,39 @@ function renderTheories(container) {
   if (player.length)    makeKnowledgeBlock("th_player", "Player Theories", player);
 }
 
-function renderTheories_OLD_UNUSED() {}
+// Theories — DM confirmed first, then player theories
+/*
+function renderTheories(container) {
+  container.appendChild(makeEl("div", "theories-warning",
+    "⚑ Entries marked DM CONFIRMED reflect information explicitly provided by the DM. All other analysis and interpretations are player theories unless otherwise stated."));
 
+  const filtered = data.theories.filter(matches);
+  const confirmed = filtered.filter(t => t.confirmed);
+  const player = filtered.filter(t => !t.confirmed);
+
+  if (confirmed.length) {
+    container.appendChild(makeEl("div", "sub-section-label", "DM Confirmed"));
+    confirmed.forEach(t => {
+      const card = makeEl("div", "theory-card confirmed-card");
+      const label = makeEl("div", "theory-label");
+      label.innerHTML = `<span class="confirmed-badge">DM CONFIRMED</span> ${t.label}`;
+      card.appendChild(label);
+      card.appendChild(makeEl("div", "theory-detail", t.detail));
+      container.appendChild(card);
+    });
+  }
+
+  if (player.length) {
+    container.appendChild(makeEl("div", "sub-section-label", "Player Theories"));
+    player.forEach(t => {
+      const card = makeEl("div", "theory-card");
+      card.appendChild(makeEl("div", "theory-label", t.label));
+      card.appendChild(makeEl("div", "theory-detail", t.detail));
+      container.appendChild(card);
+    });
+  }
+}
+*/
 
 // Session notes — one collapsible block per session, with typed callout rows
 function renderSessions(container) {
@@ -1688,10 +1523,56 @@ function renderSessions(container) {
   });
 }
 
+// Session notes — one collapsible block per session
+/*
+function renderSessions(container) {
+  container.appendChild(makeEl("div", "theories-warning",
+    "⚑ Unless a note is explicitly attributed to the DM, all theories, interpretations, and analytical commentary are player theories--not confirmed lore."));
+
+  const filtered = data.sessions.filter(s =>
+    !searchTerm || [s.title, ...(s.events || []), ...(s.intel || []), s.dm || ""].join(" ").toLowerCase().includes(searchTerm)
+  );
+
+  filtered.forEach(s => {
+    const isOpen = expandedItems.has(s.id);
+    const block = makeEl("div", "session-block" + (isOpen ? " open" : ""));
+
+    const toggle = makeEl("div", "session-toggle");
+    toggle.innerHTML = `<span>${s.title}</span><span class="acc-arrow">${isOpen ? "▼" : "▶"}</span>`;
+    toggle.onclick = () => toggleItem(s.id);
+    block.appendChild(toggle);
+
+    if (isOpen) {
+      const body = makeEl("div", "session-body");
+
+      if (s.events && s.events.length) {
+        body.appendChild(makeEl("div", "session-sub", "Key Events"));
+        const ul = makeEl("ul", "session-list");
+        s.events.forEach(e => ul.appendChild(makeEl("li", "", e)));
+        body.appendChild(ul);
+      }
+
+      if (s.intel && s.intel.length) {
+        body.appendChild(makeEl("div", "session-sub", "Observations & Intel"));
+        const ul = makeEl("ul", "session-list");
+        s.intel.forEach(e => ul.appendChild(makeEl("li", "", e)));
+        body.appendChild(ul);
+      }
+
+      if (s.dm) {
+        body.appendChild(makeEl("div", "session-dm", "DM: " + s.dm));
+      }
+
+      block.appendChild(body);
+    }
+    container.appendChild(block);
+  });
+}
+*/
 
 // Timeline — single collapsible table
 function renderTimeline(container) {
-  const { section, isOpen } = makeAccordion("timeline_main", "Timeline — Pre-Cataclysm to Present", container, false);
+  const { section, isOpen } = makeAccordion("timeline_main", "Timeline — Pre-Cataclysm to Present", container, true);
   if (!isOpen) return;
 
   const filtered = data.timeline.filter(matches);

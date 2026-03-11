@@ -1,5 +1,5 @@
 ---
-Title: Mithe Demacia
+Title: Mithe
 Description:
 ---
 ### Overview
