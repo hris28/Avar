@@ -332,7 +332,7 @@ const data = {
         notes: "Assigned by Midas to watch the Prince at the Duke's funeral. Received the hourglass pendant."
       },
       {
-        name: "Count Alren Da'varre", circle: "1st Circle", role: "Head of House Da'varre; last of the line", allegiance: "House Da'varre; possibly Mithe",
+        name: "Count Alren Da'varre", circle: "1st Circle", role: "Head of House Da'varre; last of the line", allegiance: "House Da'varre",
         sigil: "Glass Prism", status: "Alive",
         notes: "Last known blood of a lost Original 12 house. Lost his children, brother Alden, nieces."
       },
@@ -505,7 +505,7 @@ const data = {
       name: "Velintra Caelmyr", echo: "MASK", race: "Dark Elf / Owlin", cls: "Rogue", age: "27 (human years)", height: "5'8\"",
       origin: "Outside standard circle structure",
       appearance: "Crimson red eyes. Long snow-white hair in braids with garnet and silver pendants.",
-      bio: "Member of a dark elf guild that tortures and kills. Confident, well-poised, strong moral code in specific areas. Possibly responsible for the death of Nona Domitae (Decima's sister). Connected to the high-elf/dark-elf war era. Knocked Ryo and Decima unconscious during the Wyrm encounter.",
+      bio: "Member of a dark elf guild that tortures and kills. Confident, well-poised, strong moral code in specific areas.  Connected to the high-elf/dark-elf war era. Knocked Ryo and Decima unconscious during the Wyrm encounter.",
       connections: "Dark elf guild (unknown name). Resembles Sister Erithine. Recognized someone in the burning-village time-vision.",
       echoBg: "#2a4a2a"
     },
